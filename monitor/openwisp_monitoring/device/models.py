@@ -12,8 +12,8 @@ class DeviceData(AbstractDeviceData, BaseDevice):
     metrics = GenericRelation(get_model_name('monitoring', 'Metric'))
 
     class Meta:
-        proxy = True
-        swappable = swappable_setting('device_monitoring', 'DeviceData')
+      #  proxy = True
+       # swappable = swappable_setting('device_monitoring', 'DeviceData')
 
 
 #class DeviceMonitoring(AbstractDeviceMonitoring):
