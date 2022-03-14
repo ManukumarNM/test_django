@@ -18,5 +18,5 @@ class DeviceData(AbstractDeviceData, BaseDevice):
 
 class DeviceMonitoring(AbstractDeviceMonitoring):
     class Meta(AbstractDeviceMonitoring.Meta):
-        abstract = False
-        swappable = swappable_setting('device_monitoring', 'DeviceMonitoring')
+      #  abstract = False
+       # swappable = swappable_setting('device_monitoring', 'DeviceMonitoring')
