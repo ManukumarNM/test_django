@@ -4,7 +4,7 @@
 from ..utils import load_model_patched
 from .base.models import AbstractDeviceData, AbstractDeviceMonitoring
 
-BaseDevice = load_model_patched('config', 'Device', require_ready=False)
+#BaseDevice = load_model_patched('config', 'Device', require_ready=False)
 
 
 #class DeviceData(AbstractDeviceData, BaseDevice):
