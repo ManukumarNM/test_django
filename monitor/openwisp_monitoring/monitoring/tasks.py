@@ -2,9 +2,9 @@
 #from django.core.exceptions import ObjectDoesNotExist
 #from swapper import load_model
 
-from ..db import timeseries_db
-from ..db.exceptions import TimeseriesWriteException
-from .settings import RETRY_OPTIONS
+#from ..db import timeseries_db
+#from ..db.exceptions import TimeseriesWriteException
+#from .settings import RETRY_OPTIONS
 from .signals import post_metric_write
 
 
