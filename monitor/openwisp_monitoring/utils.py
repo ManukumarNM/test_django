@@ -39,9 +39,9 @@
                     f'Error while executing method "{method.__name__}":\n{err}\n'
                     f'Attempt {attempt_no} out of {max_retries}.\n'
                 )
-                if attempt_no > 3:
-                    sleep(delay)
-                if attempt_no == max_retries:
-                    raise err
+       #         if attempt_no > 3:
+       #             sleep(delay)
+       #         if attempt_no == max_retries:
+      #              raise err
 
-    return wrapper
+ #   return wrapper
