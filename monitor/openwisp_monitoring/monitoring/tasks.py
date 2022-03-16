@@ -5,11 +5,11 @@
 #from ..db import timeseries_db
 #from ..db.exceptions import TimeseriesWriteException
 #from .settings import RETRY_OPTIONS
-from .signals import post_metric_write
+#from .signals import post_metric_write
 
 
-@shared_task(bind=True, autoretry_for=(TimeseriesWriteException,), **RETRY_OPTIONS)
-def timeseries_write(
+#@shared_task(bind=True, autoretry_for=(TimeseriesWriteException,), **RETRY_OPTIONS)
+#def timeseries_write(
     self, name, values, metric_pk=None, check_threshold_kwargs=None, **kwargs
 ):
     """
