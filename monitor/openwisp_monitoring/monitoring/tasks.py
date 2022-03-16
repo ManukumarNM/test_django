@@ -1,6 +1,6 @@
-from celery import shared_task
-from django.core.exceptions import ObjectDoesNotExist
-from swapper import load_model
+#from celery import shared_task
+#from django.core.exceptions import ObjectDoesNotExist
+#from swapper import load_model
 
 from ..db import timeseries_db
 from ..db.exceptions import TimeseriesWriteException
