@@ -1,4 +1,4 @@
-from django.dispatch import Signal
+#from django.dispatch import Signal
 
 threshold_crossed = Signal()
 threshold_crossed.__doc__ = """
