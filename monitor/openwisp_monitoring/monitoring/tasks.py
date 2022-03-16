@@ -10,14 +10,14 @@
 
 #@shared_task(bind=True, autoretry_for=(TimeseriesWriteException,), **RETRY_OPTIONS)
 #def timeseries_write(
-    self, name, values, metric_pk=None, check_threshold_kwargs=None, **kwargs
-):
+#    self, name, values, metric_pk=None, check_threshold_kwargs=None, **kwargs
+#):
     """
     write with exponential backoff on a failure
     """
-    timeseries_db.write(name, values, **kwargs)
-    if not metric_pk or not check_threshold_kwargs:
-        return
+   # timeseries_db.write(name, values, **kwargs)
+   # if not metric_pk or not check_threshold_kwargs:
+   #     return
     try:
         metric = load_model('monitoring', 'Metric').objects.get(pk=metric_pk)
     except ObjectDoesNotExist:
