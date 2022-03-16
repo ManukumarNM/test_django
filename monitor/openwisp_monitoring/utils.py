@@ -2,18 +2,18 @@
 #from functools import wraps
 #from time import sleep
 
-from django.apps import apps
-from django.db import transaction
-from swapper import is_swapped, split
+#from django.apps import apps
+#from django.db import transaction
+#from swapper import is_swapped, split
 
-from .settings import MONITORING_TIMESERIES_RETRY_OPTIONS
+#from .settings import MONITORING_TIMESERIES_RETRY_OPTIONS
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 
-def transaction_on_commit(func):
-    with transaction.atomic():
-        transaction.on_commit(func)
+#def transaction_on_commit(func):
+  #  with transaction.atomic():
+   #     transaction.on_commit(func)
 
 
 def load_model_patched(app_label, model, require_ready=True):
