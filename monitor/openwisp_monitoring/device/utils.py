@@ -12,5 +12,5 @@
     """
     creates or updates the "short" retention policy
     """
-    duration = app_settings.SHORT_RETENTION_POLICY
-    timeseries_db.create_or_alter_retention_policy(SHORT_RP, duration)
+  #  duration = app_settings.SHORT_RETENTION_POLICY
+ #  timeseries_db.create_or_alter_retention_policy(SHORT_RP, duration)
