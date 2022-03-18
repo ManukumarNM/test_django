@@ -1,7 +1,7 @@
-from ..db import timeseries_db
-from . import settings as app_settings
+#from ..db import timeseries_db
+#from . import settings as app_settings
 
-SHORT_RP = 'short'
+#SHORT_RP = 'short'
 
 
 def get_device_cache_key(device, context='react-to-updates'):
