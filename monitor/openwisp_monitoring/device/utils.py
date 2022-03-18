@@ -4,11 +4,11 @@
 #SHORT_RP = 'short'
 
 
-def get_device_cache_key(device, context='react-to-updates'):
-    return f'device-{device.pk}-{context}'
+#def get_device_cache_key(device, context='react-to-updates'):
+    #return f'device-{device.pk}-{context}'
 
 
-def manage_short_retention_policy():
+#def manage_short_retention_policy():
     """
     creates or updates the "short" retention policy
     """
