@@ -8,7 +8,7 @@
 
 #Chart = load_model('monitoring', 'Chart')
 #Metric = load_model('monitoring', 'Metric')
-AlertSettings = load_model('monitoring', 'AlertSettings')
+#AlertSettings = load_model('monitoring', 'AlertSettings')
 
 
 class AlertSettingsForm(ModelForm):
