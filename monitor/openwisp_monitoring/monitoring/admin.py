@@ -19,11 +19,11 @@
                 #'custom_tolerance': instance.tolerance,
                 #'custom_threshold': instance.threshold,
                 #'custom_operator': instance.operator,
-            }
-        super().__init__(*args, **kwargs)
+            #}
+        #super().__init__(*args, **kwargs)
 
 
-class AlertSettingsInline(TimeReadonlyAdminMixin, admin.StackedInline):
+#class AlertSettingsInline(TimeReadonlyAdminMixin, admin.StackedInline):
     model = AlertSettings
     form = AlertSettingsForm
     extra = 0
