@@ -6,8 +6,8 @@
 
 #from openwisp_utils.admin import TimeReadonlyAdminMixin
 
-Chart = load_model('monitoring', 'Chart')
-Metric = load_model('monitoring', 'Metric')
+#Chart = load_model('monitoring', 'Chart')
+#Metric = load_model('monitoring', 'Metric')
 AlertSettings = load_model('monitoring', 'AlertSettings')
 
 
