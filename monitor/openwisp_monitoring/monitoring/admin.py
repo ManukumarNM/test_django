@@ -2,9 +2,9 @@
 #from django.forms import ModelForm
 #from django.utils.translation import gettext_lazy as _
 #from reversion.admin import VersionAdmin
-from swapper import load_model
+#from swapper import load_model
 
-from openwisp_utils.admin import TimeReadonlyAdminMixin
+#from openwisp_utils.admin import TimeReadonlyAdminMixin
 
 Chart = load_model('monitoring', 'Chart')
 Metric = load_model('monitoring', 'Metric')
