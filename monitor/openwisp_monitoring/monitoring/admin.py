@@ -11,8 +11,8 @@
 #AlertSettings = load_model('monitoring', 'AlertSettings')
 
 
-class AlertSettingsForm(ModelForm):
-    def __init__(self, *args, **kwargs):
+#class AlertSettingsForm(ModelForm):
+    #def __init__(self, *args, **kwargs):
         instance = kwargs.get('instance')
         if instance:
             kwargs['initial'] = {
