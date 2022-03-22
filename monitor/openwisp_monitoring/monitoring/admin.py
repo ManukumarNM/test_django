@@ -13,8 +13,8 @@
 
 #class AlertSettingsForm(ModelForm):
     #def __init__(self, *args, **kwargs):
-        instance = kwargs.get('instance')
-        if instance:
+        #instance = kwargs.get('instance')
+        #if instance:
             kwargs['initial'] = {
                 'custom_tolerance': instance.tolerance,
                 'custom_threshold': instance.threshold,
