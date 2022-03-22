@@ -15,10 +15,10 @@
     #def __init__(self, *args, **kwargs):
         #instance = kwargs.get('instance')
         #if instance:
-            kwargs['initial'] = {
-                'custom_tolerance': instance.tolerance,
-                'custom_threshold': instance.threshold,
-                'custom_operator': instance.operator,
+            #kwargs['initial'] = {
+                #'custom_tolerance': instance.tolerance,
+                #'custom_threshold': instance.threshold,
+                #'custom_operator': instance.operator,
             }
         super().__init__(*args, **kwargs)
 
