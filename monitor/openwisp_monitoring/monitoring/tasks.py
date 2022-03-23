@@ -26,8 +26,8 @@
         #pass
     #else:
         #metric.check_threshold(**check_threshold_kwargs)
-        signal_kwargs = dict(
-            sender=metric.__class__,
+        #signal_kwargs = dict(
+            #sender=metric.__class__,
             metric=metric,
             values=values,
             time=kwargs.get('timestamp'),
