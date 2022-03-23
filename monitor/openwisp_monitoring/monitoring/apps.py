@@ -5,8 +5,8 @@
 
 #from openwisp_utils.admin_theme.menu import register_menu_group
 
-from ..db import timeseries_db
-from .configuration import get_metric_configuration, register_metric_notifications
+#from ..db import timeseries_db
+#from .configuration import get_metric_configuration, register_metric_notifications
 
 
 class MonitoringConfig(AppConfig):
