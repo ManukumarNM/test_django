@@ -9,9 +9,9 @@
 #from .configuration import get_metric_configuration, register_metric_notifications
 
 
-class MonitoringConfig(AppConfig):
-    name = 'openwisp_monitoring.monitoring'
-    label = 'monitoring'
+#class MonitoringConfig(AppConfig):
+    #name = 'openwisp_monitoring.monitoring'
+    #label = 'monitoring'
     verbose_name = _('Network Monitoring')
 
     def ready(self):
