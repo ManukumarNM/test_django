@@ -30,7 +30,7 @@
             #sender=metric.__class__,
             #metric=metric,
             #values=values,
-            time=kwargs.get('timestamp'),
-            current=kwargs.get('current', 'False'),
+            #time=kwargs.get('timestamp'),
+            #current=kwargs.get('current', 'False'),
         )
         post_metric_write.send(**signal_kwargs)
