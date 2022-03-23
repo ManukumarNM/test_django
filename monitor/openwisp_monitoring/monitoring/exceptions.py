@@ -1,5 +1,5 @@
-class InvalidChartConfigException(Exception):
-    pass
+#class InvalidChartConfigException(Exception):
+    #pass
 
 
 class InvalidMetricConfigException(Exception):
