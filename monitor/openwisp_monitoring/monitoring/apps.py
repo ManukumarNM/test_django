@@ -1,9 +1,9 @@
 #from django.apps import AppConfig
 #from django.conf import settings
-from django.utils.translation import gettext_lazy as _
-from swapper import get_model_name
+#from django.utils.translation import gettext_lazy as _
+#from swapper import get_model_name
 
-from openwisp_utils.admin_theme.menu import register_menu_group
+#from openwisp_utils.admin_theme.menu import register_menu_group
 
 from ..db import timeseries_db
 from .configuration import get_metric_configuration, register_metric_notifications
