@@ -18,8 +18,8 @@
    # timeseries_db.write(name, values, **kwargs)
    # if not metric_pk or not check_threshold_kwargs:
    #     return
-    try:
-        metric = load_model('monitoring', 'Metric').objects.get(pk=metric_pk)
+    #try:
+        #metric = load_model('monitoring', 'Metric').objects.get(pk=metric_pk)
     except ObjectDoesNotExist:
         # The metric can be deleted by the time threshold is being checked.
         # This can happen as the task is being run async.
