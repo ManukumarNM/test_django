@@ -24,8 +24,8 @@
         # The metric can be deleted by the time threshold is being checked.
         # This can happen as the task is being run async.
         #pass
-    else:
-        metric.check_threshold(**check_threshold_kwargs)
+    #else:
+        #metric.check_threshold(**check_threshold_kwargs)
         signal_kwargs = dict(
             sender=metric.__class__,
             metric=metric,
