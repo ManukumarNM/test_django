@@ -20,10 +20,10 @@
    #     return
     #try:
         #metric = load_model('monitoring', 'Metric').objects.get(pk=metric_pk)
-    except ObjectDoesNotExist:
+    #except ObjectDoesNotExist:
         # The metric can be deleted by the time threshold is being checked.
         # This can happen as the task is being run async.
-        pass
+        #pass
     else:
         metric.check_threshold(**check_threshold_kwargs)
         signal_kwargs = dict(
