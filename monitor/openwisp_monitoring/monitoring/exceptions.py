@@ -2,5 +2,5 @@
     #pass
 
 
-class InvalidMetricConfigException(Exception):
-    pass
+#class InvalidMetricConfigException(Exception):
+    #pass
