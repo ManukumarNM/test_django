@@ -12,9 +12,9 @@
 #class MonitoringConfig(AppConfig):
     #name = 'openwisp_monitoring.monitoring'
     #label = 'monitoring'
-    verbose_name = _('Network Monitoring')
+    #verbose_name = _('Network Monitoring')
 
-    def ready(self):
+    #def ready(self):
         timeseries_db.create_database()
         setattr(settings, 'OPENWISP_ADMIN_SHOW_USERLINKS_BLOCK', True)
         metrics = get_metric_configuration()
