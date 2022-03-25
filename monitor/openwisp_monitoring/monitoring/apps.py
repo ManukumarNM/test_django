@@ -32,10 +32,10 @@
                         #'label': _('Metrics'),
                         #'model': get_model_name('monitoring', 'Metric'),
                         #'name': 'changelist',
-                        'icon': 'ow-metrics',
-                    },
-                    2: {
-                        'label': _('Checks'),
+                        #'icon': 'ow-metrics',
+                    #},
+                    #2: {
+                        #'label': _('Checks'),
                         'model': get_model_name('check', 'Check'),
                         'name': 'changelist',
                         'icon': 'ow-monitoring-checks',
