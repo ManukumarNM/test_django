@@ -15,8 +15,8 @@
     #verbose_name = _('Network Monitoring')
 
     #def ready(self):
-        timeseries_db.create_database()
-        setattr(settings, 'OPENWISP_ADMIN_SHOW_USERLINKS_BLOCK', True)
+        #timeseries_db.create_database()
+        #setattr(settings, 'OPENWISP_ADMIN_SHOW_USERLINKS_BLOCK', True)
         metrics = get_metric_configuration()
         for metric_name, metric_config in metrics.items():
             register_metric_notifications(metric_name, metric_config)
