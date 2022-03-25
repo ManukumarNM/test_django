@@ -41,7 +41,7 @@
                         #'icon': 'ow-monitoring-checks',
                     #},
                   
-                },
-                'icon': 'ow-monitoring',
-            },
-        )
+                #},
+                #'icon': 'ow-monitoring',
+            #},
+        #)
