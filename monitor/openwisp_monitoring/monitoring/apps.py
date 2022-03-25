@@ -36,8 +36,8 @@
                     #},
                     #2: {
                         #'label': _('Checks'),
-                        'model': get_model_name('check', 'Check'),
-                        'name': 'changelist',
+                        #'model': get_model_name('check', 'Check'),
+                        #'name': 'changelist',
                         'icon': 'ow-monitoring-checks',
                     },
                   
