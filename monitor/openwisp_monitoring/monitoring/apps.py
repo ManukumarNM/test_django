@@ -26,8 +26,8 @@
         #register_menu_group(
             #position=80,
             #config={
-                'label': 'Monitoring',
-                'items': {
+                #'label': 'Monitoring',
+                #'items': {
                     1: {
                         'label': _('Metrics'),
                         'model': get_model_name('monitoring', 'Metric'),
