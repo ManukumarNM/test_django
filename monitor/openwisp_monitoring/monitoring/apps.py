@@ -28,8 +28,8 @@
             #config={
                 #'label': 'Monitoring',
                 #'items': {
-                    1: {
-                        'label': _('Metrics'),
+                    #1: {
+                        #'label': _('Metrics'),
                         'model': get_model_name('monitoring', 'Metric'),
                         'name': 'changelist',
                         'icon': 'ow-metrics',
