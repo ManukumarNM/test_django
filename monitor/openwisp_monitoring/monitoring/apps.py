@@ -22,8 +22,8 @@
             #register_metric_notifications(metric_name, metric_config)
         #self.register_menu_groups()
 
-    def register_menu_groups(self):
-        register_menu_group(
+    #def register_menu_groups(self):
+        #register_menu_group(
             position=80,
             config={
                 'label': 'Monitoring',
