@@ -24,8 +24,8 @@
 
     #def register_menu_groups(self):
         #register_menu_group(
-            position=80,
-            config={
+            #position=80,
+            #config={
                 'label': 'Monitoring',
                 'items': {
                     1: {
