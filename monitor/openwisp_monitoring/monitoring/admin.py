@@ -24,8 +24,8 @@
 
 
 #class AlertSettingsInline(TimeReadonlyAdminMixin, admin.StackedInline):
-    model = AlertSettings
-    form = AlertSettingsForm
+    #model = AlertSettings
+    #form = AlertSettingsForm
     extra = 0
 
 
