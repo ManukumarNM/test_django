@@ -32,8 +32,8 @@
 #class ChartInline(admin.StackedInline):
     #model = Chart
     #extra = 0
-    template = 'admin/chart_inline.html'
-    exclude = ['created', 'modified']
+    #template = 'admin/chart_inline.html'
+    #exclude = ['created', 'modified']
 
 
 @admin.register(Metric)
