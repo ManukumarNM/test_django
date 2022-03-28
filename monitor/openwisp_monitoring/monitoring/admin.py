@@ -36,8 +36,8 @@
     #exclude = ['created', 'modified']
 
 
-@admin.register(Metric)
-class MetricAdmin(TimeReadonlyAdminMixin, VersionAdmin):
+#@admin.register(Metric)
+#class MetricAdmin(TimeReadonlyAdminMixin, VersionAdmin):
     list_display = ['__str__', 'created', 'modified']
     readonly_fields = ['is_healthy']
     search_fields = ['name']
