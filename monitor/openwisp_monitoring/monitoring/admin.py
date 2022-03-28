@@ -26,10 +26,10 @@
 #class AlertSettingsInline(TimeReadonlyAdminMixin, admin.StackedInline):
     #model = AlertSettings
     #form = AlertSettingsForm
-    extra = 0
+    #extra = 0
 
 
-class ChartInline(admin.StackedInline):
+#class ChartInline(admin.StackedInline):
     model = Chart
     extra = 0
     template = 'admin/chart_inline.html'
