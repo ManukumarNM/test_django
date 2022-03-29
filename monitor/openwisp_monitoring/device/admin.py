@@ -1,8 +1,8 @@
 #import uuid
 #from urllib.parse import urljoin
 
-from django.contrib import admin
-from django.contrib.contenttypes.admin import GenericStackedInline
+#from django.contrib import admin
+#from django.contrib.contenttypes.admin import GenericStackedInline
 from django.contrib.contenttypes.forms import BaseGenericInlineFormSet
 from django.contrib.contenttypes.models import ContentType
 from django.forms import ModelForm
