@@ -3,8 +3,8 @@
 
 #from django.contrib import admin
 #from django.contrib.contenttypes.admin import GenericStackedInline
-from django.contrib.contenttypes.forms import BaseGenericInlineFormSet
-from django.contrib.contenttypes.models import ContentType
+#from django.contrib.contenttypes.forms import BaseGenericInlineFormSet
+#from django.contrib.contenttypes.models import ContentType
 from django.forms import ModelForm
 from django.urls import reverse
 from django.utils.html import format_html
