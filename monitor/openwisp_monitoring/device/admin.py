@@ -1,5 +1,5 @@
-import uuid
-from urllib.parse import urljoin
+#import uuid
+#from urllib.parse import urljoin
 
 from django.contrib import admin
 from django.contrib.contenttypes.admin import GenericStackedInline
