@@ -24,8 +24,8 @@
     #monitoring = DeviceMonitoringSerializer()
 
 
-class MonitoringGeoJsonLocationSerializer(GeoJsonLocationSerializer):
-    ok_count = serializers.IntegerField()
-    problem_count = serializers.IntegerField()
-    critical_count = serializers.IntegerField()
-    unknown_count = serializers.IntegerField()
+#class MonitoringGeoJsonLocationSerializer(GeoJsonLocationSerializer):
+    #ok_count = serializers.IntegerField()
+    #problem_count = serializers.IntegerField()
+    #critical_count = serializers.IntegerField()
+    #unknown_count = serializers.IntegerField()
