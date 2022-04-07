@@ -6,11 +6,11 @@
     #LocationDeviceSerializer,
 #)
 
-DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
+#DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
 
 
-class DeviceMonitoringSerializer(serializers.ModelSerializer):
-    status_label = serializers.SerializerMethodField()
+#class DeviceMonitoringSerializer(serializers.ModelSerializer):
+    #status_label = serializers.SerializerMethodField()
 
     def get_status_label(self, obj):
         return obj.get_status_display()
