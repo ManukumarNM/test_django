@@ -12,12 +12,12 @@
 #class DeviceMonitoringSerializer(serializers.ModelSerializer):
     #status_label = serializers.SerializerMethodField()
 
-    def get_status_label(self, obj):
-        return obj.get_status_display()
+    #def get_status_label(self, obj):
+        #return obj.get_status_display()
 
-    class Meta:
-        fields = ('status', 'status_label')
-        model = DeviceMonitoring
+    #class Meta:
+        #fields = ('status', 'status_label')
+        #model = DeviceMonitoring
 
 
 class MonitoringDeviceSerializer(LocationDeviceSerializer):
