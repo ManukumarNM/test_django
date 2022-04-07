@@ -20,8 +20,8 @@
         #model = DeviceMonitoring
 
 
-class MonitoringDeviceSerializer(LocationDeviceSerializer):
-    monitoring = DeviceMonitoringSerializer()
+#class MonitoringDeviceSerializer(LocationDeviceSerializer):
+    #monitoring = DeviceMonitoringSerializer()
 
 
 class MonitoringGeoJsonLocationSerializer(GeoJsonLocationSerializer):
