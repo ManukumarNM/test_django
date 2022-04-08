@@ -4,7 +4,7 @@
 
 #app_name = 'monitoring'
 
-urlpatterns = [
+#urlpatterns = [
     re_path(
         r'^api/v1/monitoring/device/(?P<pk>[^/]+)/$',
         views.device_metric,
