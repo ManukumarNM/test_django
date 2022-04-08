@@ -2,7 +2,7 @@
 
 #from . import views
 
-app_name = 'monitoring'
+#app_name = 'monitoring'
 
 urlpatterns = [
     re_path(
