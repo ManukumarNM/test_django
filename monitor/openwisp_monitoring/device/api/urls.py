@@ -7,7 +7,7 @@
 #urlpatterns = [
     #re_path(
         #r'^api/v1/monitoring/device/(?P<pk>[^/]+)/$',
-        views.device_metric,
+        #views.device_metric,
         name='api_device_metric',
     ),
     path(
