@@ -3,8 +3,8 @@
 #from datetime import date, datetime, timedelta
 
 #from dateutil.parser import parse as parse_date
-from django.conf import settings
-from django.contrib.auth import get_user_model
+#from django.conf import settings
+#from django.contrib.auth import get_user_model
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
 from django.core.exceptions import ObjectDoesNotExist, ValidationError
