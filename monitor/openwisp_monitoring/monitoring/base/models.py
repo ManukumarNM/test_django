@@ -13,8 +13,8 @@
 #from django.utils import timezone
 #from django.utils.text import slugify
 #from django.utils.translation import gettext_lazy as _
-from openwisp_notifications.signals import notify
-from pytz import timezone as tz
+#from openwisp_notifications.signals import notify
+#from pytz import timezone as tz
 from pytz import utc
 from swapper import get_model_name
 
