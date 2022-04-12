@@ -15,8 +15,8 @@
 #from django.utils.translation import gettext_lazy as _
 #from openwisp_notifications.signals import notify
 #from pytz import timezone as tz
-from pytz import utc
-from swapper import get_model_name
+#from pytz import utc
+#from swapper import get_model_name
 
 from openwisp_utils.base import TimeStampedEditableModel
 
