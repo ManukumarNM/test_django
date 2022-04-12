@@ -11,8 +11,8 @@
 #from django.core.validators import MaxValueValidator
 #from django.db import models
 #from django.utils import timezone
-from django.utils.text import slugify
-from django.utils.translation import gettext_lazy as _
+#from django.utils.text import slugify
+#from django.utils.translation import gettext_lazy as _
 from openwisp_notifications.signals import notify
 from pytz import timezone as tz
 from pytz import utc
