@@ -10,8 +10,8 @@
         #views.device_metric,
         #name='api_device_metric',
     #),
-    path(
-        'api/v1/monitoring/geojson/',
+    #path(
+        #'api/v1/monitoring/geojson/',
         views.monitoring_geojson_location_list,
         name='api_location_geojson',
     ),
