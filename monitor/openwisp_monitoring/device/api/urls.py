@@ -12,8 +12,8 @@
     #),
     #path(
         #'api/v1/monitoring/geojson/',
-        views.monitoring_geojson_location_list,
-        name='api_location_geojson',
+        #views.monitoring_geojson_location_list,
+        #name='api_location_geojson',
     ),
     re_path(
         r'^api/v1/monitoring/location/(?P<pk>[^/]+)/device/$',
