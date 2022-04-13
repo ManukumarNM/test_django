@@ -18,6 +18,6 @@
     #re_path(
         #r'^api/v1/monitoring/location/(?P<pk>[^/]+)/device/$',
         #views.monitoring_location_device_list,
-        name='api_location_device_list',
+        #name='api_location_device_list',
     ),
 ]
