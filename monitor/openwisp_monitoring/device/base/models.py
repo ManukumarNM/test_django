@@ -3,11 +3,11 @@
 #from collections import OrderedDict
 #from datetime import datetime
 
-import swapper
-from cache_memoize import cache_memoize
-from dateutil.relativedelta import relativedelta
-from django.core.cache import cache
-from django.core.exceptions import ValidationError
+#import swapper
+#from cache_memoize import cache_memoize
+#from dateutil.relativedelta import relativedelta
+#from django.core.cache import cache
+#from django.core.exceptions import ValidationError
 from django.db import models
 from django.dispatch import receiver
 from django.utils.timezone import now
