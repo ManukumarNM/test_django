@@ -24,8 +24,8 @@
 #from ..configuration import (
     #CHART_CONFIGURATION_CHOICES,
     #DEFAULT_COLORS,
-    METRIC_CONFIGURATION_CHOICES,
-    get_chart_configuration,
+    #METRIC_CONFIGURATION_CHOICES,
+    #get_chart_configuration,
     get_metric_configuration,
 )
 from ..exceptions import InvalidChartConfigException, InvalidMetricConfigException
