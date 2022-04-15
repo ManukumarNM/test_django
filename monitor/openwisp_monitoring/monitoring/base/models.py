@@ -32,8 +32,8 @@
 #from ..signals import pre_metric_write, threshold_crossed
 #from ..tasks import timeseries_write
 
-User = get_user_model()
-logger = logging.getLogger(__name__)
+#User = get_user_model()
+#logger = logging.getLogger(__name__)
 
 
 class AbstractMetric(TimeStampedEditableModel):
