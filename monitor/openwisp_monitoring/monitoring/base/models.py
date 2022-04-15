@@ -18,9 +18,9 @@
 #from pytz import utc
 #from swapper import get_model_name
 
-from openwisp_utils.base import TimeStampedEditableModel
+#from openwisp_utils.base import TimeStampedEditableModel
 
-from ...db import default_chart_query, timeseries_db
+#from ...db import default_chart_query, timeseries_db
 from ..configuration import (
     CHART_CONFIGURATION_CHOICES,
     DEFAULT_COLORS,
