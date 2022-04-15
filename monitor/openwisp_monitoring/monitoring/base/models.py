@@ -29,8 +29,8 @@
     #get_metric_configuration,
 #)
 #from ..exceptions import InvalidChartConfigException, InvalidMetricConfigException
-from ..signals import pre_metric_write, threshold_crossed
-from ..tasks import timeseries_write
+#from ..signals import pre_metric_write, threshold_crossed
+#from ..tasks import timeseries_write
 
 User = get_user_model()
 logger = logging.getLogger(__name__)
