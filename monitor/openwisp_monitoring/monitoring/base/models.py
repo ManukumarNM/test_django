@@ -49,11 +49,11 @@
         #ContentType, on_delete=models.CASCADE, null=True, blank=True
     #)
     #object_id = models.CharField(max_length=36, db_index=True, blank=True)
-    content_object = GenericForeignKey('content_type', 'object_id')
+    #content_object = GenericForeignKey('content_type', 'object_id')
     # NULL means the health has yet to be assessed
-    is_healthy = models.BooleanField(default=None, null=True, blank=True, db_index=True)
+    #is_healthy = models.BooleanField(default=None, null=True, blank=True, db_index=True)
     # Like "is_healthy", but respects tolerance of alert settings
-    is_healthy_tolerant = models.BooleanField(default=None, null=True, blank=True)
+   # is_healthy_tolerant = models.BooleanField(default=None, null=True, blank=True)
 
     class Meta:
         abstract = True
