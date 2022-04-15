@@ -42,10 +42,10 @@
         #max_length=64, blank=True, help_text=_('leave blank to determine automatically')
     #)
     #field_name = models.CharField(max_length=16, default='value')
-    configuration = models.CharField(
-        max_length=16, null=True, choices=METRIC_CONFIGURATION_CHOICES
-    )
-    content_type = models.ForeignKey(
+    #configuration = models.CharField(
+        #max_length=16, null=True, choices=METRIC_CONFIGURATION_CHOICES
+    #)
+    #content_type = models.ForeignKey(
         ContentType, on_delete=models.CASCADE, null=True, blank=True
     )
     object_id = models.CharField(max_length=36, db_index=True, blank=True)
