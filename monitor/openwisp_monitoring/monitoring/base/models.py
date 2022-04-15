@@ -36,9 +36,9 @@
 #logger = logging.getLogger(__name__)
 
 
-class AbstractMetric(TimeStampedEditableModel):
-    name = models.CharField(max_length=64)
-    key = models.SlugField(
+#class AbstractMetric(TimeStampedEditableModel):
+    #name = models.CharField(max_length=64)
+    #key = models.SlugField(
         max_length=64, blank=True, help_text=_('leave blank to determine automatically')
     )
     field_name = models.CharField(max_length=16, default='value')
