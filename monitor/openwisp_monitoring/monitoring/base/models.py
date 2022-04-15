@@ -59,9 +59,9 @@
         #abstract = True
         #unique_together = ('key', 'field_name', 'content_type', 'object_id')
 
-    def __str__(self):
-        obj = self.content_object
-        if not obj:
+    #ef __str__(self):
+        #obj = self.content_object
+        #if not obj:
             return self.name
         model_name = obj.__class__.__name__
         return '{0} ({1}: {2})'.format(self.name, model_name, obj)
