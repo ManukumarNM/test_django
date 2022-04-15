@@ -26,9 +26,9 @@
     #DEFAULT_COLORS,
     #METRIC_CONFIGURATION_CHOICES,
     #get_chart_configuration,
-    get_metric_configuration,
-)
-from ..exceptions import InvalidChartConfigException, InvalidMetricConfigException
+    #get_metric_configuration,
+#)
+#from ..exceptions import InvalidChartConfigException, InvalidMetricConfigException
 from ..signals import pre_metric_write, threshold_crossed
 from ..tasks import timeseries_write
 
