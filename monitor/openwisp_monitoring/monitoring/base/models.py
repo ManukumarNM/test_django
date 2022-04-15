@@ -55,9 +55,9 @@
     # Like "is_healthy", but respects tolerance of alert settings
    # is_healthy_tolerant = models.BooleanField(default=None, null=True, blank=True)
 
-    class Meta:
-        abstract = True
-        unique_together = ('key', 'field_name', 'content_type', 'object_id')
+    #class Meta:
+        #abstract = True
+        #unique_together = ('key', 'field_name', 'content_type', 'object_id')
 
     def __str__(self):
         obj = self.content_object
