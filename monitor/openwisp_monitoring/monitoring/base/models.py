@@ -46,9 +46,9 @@
         #max_length=16, null=True, choices=METRIC_CONFIGURATION_CHOICES
     #)
     #content_type = models.ForeignKey(
-        ContentType, on_delete=models.CASCADE, null=True, blank=True
-    )
-    object_id = models.CharField(max_length=36, db_index=True, blank=True)
+        #ContentType, on_delete=models.CASCADE, null=True, blank=True
+    #)
+    #object_id = models.CharField(max_length=36, db_index=True, blank=True)
     content_object = GenericForeignKey('content_type', 'object_id')
     # NULL means the health has yet to be assessed
     is_healthy = models.BooleanField(default=None, null=True, blank=True, db_index=True)
