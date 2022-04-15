@@ -21,9 +21,9 @@
 #from openwisp_utils.base import TimeStampedEditableModel
 
 #from ...db import default_chart_query, timeseries_db
-from ..configuration import (
-    CHART_CONFIGURATION_CHOICES,
-    DEFAULT_COLORS,
+#from ..configuration import (
+    #CHART_CONFIGURATION_CHOICES,
+    #DEFAULT_COLORS,
     METRIC_CONFIGURATION_CHOICES,
     get_chart_configuration,
     get_metric_configuration,
