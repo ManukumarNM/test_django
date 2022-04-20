@@ -692,11 +692,11 @@ class AbstractAlertSettings(TimeStampedEditableModel):
                     # if the latest results are consistent, the metric being
                     # monitored is not flapping and we can confidently return
                     # wheter the value crosses the threshold or not
-                    if len(set(results)) == 1:
-                        return value_crossed
+                    #if len(set(results)) == 1:
+                        #return value_crossed
                     # otherwise, the results are flapping, the situation has not changed
                     # we will return a value that will not trigger changes
-                    return not self.metric.is_healthy_tolerant
+                    #return not self.metric.is_healthy_tolerant
                 # otherwise keep looking back
                # continue
             # the search has not yielded any conclusion
