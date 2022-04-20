@@ -684,11 +684,11 @@ class AbstractAlertSettings(TimeStampedEditableModel):
                 # check started and its value coincides with ``current_value``
                 if i <= 1:
                     continue
-                utc_time = utc.localize(datetime.utcfromtimestamp(point['time']))
+               # utc_time = utc.localize(datetime.utcfromtimestamp(point['time']))
                 # did this point cross the threshold? Append to result list
-                results.append(self._value_crossed(point[self.metric.field_name]))
+               # results.append(self._value_crossed(point[self.metric.field_name]))
                 # tolerance is trepassed
-                if self._time_crossed(utc_time):
+                #if self._time_crossed(utc_time):
                     # if the latest results are consistent, the metric being
                     # monitored is not flapping and we can confidently return
                     # wheter the value crosses the threshold or not
