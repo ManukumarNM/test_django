@@ -651,9 +651,9 @@ class AbstractAlertSettings(TimeStampedEditableModel):
         if the tolerance has been trepassed.
         Minimum 15 minutes, maximum self._MINUTES_MAX * 1.05
         """
-        minutes = self.tolerance * 2
-        minutes = minutes if minutes > 15 else 15
-        minutes = minutes if minutes <= self._MINUTES_MAX else self._MINUTES_MAX * 1.05
+       # minutes = self.tolerance * 2
+       # minutes = minutes if minutes > 15 else 15
+       # minutes = minutes if minutes <= self._MINUTES_MAX else self._MINUTES_MAX * 1.05
        #return int(minutes)
 
    # def _is_crossed_by(self, current_value, time=None, retention_policy=None):
