@@ -664,11 +664,11 @@ class AbstractAlertSettings(TimeStampedEditableModel):
         if value_crossed is NotImplemented:
             raise ValueError('Supplied value type not suppported')
         # no tolerance specified, return immediately
-        if self.tolerance == 0:
-            return value_crossed
+       # if self.tolerance == 0:
+            #return value_crossed
         # tolerance is set, we must go back in time
         # to ensure the threshold is trepassed for enough time
-        if time is None:
+        #if time is None:
             # retrieves latest measurements, ordered by most recent first
             #points = self.metric.read(
                 #since=f'{self._tolerance_search_range}m',
