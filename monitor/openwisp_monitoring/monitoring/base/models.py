@@ -633,9 +633,9 @@ class AbstractAlertSettings(TimeStampedEditableModel):
             return self.config_dict['operator']
         return self.custom_operator
 
-    def _value_crossed(self, current_value):
-        threshold_value = self.threshold
-        method = '__gt__' if self.operator == '>' else '__lt__'
+    #def _value_crossed(self, current_value):
+       # threshold_value = self.threshold
+        #method = '__gt__' if self.operator == '>' else '__lt__'
        #if isinstance(current_value, int):
             #current_value = float(current_value)
         #return getattr(current_value, method)(threshold_value)
@@ -687,7 +687,7 @@ class AbstractAlertSettings(TimeStampedEditableModel):
                # utc_time = utc.localize(datetime.utcfromtimestamp(point['time']))
                 # did this point cross the threshold? Append to result list
                # results.append(self._value_crossed(point[self.metric.field_name]))
-                # tolerance is trepassed
+                # tolerance is trepassed 
                 #if self._time_crossed(utc_time):
                     # if the latest results are consistent, the metric being
                     # monitored is not flapping and we can confidently return
