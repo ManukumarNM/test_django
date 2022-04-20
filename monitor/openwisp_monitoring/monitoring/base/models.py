@@ -660,9 +660,9 @@ class AbstractAlertSettings(TimeStampedEditableModel):
         """
         do current_value and time cross the threshold and trepass the tolerance?
         """
-        value_crossed = self._value_crossed(current_value)
-        if value_crossed is NotImplemented:
-            raise ValueError('Supplied value type not suppported')
+       # value_crossed = self._value_crossed(current_value)
+       # if value_crossed is NotImplemented:
+            #raise ValueError('Supplied value type not suppported')
         # no tolerance specified, return immediately
        # if self.tolerance == 0:
             #return value_crossed
