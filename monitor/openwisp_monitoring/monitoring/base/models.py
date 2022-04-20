@@ -307,10 +307,10 @@
             options['metric_pk'] = self.pk
         timeseries_write.delay(name=self.key, values=values, **options)
 
-    def read(self, **kwargs):
-        """reads timeseries data"""
-        return timeseries_db.read(
-            key=self.key, fields=self.field_name, tags=self.tags, **kwargs
+    #def read(self, **kwargs):
+       # """reads timeseries data"""
+        #return timeseries_db.read(
+           # key=self.key, fields=self.field_name, tags=self.tags, **kwargs
         )
 
     def _notify_users(self, notification_type, alert_settings):
