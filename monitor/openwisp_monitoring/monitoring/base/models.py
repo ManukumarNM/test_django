@@ -673,11 +673,11 @@ class AbstractAlertSettings(TimeStampedEditableModel):
             points = self.metric.read(
                 since=f'{self._tolerance_search_range}m',
                 limit=None,
-                order='-time',
-                retention_policy=retention_policy,
-            )
+               # order='-time',
+                #retention_policy=retention_policy,
+           # )
             # store a list with the results
-            results = [value_crossed]
+            #results = [value_crossed]
             # loop on each measurement starting from the most recent
             #for i, point in enumerate(points, 1):
                 # skip the first point because it was just added before this
