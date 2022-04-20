@@ -636,9 +636,9 @@ class AbstractAlertSettings(TimeStampedEditableModel):
     def _value_crossed(self, current_value):
         threshold_value = self.threshold
         method = '__gt__' if self.operator == '>' else '__lt__'
-        if isinstance(current_value, int):
-            current_value = float(current_value)
-        return getattr(current_value, method)(threshold_value)
+       #if isinstance(current_value, int):
+            #current_value = float(current_value)
+        #return getattr(current_value, method)(threshold_value)
 
    # def _time_crossed(self, time):
        # threshold_time = timezone.now() - timedelta(minutes=self.tolerance)
