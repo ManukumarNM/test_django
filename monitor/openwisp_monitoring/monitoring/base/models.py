@@ -679,11 +679,11 @@ class AbstractAlertSettings(TimeStampedEditableModel):
             # store a list with the results
             results = [value_crossed]
             # loop on each measurement starting from the most recent
-            for i, point in enumerate(points, 1):
+            #for i, point in enumerate(points, 1):
                 # skip the first point because it was just added before this
                 # check started and its value coincides with ``current_value``
-                if i <= 1:
-                    continue
+                #if i <= 1:
+                    #continue
                # utc_time = utc.localize(datetime.utcfromtimestamp(point['time']))
                 # did this point cross the threshold? Append to result list
                # results.append(self._value_crossed(point[self.metric.field_name]))
