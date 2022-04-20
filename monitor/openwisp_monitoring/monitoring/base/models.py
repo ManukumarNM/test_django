@@ -428,12 +428,12 @@ class AbstractChart(TimeStampedEditableModel):
             q += default_chart_query[1]
         return q
 
-    def get_query(
-        self,
-        time=DEFAULT_TIME,
-        summary=False,
-        fields=None,
-        query=None,
+    #def get_query(
+       # self,
+       # time=DEFAULT_TIME,
+       # summary=False,
+       # fields=None,
+       # query=None,
         timezone=settings.TIME_ZONE,
     ):
         query = query or self.query
