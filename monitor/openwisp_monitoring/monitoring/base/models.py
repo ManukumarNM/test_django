@@ -698,8 +698,8 @@ class AbstractAlertSettings(TimeStampedEditableModel):
                     # we will return a value that will not trigger changes
                     return not self.metric.is_healthy_tolerant
                 # otherwise keep looking back
-                continue
+               # continue
             # the search has not yielded any conclusion
             # return result based on the current value and time
-            time = timezone.now()
-        return self._time_crossed(time) and value_crossed
+          #  time = timezone.now()
+       # return self._time_crossed(time) and value_crossed
