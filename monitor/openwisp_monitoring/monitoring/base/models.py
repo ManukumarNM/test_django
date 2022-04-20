@@ -640,12 +640,12 @@ class AbstractAlertSettings(TimeStampedEditableModel):
             current_value = float(current_value)
         return getattr(current_value, method)(threshold_value)
 
-    def _time_crossed(self, time):
-        threshold_time = timezone.now() - timedelta(minutes=self.tolerance)
-        return time < threshold_time
+   # def _time_crossed(self, time):
+       # threshold_time = timezone.now() - timedelta(minutes=self.tolerance)
+       # return time < threshold_time
 
     @property
-    def _tolerance_search_range(self):
+   # def _tolerance_search_range(self):
         """
         Allow sufficient room for checking
         if the tolerance has been trepassed.
