@@ -670,9 +670,9 @@ class AbstractAlertSettings(TimeStampedEditableModel):
         # to ensure the threshold is trepassed for enough time
         if time is None:
             # retrieves latest measurements, ordered by most recent first
-            points = self.metric.read(
-                since=f'{self._tolerance_search_range}m',
-                limit=None,
+            #points = self.metric.read(
+                #since=f'{self._tolerance_search_range}m',
+                #limit=None,
                # order='-time',
                 #retention_policy=retention_policy,
            # )
