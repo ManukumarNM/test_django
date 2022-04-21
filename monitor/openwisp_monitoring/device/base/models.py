@@ -10,9 +10,8 @@
 #from django.core.exceptions import ValidationError
 #from django.db import models
 #from django.dispatch import receiver
-from django.utils.timezone import now
-from django.utils.translation import gettext_lazy as _
-from jsonschema import draft7_format_checker, validate
+#from django.utils.translation import gettext_lazy as _
+#from jsonschema import draft7_format_checker, validate
 from jsonschema.exceptions import ValidationError as SchemaError
 from model_utils import Choices
 from model_utils.fields import StatusField
