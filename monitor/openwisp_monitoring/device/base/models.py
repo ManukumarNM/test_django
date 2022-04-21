@@ -14,8 +14,8 @@
 #from jsonschema import draft7_format_checker, validate
 #from jsonschema.exceptions import ValidationError as SchemaError
 #from model_utils import Choices
-from model_utils.fields import StatusField
-from netaddr import EUI, NotRegisteredError
+#from model_utils.fields import StatusField
+#from netaddr import EUI, NotRegisteredError
 from pytz import timezone as tz
 from swapper import load_model
 
