@@ -12,8 +12,8 @@
 #from django.dispatch import receiver
 #from django.utils.translation import gettext_lazy as _
 #from jsonschema import draft7_format_checker, validate
-from jsonschema.exceptions import ValidationError as SchemaError
-from model_utils import Choices
+#from jsonschema.exceptions import ValidationError as SchemaError
+#from model_utils import Choices
 from model_utils.fields import StatusField
 from netaddr import EUI, NotRegisteredError
 from pytz import timezone as tz
