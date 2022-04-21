@@ -8,8 +8,8 @@
 #from dateutil.relativedelta import relativedelta
 #from django.core.cache import cache
 #from django.core.exceptions import ValidationError
-from django.db import models
-from django.dispatch import receiver
+#from django.db import models
+#from django.dispatch import receiver
 from django.utils.timezone import now
 from django.utils.translation import gettext_lazy as _
 from jsonschema import draft7_format_checker, validate
