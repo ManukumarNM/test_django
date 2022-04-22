@@ -1,6 +1,6 @@
-from collections import OrderedDict
+#from collections import OrderedDict
 
-from django.core.exceptions import ImproperlyConfigured
+#from django.core.exceptions import ImproperlyConfigured
 from django.utils.translation import gettext_lazy as _
 from openwisp_notifications.types import (
     register_notification_type,
