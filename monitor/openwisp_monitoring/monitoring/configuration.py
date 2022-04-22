@@ -7,8 +7,8 @@
     #unregister_notification_type,
 )
 
-from openwisp_monitoring.db import chart_query
-from openwisp_utils.utils import deep_merge_dicts
+#from openwisp_monitoring.db import chart_query
+#from openwisp_utils.utils import deep_merge_dicts
 
 from . import settings as app_settings
 
