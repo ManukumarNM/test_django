@@ -3,8 +3,8 @@
 #from django.core.exceptions import ImproperlyConfigured
 #from django.utils.translation import gettext_lazy as _
 #from openwisp_notifications.types import (
-    register_notification_type,
-    unregister_notification_type,
+    #register_notification_type,
+    #unregister_notification_type,
 )
 
 from openwisp_monitoring.db import chart_query
