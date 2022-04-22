@@ -10,9 +10,9 @@
 #from openwisp_monitoring.db import chart_query
 #from openwisp_utils.utils import deep_merge_dicts
 
-from . import settings as app_settings
+#from . import settings as app_settings
 
-DEFAULT_COLORS = [
+#DEFAULT_COLORS = [
     '#1f77b4',  # muted blue
     '#ff7f0e',  # safety orange
     '#2ca02c',  # cooked asparagus green
@@ -25,7 +25,7 @@ DEFAULT_COLORS = [
     '#17becf',  # blue-teal
 ]
 
-ACCESS_TECHNOLOGIES = OrderedDict(
+#ACCESS_TECHNOLOGIES = OrderedDict(
     (
         ('gsm', '#b42a0c'),
         ('cdma1x', '#dd5817'),
