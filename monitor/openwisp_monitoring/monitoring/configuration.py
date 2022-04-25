@@ -46,18 +46,17 @@
 
 
 # under discussion
-DEFAULT_METRICS = {
-    'ping': {
-        'label': _('Ping'),
-        'name': 'Ping',
-        'key': 'ping',
-        'field_name': 'reachable',
-        'related_fields': ['loss', 'rtt_min', 'rtt_max', 'rtt_avg'],
-        'charts': {
-            'uptime': {
-                'type': 'bar',
-                'title': _('Uptime'),
-                'description': _(
+#DEFAULT_METRICS = {
+    #'ping': {
+       # 'name': 'Ping',
+       # 'key': 'ping',
+       # 'field_name': 'reachable',
+       # 'related_fields': ['loss', 'rtt_min', 'rtt_max', 'rtt_avg'],
+       # 'charts': {
+       #     'uptime': {
+       #         'type': 'bar',
+        #        'title': _('Uptime'),
+         #       'description': _(
                     'A value of 100% means reachable, 0% means unreachable, values in '
                     'between 0% and 100% indicate the average reachability in the '
                     'period observed. Obtained with the fping linux program.'
