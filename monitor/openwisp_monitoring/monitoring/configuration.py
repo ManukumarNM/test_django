@@ -26,10 +26,10 @@
 ]
 
 #ACCESS_TECHNOLOGIES = OrderedDict(
-    (
-        ('gsm', '#b42a0c'),
-        ('cdma1x', '#dd5817'),
-        ('evdo', '#df7514'),
+    #(
+       # ('gsm', '#b42a0c'),
+       # ('cdma1x', '#dd5817'),
+       # ('evdo', '#df7514'),
         ('umts', '#efdd50'),
         ('lte', '#67c368'),
         ('5g', '#377873'),
