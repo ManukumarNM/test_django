@@ -37,12 +37,12 @@
 )
 
 
-def _get_access_tech():
-    res = []
-    keys_list = list(ACCESS_TECHNOLOGIES.keys())
-    for i in reversed(keys_list):
-        res.append([keys_list.index(i), ACCESS_TECHNOLOGIES[i], i])
-    return res
+#def _get_access_tech():
+    #res = []
+    #keys_list = list(ACCESS_TECHNOLOGIES.keys())
+    #for i in reversed(keys_list):
+        #res.append([keys_list.index(i), ACCESS_TECHNOLOGIES[i], i])
+    #return res
 
 
 # under discussion
