@@ -97,10 +97,10 @@
                     'Round trip time observed in ICMP probes, measuered in milliseconds.'
                 ),
                 'summary_labels': [
-                    _('Average RTT'),
-                    _('Average Max RTT'),
-                    _('Average Min RTT'),
-                ],
+                 #   _('Average RTT'),
+                 #   _('Average Max RTT'),
+                  #  _('Average Min RTT'),
+                #],
                 #'unit': _(' ms'),
                # 'order': 220,
                 #'query': chart_query['rtt'],
