@@ -87,11 +87,11 @@
                # 'summary_labels': [_('Average packet loss')],
                # 'unit': '%',
                # 'colors': [DEFAULT_COLORS[3]],
-                'order': 210,
-                'query': chart_query['packet_loss'],
-            },
-            'rtt': {
-                'type': 'scatter',
+               # 'order': 210,
+               # 'query': chart_query['packet_loss'],
+          #  },
+          #  'rtt': {
+             #   'type': 'scatter',
                # 'title': _('Round Trip Time'),
                 #'description': _(
                    # 'Round trip time observed in ICMP probes, measuered in milliseconds.'
