@@ -92,11 +92,11 @@
             },
             'rtt': {
                 'type': 'scatter',
-                'title': _('Round Trip Time'),
-                'description': _(
-                    'Round trip time observed in ICMP probes, measuered in milliseconds.'
-                ),
-                'summary_labels': [
+               # 'title': _('Round Trip Time'),
+                #'description': _(
+                   # 'Round trip time observed in ICMP probes, measuered in milliseconds.'
+                #),
+                #'summary_labels': [
                  #   _('Average RTT'),
                  #   _('Average Max RTT'),
                   #  _('Average Min RTT'),
