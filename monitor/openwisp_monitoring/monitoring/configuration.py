@@ -77,9 +77,9 @@
                # },
                # 'query': chart_query['uptime'],
            # },
-            'packet_loss': {
-                'type': 'bar',
-                'title': _('Packet loss'),
+            #'packet_loss': {
+               # 'type': 'bar',
+                #'title': _('Packet loss'),
                 'description': _(
                     'Indicates the percentage of lost packets observed in ICMP probes. '
                     'Obtained with the fping linux program.'
