@@ -1,6 +1,6 @@
-from ..settings import get_settings_value
+#from ..settings import get_settings_value
 
-ADDITIONAL_CHARTS = get_settings_value('CHARTS', {})
+#ADDITIONAL_CHARTS = get_settings_value('CHARTS', {})
 ADDITIONAL_METRICS = get_settings_value('METRICS', {})
 
 RETRY_OPTIONS = get_settings_value(
