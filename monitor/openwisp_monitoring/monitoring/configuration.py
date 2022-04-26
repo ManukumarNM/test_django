@@ -84,9 +84,9 @@
                    # 'Indicates the percentage of lost packets observed in ICMP probes. '
                    # 'Obtained with the fping linux program.'
                # ),
-                'summary_labels': [_('Average packet loss')],
-                'unit': '%',
-                'colors': [DEFAULT_COLORS[3]],
+               # 'summary_labels': [_('Average packet loss')],
+               # 'unit': '%',
+               # 'colors': [DEFAULT_COLORS[3]],
                 'order': 210,
                 'query': chart_query['packet_loss'],
             },
