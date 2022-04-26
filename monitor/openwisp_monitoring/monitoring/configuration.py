@@ -80,10 +80,10 @@
             #'packet_loss': {
                # 'type': 'bar',
                 #'title': _('Packet loss'),
-                'description': _(
-                    'Indicates the percentage of lost packets observed in ICMP probes. '
-                    'Obtained with the fping linux program.'
-                ),
+                #'description': _(
+                   # 'Indicates the percentage of lost packets observed in ICMP probes. '
+                   # 'Obtained with the fping linux program.'
+               # ),
                 'summary_labels': [_('Average packet loss')],
                 'unit': '%',
                 'colors': [DEFAULT_COLORS[3]],
