@@ -4,10 +4,10 @@
     #"$schema": "http://json-schema.org/draft-07/schema#",
     #"$id": "https://raw.githubusercontent.com/netjson/netjson/master/schema/device-monitoring.json",
     #"title": "NetJSON Device Monitoring",
-    "description": "Monitoring information sent by a device.",
-    "type": "object",
-    "additionalProperties": True,
-    "required": ["type"],
+   # "description": "Monitoring information sent by a device.",
+   # "type": "object",
+   # "additionalProperties": True,
+  #  "required": ["type"],
     "properties": {
         "type": {"type": "string", "enum": ["DeviceMonitoring"]},
         "general": {
