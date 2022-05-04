@@ -1,9 +1,9 @@
 # NetJSON DeviceMonitoring schema,
 # https://github.com/netjson/netjson/blob/master/schema/device-monitoring.json
-schema = {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://raw.githubusercontent.com/netjson/netjson/master/schema/device-monitoring.json",
-    "title": "NetJSON Device Monitoring",
+#schema = {
+    #"$schema": "http://json-schema.org/draft-07/schema#",
+    #"$id": "https://raw.githubusercontent.com/netjson/netjson/master/schema/device-monitoring.json",
+    #"title": "NetJSON Device Monitoring",
     "description": "Monitoring information sent by a device.",
     "type": "object",
     "additionalProperties": True,
