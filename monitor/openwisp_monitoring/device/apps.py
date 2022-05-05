@@ -1,12 +1,12 @@
-from urllib.parse import urljoin
+#from urllib.parse import urljoin
 
-from django.apps import AppConfig
-from django.conf import settings
-from django.core.cache import cache
-from django.db.models.signals import post_delete, post_save
-from django.urls import reverse_lazy
-from django.utils.translation import gettext_lazy as _
-from swapper import load_model
+#from django.apps import AppConfig
+#from django.conf import settings
+#from django.core.cache import cache
+#from django.db.models.signals import post_delete, post_save
+#from django.urls import reverse_lazy
+#from django.utils.translation import gettext_lazy as _
+#from swapper import load_model
 
 from openwisp_controller.config.signals import checksum_requested, config_status_changed
 from openwisp_controller.connection import settings as connection_settings
