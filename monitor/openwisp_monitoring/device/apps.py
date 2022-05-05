@@ -8,12 +8,12 @@
 #from django.utils.translation import gettext_lazy as _
 #from swapper import load_model
 
-from openwisp_controller.config.signals import checksum_requested, config_status_changed
-from openwisp_controller.connection import settings as connection_settings
-from openwisp_controller.connection.signals import is_working_changed
-from openwisp_utils.admin_theme import (
-    register_dashboard_chart,
-    register_dashboard_template,
+#from openwisp_controller.config.signals import checksum_requested, config_status_changed
+#from openwisp_controller.connection import settings as connection_settings
+#from openwisp_controller.connection.signals import is_working_changed
+#from openwisp_utils.admin_theme import (
+    #register_dashboard_chart,
+    #register_dashboard_template,
 )
 
 from ..check import settings as check_settings
