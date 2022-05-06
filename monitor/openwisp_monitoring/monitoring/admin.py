@@ -38,10 +38,10 @@
 
 #@admin.register(Metric)
 #class MetricAdmin(TimeReadonlyAdminMixin, VersionAdmin):
-    list_display = ['__str__', 'created', 'modified']
-    readonly_fields = ['is_healthy']
-    search_fields = ['name']
-    save_on_top = True
+    #list_display = ['__str__', 'created', 'modified']
+    #readonly_fields = ['is_healthy']
+    #search_fields = ['name']
+    #save_on_top = True
     inlines = [ChartInline, AlertSettingsInline]
     fieldsets = [
         (None, {'fields': ('name', 'content_type', 'object_id', 'configuration')}),
