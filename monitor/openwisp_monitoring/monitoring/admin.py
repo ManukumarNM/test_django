@@ -52,10 +52,10 @@
    # ]
 
    # class Media:
-        css = {'all': ('monitoring/css/monitoring.css',)}
-        js = ('monitoring/js/plotly-cartesian.min.js', 'monitoring/js/chart.js')
+        #css = {'all': ('monitoring/css/monitoring.css',)}
+        #js = ('monitoring/js/plotly-cartesian.min.js', 'monitoring/js/chart.js')
 
-    def reversion_register(self, model, **options):
+    #def reversion_register(self, model, **options):
         if model == Metric:
             options['follow'] = (
                 *(options['follow']),
