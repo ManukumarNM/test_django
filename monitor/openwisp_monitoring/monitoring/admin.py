@@ -46,12 +46,12 @@
     #fieldsets = [
         #(None, {'fields': ('name', 'content_type', 'object_id', 'configuration')}),
         #(
-            _('Advanced options'),
-            {'classes': ('collapse',), 'fields': ('key', 'field_name')},
-        ),
-    ]
+           # _('Advanced options'),
+           # {'classes': ('collapse',), 'fields': ('key', 'field_name')},
+       # ),
+   # ]
 
-    class Media:
+   # class Media:
         css = {'all': ('monitoring/css/monitoring.css',)}
         js = ('monitoring/js/plotly-cartesian.min.js', 'monitoring/js/chart.js')
 
