@@ -56,12 +56,12 @@
         #js = ('monitoring/js/plotly-cartesian.min.js', 'monitoring/js/chart.js')
 
     #def reversion_register(self, model, **options):
-        if model == Metric:
-            options['follow'] = (
-                *(options['follow']),
-                'content_object',
-                'chart_set',
-            )
+        #if model == Metric:
+           # options['follow'] = (
+               # *(options['follow']),
+               # 'content_object',
+               # 'chart_set',
+            #)
         if model == AlertSettings:
             options['follow'] = (
                 *(options['follow']),
