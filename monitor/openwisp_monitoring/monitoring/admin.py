@@ -42,10 +42,10 @@
     #readonly_fields = ['is_healthy']
     #search_fields = ['name']
     #save_on_top = True
-    inlines = [ChartInline, AlertSettingsInline]
-    fieldsets = [
-        (None, {'fields': ('name', 'content_type', 'object_id', 'configuration')}),
-        (
+    #inlines = [ChartInline, AlertSettingsInline]
+    #fieldsets = [
+        #(None, {'fields': ('name', 'content_type', 'object_id', 'configuration')}),
+        #(
             _('Advanced options'),
             {'classes': ('collapse',), 'fields': ('key', 'field_name')},
         ),
