@@ -20,10 +20,10 @@
 #from openwisp_controller.config.admin import DeviceAdmin as BaseDeviceAdmin
 
 #from ..monitoring.admin import MetricAdmin
-from ..settings import MONITORING_API_BASEURL, MONITORING_API_URLCONF
-from . import settings as app_settings
+#from ..settings import MONITORING_API_BASEURL, MONITORING_API_URLCONF
+#from . import settings as app_settings
 
-DeviceData = load_model('device_monitoring', 'DeviceData')
+#DeviceData = load_model('device_monitoring', 'DeviceData')
 DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
 AlertSettings = load_model('monitoring', 'AlertSettings')
 Chart = load_model('monitoring', 'Chart')
