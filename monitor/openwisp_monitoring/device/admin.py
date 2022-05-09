@@ -11,9 +11,9 @@
 #from django.utils.safestring import mark_safe
 #from django.utils.translation import gettext_lazy as _
 #from nested_admin.nested import (
-    NestedGenericStackedInline,
-    NestedModelAdmin,
-    NestedStackedInline,
+    #NestedGenericStackedInline,
+    #NestedModelAdmin,
+    #NestedStackedInline,
 )
 from swapper import load_model
 
