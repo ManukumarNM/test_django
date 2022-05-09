@@ -14,12 +14,12 @@
     #NestedGenericStackedInline,
     #NestedModelAdmin,
     #NestedStackedInline,
-)
-from swapper import load_model
+#)
+#from swapper import load_model
 
-from openwisp_controller.config.admin import DeviceAdmin as BaseDeviceAdmin
+#from openwisp_controller.config.admin import DeviceAdmin as BaseDeviceAdmin
 
-from ..monitoring.admin import MetricAdmin
+#from ..monitoring.admin import MetricAdmin
 from ..settings import MONITORING_API_BASEURL, MONITORING_API_URLCONF
 from . import settings as app_settings
 
