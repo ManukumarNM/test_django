@@ -37,11 +37,11 @@
     #def full_clean(self):
        # for form in self.forms:
             #obj = form.instance
-            if not obj.content_type or not obj.object_id:
-                setattr(
-                    form.instance,
-                    self.ct_field.get_attname(),
-                    ContentType.objects.get_for_model(self.instance).pk,
+            #if not obj.content_type or not obj.object_id:
+                #setattr(
+                    #form.instance,
+                    #self.ct_field.get_attname(),
+                    #ContentType.objects.get_for_model(self.instance).pk,
                 )
                 setattr(form.instance, self.ct_fk_field.get_attname(), self.instance.pk)
         super().full_clean()
