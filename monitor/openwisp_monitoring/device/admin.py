@@ -24,9 +24,9 @@
 #from . import settings as app_settings
 
 #DeviceData = load_model('device_monitoring', 'DeviceData')
-DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
-AlertSettings = load_model('monitoring', 'AlertSettings')
-Chart = load_model('monitoring', 'Chart')
+#DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
+#AlertSettings = load_model('monitoring', 'AlertSettings')
+#Chart = load_model('monitoring', 'Chart')
 Device = load_model('config', 'Device')
 Metric = load_model('monitoring', 'Metric')
 Notification = load_model('openwisp_notifications', 'Notification')
