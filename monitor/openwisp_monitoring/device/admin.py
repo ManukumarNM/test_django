@@ -30,10 +30,10 @@
 #Device = load_model('config', 'Device')
 #Metric = load_model('monitoring', 'Metric')
 #Notification = load_model('openwisp_notifications', 'Notification')
-Check = load_model('check', 'Check')
+#Check = load_model('check', 'Check')
 
 
-class CheckInlineFormSet(BaseGenericInlineFormSet):
+#class CheckInlineFormSet(BaseGenericInlineFormSet):
     def full_clean(self):
         for form in self.forms:
             obj = form.instance
