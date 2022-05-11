@@ -27,9 +27,9 @@
 #DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
 #AlertSettings = load_model('monitoring', 'AlertSettings')
 #Chart = load_model('monitoring', 'Chart')
-Device = load_model('config', 'Device')
-Metric = load_model('monitoring', 'Metric')
-Notification = load_model('openwisp_notifications', 'Notification')
+#Device = load_model('config', 'Device')
+#Metric = load_model('monitoring', 'Metric')
+#Notification = load_model('openwisp_notifications', 'Notification')
 Check = load_model('check', 'Check')
 
 
