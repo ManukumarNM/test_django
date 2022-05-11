@@ -34,9 +34,9 @@
 
 
 #class CheckInlineFormSet(BaseGenericInlineFormSet):
-    def full_clean(self):
-        for form in self.forms:
-            obj = form.instance
+    #def full_clean(self):
+       # for form in self.forms:
+            #obj = form.instance
             if not obj.content_type or not obj.object_id:
                 setattr(
                     form.instance,
