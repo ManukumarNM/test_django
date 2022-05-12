@@ -1,8 +1,8 @@
-from django.conf import settings
+#from django.conf import settings
 
 
-def get_settings_value(option, default=None):
-    return getattr(settings, f'OPENWISP_MONITORING_{option}', default)
+#def get_settings_value(option, default=None):
+    #return getattr(settings, f'OPENWISP_MONITORING_{option}', default)
 
 
 AUTO_CHARTS = get_settings_value(
