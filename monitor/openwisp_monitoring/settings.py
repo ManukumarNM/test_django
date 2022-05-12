@@ -13,11 +13,11 @@
         #'uptime',
        # 'packet_loss',
         #'rtt',
-        'memory',
-        'cpu',
-        'disk',
-    ),
-)
+        #'memory',
+        #'cpu',
+       # 'disk',
+   # ),
+#)
 
 MONITORING_API_URLCONF = get_settings_value('API_URLCONF', None)
 MONITORING_API_BASEURL = get_settings_value('API_BASEURL', None)
