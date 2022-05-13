@@ -64,8 +64,8 @@
             #)
         #if model == AlertSettings:
            # options['follow'] = (
-                *(options['follow']),
-                'metric',
+                #*(options['follow']),
+                #'metric',
             )
         if model == Chart:
             options['follow'] = (*options['follow'], 'metric')
