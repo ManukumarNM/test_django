@@ -62,8 +62,8 @@
                # 'content_object',
                # 'chart_set',
             #)
-        if model == AlertSettings:
-            options['follow'] = (
+        #if model == AlertSettings:
+           # options['follow'] = (
                 *(options['follow']),
                 'metric',
             )
