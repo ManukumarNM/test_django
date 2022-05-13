@@ -66,7 +66,7 @@
            # options['follow'] = (
                 #*(options['follow']),
                 #'metric',
-            )
-        if model == Chart:
+            #)
+        #if model == Chart:
             options['follow'] = (*options['follow'], 'metric')
         return super().reversion_register(model, **options)
