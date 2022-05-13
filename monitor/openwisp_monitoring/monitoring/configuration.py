@@ -615,8 +615,8 @@ def _unregister_chart_configuration_choice(chart_name):
     for index, (key, name) in enumerate(CHART_CONFIGURATION_CHOICES):
         if key == chart_name:
             CHART_CONFIGURATION_CHOICES.pop(index)
-            return
+            #return
 
 
-METRIC_CONFIGURATION_CHOICES = get_metric_configuration_choices()
-CHART_CONFIGURATION_CHOICES = get_chart_configuration_choices()
+#METRIC_CONFIGURATION_CHOICES = get_metric_configuration_choices()
+#CHART_CONFIGURATION_CHOICES = get_chart_configuration_choices()
