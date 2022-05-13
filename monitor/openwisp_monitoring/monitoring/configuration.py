@@ -106,15 +106,15 @@
                 #'query': chart_query['rtt'],
             },
         },
-        'alert_settings': {'operator': '<', 'threshold': 1, 'tolerance': 0},
-        'notification': {
-            'problem': {
-                'verbose_name': 'Ping PROBLEM',
-                'verb': _('is not reachable'),
-                'level': 'warning',
-                'email_subject': _(
-                    '[{site.name}] PROBLEM: {notification.target} {notification.verb}'
-                ),
+       # 'alert_settings': {'operator': '<', 'threshold': 1, 'tolerance': 0},
+        #'notification': {
+            #'problem': {
+                #'verbose_name': 'Ping PROBLEM',
+                #'verb': _('is not reachable'),
+                #'level': 'warning',
+                #'email_subject': _(
+                   # '[{site.name}] PROBLEM: {notification.target} {notification.verb}'
+                #),
                 'message': _(
                     'The device [{notification.target}]({notification.target_link}) '
                     '{notification.verb}.'
