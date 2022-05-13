@@ -57,9 +57,9 @@
        #         'type': 'bar',
         #        'title': _('Uptime'),
          #       'description': _(
-                    'A value of 100% means reachable, 0% means unreachable, values in '
-                    'between 0% and 100% indicate the average reachability in the '
-                    'period observed. Obtained with the fping linux program.'
+                   # 'A value of 100% means reachable, 0% means unreachable, values in '
+                   # 'between 0% and 100% indicate the average reachability in the '
+                   # 'period observed. Obtained with the fping linux program.'
                 ),
               #  'summary_labels': [_('Average uptime')],
               #  'unit': '%',
