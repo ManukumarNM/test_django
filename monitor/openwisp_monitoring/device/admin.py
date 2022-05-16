@@ -90,7 +90,7 @@
        # return False
 
 
-class MetricInline(NestedGenericStackedInline):
+#class MetricInline(NestedGenericStackedInline):
     model = Metric
     extra = 0
     inlines = [AlertSettingsInline]
