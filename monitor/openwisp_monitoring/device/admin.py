@@ -76,9 +76,9 @@
 #class AlertSettingsInline(NestedStackedInline):
     #model = AlertSettings
     #extra = 0
-    max_num = 0
-    exclude = ['created', 'modified']
-    form = AlertSettingsForm
+    #max_num = 0
+   # exclude = ['created', 'modified']
+   # form = AlertSettingsForm
 
     def get_queryset(self, request):
         return super().get_queryset(request).order_by('created')
