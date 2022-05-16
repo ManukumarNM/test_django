@@ -61,16 +61,16 @@
        # return False
 
 
-class AlertSettingsForm(ModelForm):
-    def __init__(self, *args, **kwargs):
-        instance = kwargs.get('instance')
-        if instance:
-            kwargs['initial'] = {
-                'custom_tolerance': instance.tolerance,
-                'custom_operator': instance.operator,
-                'custom_threshold': instance.threshold,
-            }
-        super().__init__(*args, **kwargs)
+#class AlertSettingsForm(ModelForm):
+    #def __init__(self, *args, **kwargs):
+       # instance = kwargs.get('instance')
+       # if instance:
+           # kwargs['initial'] = {
+               # 'custom_tolerance': instance.tolerance,
+               # 'custom_operator': instance.operator,
+               #'custom_threshold': instance.threshold,
+           # }
+       # super().__init__(*args, **kwargs)
 
 
 class AlertSettingsInline(NestedStackedInline):
