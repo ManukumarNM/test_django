@@ -106,8 +106,8 @@
     #def has_delete_permission(self, request, obj=None):
        # return False
 
-    def get_queryset(self, request):
-        return super().get_queryset(request).filter(alertsettings__isnull=False)
+   # def get_queryset(self, request):
+       # return super().get_queryset(request).filter(alertsettings__isnull=False)
 
 
 class DeviceAdmin(BaseDeviceAdmin, NestedModelAdmin):
