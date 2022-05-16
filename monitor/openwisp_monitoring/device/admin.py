@@ -93,9 +93,9 @@
 #class MetricInline(NestedGenericStackedInline):
    # model = Metric
    # extra = 0
-    inlines = [AlertSettingsInline]
-    readonly_fields = ['name', 'is_healthy']
-    fields = ['name', 'is_healthy']
+   # inlines = [AlertSettingsInline]
+   # readonly_fields = ['name', 'is_healthy']
+   # fields = ['name', 'is_healthy']
     # Explicitly changed name from Metrics to Alert Settings
     verbose_name = _('Alert Settings')
     verbose_name_plural = verbose_name
