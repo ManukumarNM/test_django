@@ -73,7 +73,7 @@
        # super().__init__(*args, **kwargs)
 
 
-class AlertSettingsInline(NestedStackedInline):
+#class AlertSettingsInline(NestedStackedInline):
     model = AlertSettings
     extra = 0
     max_num = 0
