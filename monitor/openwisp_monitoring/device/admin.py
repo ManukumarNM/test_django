@@ -54,8 +54,8 @@
    # fields = ['check_type', 'is_active']
    # readonly_fields = ['check_type']
 
-    def has_add_permission(self, request, obj=None):
-        return False
+    #def has_add_permission(self, request, obj=None):
+        #return False
 
     def has_delete_permission(self, request, obj=None):
         return False
