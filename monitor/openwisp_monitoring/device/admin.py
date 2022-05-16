@@ -91,8 +91,8 @@
 
 
 #class MetricInline(NestedGenericStackedInline):
-    model = Metric
-    extra = 0
+   # model = Metric
+   # extra = 0
     inlines = [AlertSettingsInline]
     readonly_fields = ['name', 'is_healthy']
     fields = ['name', 'is_healthy']
