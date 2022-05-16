@@ -47,9 +47,9 @@
         #super().full_clean()
 
 
-class CheckInline(GenericStackedInline):
-    model = Check
-    extra = 0
+#class CheckInline(GenericStackedInline):
+   # model = Check
+    #extra = 0
     formset = CheckInlineFormSet
     fields = ['check_type', 'is_active']
     readonly_fields = ['check_type']
