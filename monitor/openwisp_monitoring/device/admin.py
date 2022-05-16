@@ -80,8 +80,8 @@
    # exclude = ['created', 'modified']
    # form = AlertSettingsForm
 
-    def get_queryset(self, request):
-        return super().get_queryset(request).order_by('created')
+    #def get_queryset(self, request):
+        #return super().get_queryset(request).order_by('created')
 
     def has_add_permission(self, request, obj=None):
         return False
