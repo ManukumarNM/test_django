@@ -74,8 +74,8 @@
 
 
 #class AlertSettingsInline(NestedStackedInline):
-    model = AlertSettings
-    extra = 0
+    #model = AlertSettings
+    #extra = 0
     max_num = 0
     exclude = ['created', 'modified']
     form = AlertSettingsForm
