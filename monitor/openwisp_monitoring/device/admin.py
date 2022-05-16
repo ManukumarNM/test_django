@@ -97,11 +97,11 @@
    # readonly_fields = ['name', 'is_healthy']
    # fields = ['name', 'is_healthy']
     # Explicitly changed name from Metrics to Alert Settings
-    verbose_name = _('Alert Settings')
-    verbose_name_plural = verbose_name
+    #verbose_name = _('Alert Settings')
+    #verbose_name_plural = verbose_name
 
-    def has_add_permission(self, request, obj=None):
-        return False
+    #def has_add_permission(self, request, obj=None):
+       # return False
 
     def has_delete_permission(self, request, obj=None):
         return False
