@@ -27,10 +27,10 @@
                # "load": {
                    # "type": "array",
                    # "items": {"type": "number", "minItems": 3, "maxItems": 3},
-                },
-                "cpus": {"type": "integer"},
-                "memory": {
-                    "id": "memory",
+               # },
+                #"cpus": {"type": "integer"},
+               # "memory": {
+                  #  "id": "memory",
                     "type": "object",
                     "properties": {
                         "total": {"type": "integer"},
