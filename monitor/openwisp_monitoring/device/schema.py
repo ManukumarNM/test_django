@@ -24,9 +24,9 @@
           #  "title": "Resources",
           #  "additionalProperties": True,
           #  "properties": {
-                "load": {
-                    "type": "array",
-                    "items": {"type": "number", "minItems": 3, "maxItems": 3},
+               # "load": {
+                   # "type": "array",
+                   # "items": {"type": "number", "minItems": 3, "maxItems": 3},
                 },
                 "cpus": {"type": "integer"},
                 "memory": {
