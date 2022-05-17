@@ -17,13 +17,13 @@
            # "properties": {
                # "local_time": {"type": "integer"},
               #  "uptime": {"type": "integer"},
-            },
-        },
-        "resources": {
-            "type": "object",
-            "title": "Resources",
-            "additionalProperties": True,
-            "properties": {
+          #  },
+      #  },
+       # "resources": {
+          #  "type": "object",
+          #  "title": "Resources",
+          #  "additionalProperties": True,
+          #  "properties": {
                 "load": {
                     "type": "array",
                     "items": {"type": "number", "minItems": 3, "maxItems": 3},
