@@ -14,9 +14,9 @@
            # "type": "object",
            # "title": "General",
            # "additionalProperties": True,
-            "properties": {
-                "local_time": {"type": "integer"},
-                "uptime": {"type": "integer"},
+           # "properties": {
+               # "local_time": {"type": "integer"},
+              #  "uptime": {"type": "integer"},
             },
         },
         "resources": {
