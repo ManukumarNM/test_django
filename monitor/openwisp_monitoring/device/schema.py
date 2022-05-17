@@ -10,10 +10,10 @@
   #  "required": ["type"],
     #"properties": {
        # "type": {"type": "string", "enum": ["DeviceMonitoring"]},
-        "general": {
-            "type": "object",
-            "title": "General",
-            "additionalProperties": True,
+       # "general": {
+           # "type": "object",
+           # "title": "General",
+           # "additionalProperties": True,
             "properties": {
                 "local_time": {"type": "integer"},
                 "uptime": {"type": "integer"},
