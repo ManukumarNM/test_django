@@ -8,8 +8,8 @@
    # "type": "object",
    # "additionalProperties": True,
   #  "required": ["type"],
-    "properties": {
-        "type": {"type": "string", "enum": ["DeviceMonitoring"]},
+    #"properties": {
+       # "type": {"type": "string", "enum": ["DeviceMonitoring"]},
         "general": {
             "type": "object",
             "title": "General",
