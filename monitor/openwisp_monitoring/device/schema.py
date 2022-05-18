@@ -39,8 +39,8 @@
                         "cached": {"type": "integer"},
                         "shared": {"type": "integer"},
                         "available": {"type": "integer"},
-                    },
-                    "required": ["total", "free", "buffered", "shared"],
+                    #},
+                    #"required": ["total", "free", "buffered", "shared"],
                 },
                 "disk": {
                     "type": "array",
