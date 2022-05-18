@@ -31,9 +31,9 @@
                 #"cpus": {"type": "integer"},
                # "memory": {
                   #  "id": "memory",
-                    "type": "object",
-                    "properties": {
-                        "total": {"type": "integer"},
+                   # "type": "object",
+                   # "properties": {
+                       # "total": {"type": "integer"},
                         #"free": {"type": "integer"},
                        # "buffered": {"type": "integer"},
                        # "cached": {"type": "integer"},
