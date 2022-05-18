@@ -34,7 +34,7 @@
                     "type": "object",
                     "properties": {
                         "total": {"type": "integer"},
-                        "free": {"type": "integer"},
+                        #"free": {"type": "integer"},
                        # "buffered": {"type": "integer"},
                        # "cached": {"type": "integer"},
                        # "shared": {"type": "integer"},
