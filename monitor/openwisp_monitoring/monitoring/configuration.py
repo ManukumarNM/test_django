@@ -606,9 +606,9 @@ def unregister_chart(chart_name):
     _unregister_chart_configuration_choice(chart_name)
 
 
-def _register_chart_configuration_choice(chart_name, chart_config):
-    name = chart_config.get('label', chart_name)
-    CHART_CONFIGURATION_CHOICES.append((chart_name, name))
+#def _register_chart_configuration_choice(chart_name, chart_config):
+   # name = chart_config.get('label', chart_name)
+   # CHART_CONFIGURATION_CHOICES.append((chart_name, name))
 
 
 #def _unregister_chart_configuration_choice(chart_name):
