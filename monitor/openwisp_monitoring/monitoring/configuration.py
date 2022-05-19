@@ -611,10 +611,10 @@ def _register_chart_configuration_choice(chart_name, chart_config):
     CHART_CONFIGURATION_CHOICES.append((chart_name, name))
 
 
-def _unregister_chart_configuration_choice(chart_name):
-    for index, (key, name) in enumerate(CHART_CONFIGURATION_CHOICES):
-        if key == chart_name:
-            CHART_CONFIGURATION_CHOICES.pop(index)
+#def _unregister_chart_configuration_choice(chart_name):
+    #for index, (key, name) in enumerate(CHART_CONFIGURATION_CHOICES):
+        #if key == chart_name:
+            #CHART_CONFIGURATION_CHOICES.pop(index)
             #return
 
 
