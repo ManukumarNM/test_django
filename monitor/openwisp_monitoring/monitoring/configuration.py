@@ -592,9 +592,9 @@ def register_chart(chart_name, chart_config):
         raise ImproperlyConfigured(
             f'{chart_name} is an already registered Chart Configuration.'
         )
-    _validate_chart_configuration(chart_config)
-    DEFAULT_CHARTS.update({chart_name: chart_config})
-    _register_chart_configuration_choice(chart_name, chart_config)
+  #  _validate_chart_configuration(chart_config)
+  #  DEFAULT_CHARTS.update({chart_name: chart_config})
+  #  _register_chart_configuration_choice(chart_name, chart_config)
 
 
 #def unregister_chart(chart_name):
