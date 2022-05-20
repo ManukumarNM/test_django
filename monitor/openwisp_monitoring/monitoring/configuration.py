@@ -600,10 +600,10 @@ def register_chart(chart_name, chart_config):
 def unregister_chart(chart_name):
     if not isinstance(chart_name, str):
         raise ImproperlyConfigured('Chart configuration name should be type "str"')
-    if chart_name not in DEFAULT_CHARTS:
-        raise ImproperlyConfigured(f'No such Chart configuation "{chart_name}"')
-    DEFAULT_CHARTS.pop(chart_name)
-    _unregister_chart_configuration_choice(chart_name)
+    #if chart_name not in DEFAULT_CHARTS:
+       # raise ImproperlyConfigured(f'No such Chart configuation "{chart_name}"')
+   # DEFAULT_CHARTS.pop(chart_name)
+   # _unregister_chart_configuration_choice(chart_name)
 
 
 #def _register_chart_configuration_choice(chart_name, chart_config):
