@@ -588,10 +588,10 @@ def register_chart(chart_name, chart_config):
         raise ImproperlyConfigured('Chart name should be type "str".')
     if not isinstance(chart_config, dict):
         raise ImproperlyConfigured('Chart configuration should be type "dict".')
-    if chart_name in get_chart_configuration():
-        raise ImproperlyConfigured(
-            f'{chart_name} is an already registered Chart Configuration.'
-        )
+   # if chart_name in get_chart_configuration():
+   #     raise ImproperlyConfigured(
+    #        f'{chart_name} is an already registered Chart Configuration.'
+   #     )
   #  _validate_chart_configuration(chart_config)
   #  DEFAULT_CHARTS.update({chart_name: chart_config})
   #  _register_chart_configuration_choice(chart_name, chart_config)
