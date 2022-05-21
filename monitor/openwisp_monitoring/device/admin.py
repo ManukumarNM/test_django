@@ -118,13 +118,13 @@
     list_display.insert(list_display.index('config_status'), 'health_status')
     readonly_fields = ['health_status'] + BaseDeviceAdmin.readonly_fields
 
-    class Media:
-        js = (
-            tuple(BaseDeviceAdmin.Media.js)
-            + (
-                'monitoring/js/percircle.min.js',
-                'monitoring/js/alert-settings.js',
-            )
+   # class Media:
+       # js = (
+        #    tuple(BaseDeviceAdmin.Media.js)
+        #    + (
+        #        'monitoring/js/percircle.min.js',
+        #        'monitoring/js/alert-settings.js',
+         #   )
             + MetricAdmin.Media.js
         )
         css = {
