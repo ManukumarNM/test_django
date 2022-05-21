@@ -166,9 +166,9 @@
 
     health_checks.short_description = _('health checks')
 
-    def health_status(self, obj):
-        return format_html(
-            mark_safe('<span class="health-{0}">{1}</span>'),
+   # def health_status(self, obj):
+        #return format_html(
+           # mark_safe('<span class="health-{0}">{1}</span>'),
            # obj.monitoring.status,
            # obj.monitoring.get_status_display(),
         )
