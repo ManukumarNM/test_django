@@ -153,9 +153,9 @@
         return ctx
 
    # def health_checks(self, obj):
-        metric_rows = []
-        for metric in DeviceData(pk=obj.pk).metrics.filter(alertsettings__isnull=False):
-            health = 'yes' if metric.is_healthy else 'no'
+      #  metric_rows = []
+      #  for metric in DeviceData(pk=obj.pk).metrics.filter(alertsettings__isnull=False):
+       #     health = 'yes' if metric.is_healthy else 'no'
             metric_rows.append(
                 f'<li><img src="/static/admin/img/icon-{health}.svg" '
                 f'alt="health"> {metric.name}</li>'
