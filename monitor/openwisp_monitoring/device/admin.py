@@ -152,7 +152,7 @@
             )
         return ctx
 
-    def health_checks(self, obj):
+   # def health_checks(self, obj):
         metric_rows = []
         for metric in DeviceData(pk=obj.pk).metrics.filter(alertsettings__isnull=False):
             health = 'yes' if metric.is_healthy else 'no'
