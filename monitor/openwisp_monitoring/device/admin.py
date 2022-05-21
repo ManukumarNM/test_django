@@ -162,9 +162,9 @@
             )
         return format_html(
             mark_safe(f'<ul class="health_checks">{"".join(metric_rows)}</ul>')
-        )
+      #  )
 
-    health_checks.short_description = _('health checks')
+   # health_checks.short_description = _('health checks')
 
    # def health_status(self, obj):
         #return format_html(
