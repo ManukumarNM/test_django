@@ -136,9 +136,9 @@
         if pk:
             device_data = DeviceData(pk=uuid.UUID(pk))
             api_url = reverse(
-                'monitoring:api_device_metric',
-                urlconf=MONITORING_API_URLCONF,
-                args=[pk],
+               # 'monitoring:api_device_metric',
+               # urlconf=MONITORING_API_URLCONF,
+               # args=[pk],
             )
             if MONITORING_API_BASEURL:
                 api_url = urljoin(MONITORING_API_BASEURL, api_url)
