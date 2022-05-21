@@ -148,9 +148,9 @@
                     'api_url': api_url,
                     'default_time': Chart.DEFAULT_TIME,
                     'MAC_VENDOR_DETECTION': app_settings.MAC_VENDOR_DETECTION,
-                }
-            )
-        return ctx
+             #   }
+          #  )
+       # return ctx
 
    # def health_checks(self, obj):
       #  metric_rows = []
