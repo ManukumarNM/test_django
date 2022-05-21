@@ -159,9 +159,9 @@
             metric_rows.append(
                 f'<li><img src="/static/admin/img/icon-{health}.svg" '
                 f'alt="health"> {metric.name}</li>'
-            )
-        return format_html(
-            mark_safe(f'<ul class="health_checks">{"".join(metric_rows)}</ul>')
+          #  )
+       # return format_html(
+         #   mark_safe(f'<ul class="health_checks">{"".join(metric_rows)}</ul>')
       #  )
 
    # health_checks.short_description = _('health checks')
