@@ -110,11 +110,11 @@
        # return super().get_queryset(request).filter(alertsettings__isnull=False)
 
 
-class DeviceAdmin(BaseDeviceAdmin, NestedModelAdmin):
-    change_form_template = 'admin/config/device/change_form.html'
-    list_filter = ['monitoring__status'] + BaseDeviceAdmin.list_filter
+#class DeviceAdmin(BaseDeviceAdmin, NestedModelAdmin):
+   # change_form_template = 'admin/config/device/change_form.html'
+   # list_filter = ['monitoring__status'] + BaseDeviceAdmin.list_filter
     list_select_related = ['monitoring'] + list(BaseDeviceAdmin.list_select_related)
-    list_display = list(BaseDeviceAdmin.list_display)
+  #  list_display = list(BaseDeviceAdmin.list_display)
     list_display.insert(list_display.index('config_status'), 'health_status')
     readonly_fields = ['health_status'] + BaseDeviceAdmin.readonly_fields
 
