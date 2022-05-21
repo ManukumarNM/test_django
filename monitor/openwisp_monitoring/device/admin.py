@@ -143,11 +143,11 @@
            # if MONITORING_API_BASEURL:
            #     api_url = urljoin(MONITORING_API_BASEURL, api_url)
           #  ctx.update(
-                {
-                    'device_data': device_data.data_user_friendly,
-                    'api_url': api_url,
-                    'default_time': Chart.DEFAULT_TIME,
-                    'MAC_VENDOR_DETECTION': app_settings.MAC_VENDOR_DETECTION,
+           #     {
+               #     'device_data': device_data.data_user_friendly,
+               #     'api_url': api_url,
+               #     'default_time': Chart.DEFAULT_TIME,
+               #     'MAC_VENDOR_DETECTION': app_settings.MAC_VENDOR_DETECTION,
              #   }
           #  )
        # return ctx
