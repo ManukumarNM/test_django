@@ -113,10 +113,10 @@
 #class DeviceAdmin(BaseDeviceAdmin, NestedModelAdmin):
    # change_form_template = 'admin/config/device/change_form.html'
    # list_filter = ['monitoring__status'] + BaseDeviceAdmin.list_filter
-    list_select_related = ['monitoring'] + list(BaseDeviceAdmin.list_select_related)
+   # list_select_related = ['monitoring'] + list(BaseDeviceAdmin.list_select_related)
   #  list_display = list(BaseDeviceAdmin.list_display)
-    list_display.insert(list_display.index('config_status'), 'health_status')
-    readonly_fields = ['health_status'] + BaseDeviceAdmin.readonly_fields
+   # list_display.insert(list_display.index('config_status'), 'health_status')
+  #  readonly_fields = ['health_status'] + BaseDeviceAdmin.readonly_fields
 
    # class Media:
        # js = (
@@ -125,11 +125,11 @@
         #        'monitoring/js/percircle.min.js',
         #        'monitoring/js/alert-settings.js',
          #   )
-            + MetricAdmin.Media.js
-        )
-        css = {
-            'all': ('monitoring/css/percircle.min.css',) + MetricAdmin.Media.css['all']
-        }
+         #   + MetricAdmin.Media.js
+       # )
+       # css = {
+        #    'all': ('monitoring/css/percircle.min.css',) + MetricAdmin.Media.css['all']
+       # }
 
     def get_extra_context(self, pk=None):
         ctx = super().get_extra_context(pk)
