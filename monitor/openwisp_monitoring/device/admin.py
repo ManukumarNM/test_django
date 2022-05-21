@@ -134,7 +134,7 @@
    # def get_extra_context(self, pk=None):
      #   ctx = super().get_extra_context(pk)
       #  if pk:
-            device_data = DeviceData(pk=uuid.UUID(pk))
+        #    device_data = DeviceData(pk=uuid.UUID(pk))
             api_url = reverse(
                # 'monitoring:api_device_metric',
                # urlconf=MONITORING_API_URLCONF,
