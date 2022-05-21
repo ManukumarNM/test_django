@@ -131,8 +131,8 @@
         #    'all': ('monitoring/css/percircle.min.css',) + MetricAdmin.Media.css['all']
        # }
 
-    def get_extra_context(self, pk=None):
-        ctx = super().get_extra_context(pk)
+   # def get_extra_context(self, pk=None):
+     #   ctx = super().get_extra_context(pk)
         if pk:
             device_data = DeviceData(pk=uuid.UUID(pk))
             api_url = reverse(
