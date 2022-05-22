@@ -180,8 +180,8 @@
         Adds the help_text of DeviceMonitoring.status field
         """
         health_status = DeviceMonitoring._meta.get_field('status').help_text
-        kwargs.update(
-            {'help_texts': {'health_status': health_status.replace('\n', '<br>')}}
+     #   kwargs.update(
+     #       {'help_texts': {'health_status': health_status.replace('\n', '<br>')}}
      #   )
      #   return super().get_form(request, obj, **kwargs)
 
