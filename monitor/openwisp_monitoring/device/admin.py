@@ -173,9 +173,9 @@
            # obj.monitoring.get_status_display(),
         )
 
-    health_status.short_description = _('health status')
+    #health_status.short_description = _('health status')
 
-    def get_form(self, request, obj=None, **kwargs):
+   # def get_form(self, request, obj=None, **kwargs):
         """
         Adds the help_text of DeviceMonitoring.status field
         """
