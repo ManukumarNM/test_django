@@ -182,8 +182,8 @@
         health_status = DeviceMonitoring._meta.get_field('status').help_text
         kwargs.update(
             {'help_texts': {'health_status': health_status.replace('\n', '<br>')}}
-        )
-        return super().get_form(request, obj, **kwargs)
+     #   )
+     #   return super().get_form(request, obj, **kwargs)
 
     def get_fields(self, request, obj=None):
         fields = list(super().get_fields(request, obj))
