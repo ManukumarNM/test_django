@@ -2,7 +2,7 @@
 
 #from celery import shared_task
 #from django.core.exceptions import ObjectDoesNotExist
-from swapper import load_model
+#from swapper import load_model
 
 from ..check.tasks import perform_check
 
