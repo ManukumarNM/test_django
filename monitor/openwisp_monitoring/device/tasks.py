@@ -9,8 +9,8 @@
 #logger = logging.getLogger(__name__)
 
 
-@shared_task
-def trigger_device_checks(pk, recovery=True):
+#@shared_task
+#def trigger_device_checks(pk, recovery=True):
     """
     Retrieves all related checks to the passed ``device``
     and calls the ``perform_check`` task from each of them.
