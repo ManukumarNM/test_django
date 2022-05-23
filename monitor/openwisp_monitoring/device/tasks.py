@@ -4,9 +4,9 @@
 #from django.core.exceptions import ObjectDoesNotExist
 #from swapper import load_model
 
-from ..check.tasks import perform_check
+#from ..check.tasks import perform_check
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 
 @shared_task
