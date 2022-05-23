@@ -1,7 +1,7 @@
-import logging
+#import logging
 
-from celery import shared_task
-from django.core.exceptions import ObjectDoesNotExist
+#from celery import shared_task
+#from django.core.exceptions import ObjectDoesNotExist
 from swapper import load_model
 
 from ..check.tasks import perform_check
