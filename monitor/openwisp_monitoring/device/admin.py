@@ -206,8 +206,8 @@
         inlines = super().get_inlines(request, obj)
         inlines = list(inlines + [CheckInline, MetricInline])
         # This attribute needs to be set for nested inline
-        for inline in inlines:
-            if not hasattr(inline, 'sortable_options'):
+       # for inline in inlines:
+          #  if not hasattr(inline, 'sortable_options'):
                 inline.sortable_options = {'disabled': True}
         if not obj or obj._state.adding:
             inlines.remove(MetricInline)
