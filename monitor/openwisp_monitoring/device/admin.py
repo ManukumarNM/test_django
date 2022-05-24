@@ -215,4 +215,4 @@
 
 
 #admin.site.unregister(Device)
-admin.site.register(Device, DeviceAdmin)
+#admin.site.register(Device, DeviceAdmin)
