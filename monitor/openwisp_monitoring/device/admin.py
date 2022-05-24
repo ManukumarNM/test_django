@@ -214,5 +214,5 @@
         return inlines
 
 
-admin.site.unregister(Device)
+#admin.site.unregister(Device)
 admin.site.register(Device, DeviceAdmin)
