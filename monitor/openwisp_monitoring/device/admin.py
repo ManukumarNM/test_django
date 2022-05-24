@@ -192,7 +192,7 @@
         if not obj or obj.monitoring.status in ['ok', 'unknown']:
             return fields
         fields.insert(fields.index('health_status') + 1, 'health_checks')
-        return fields
+       # return fields
 
     def get_readonly_fields(self, request, obj=None):
         readonly_fields = super().get_readonly_fields(request, obj)
