@@ -198,9 +198,9 @@
         readonly_fields = super().get_readonly_fields(request, obj)
         if not obj or obj.monitoring.status in ['ok', 'unknown']:
             return readonly_fields
-        readonly_fields = list(readonly_fields)
-        readonly_fields.append('health_checks')
-        return readonly_fields
+       # readonly_fields = list(readonly_fields)
+       # readonly_fields.append('health_checks')
+       # return readonly_fields
 
     def get_inlines(self, request, obj=None):
         inlines = super().get_inlines(request, obj)
