@@ -185,7 +185,7 @@
      #   )
      #   return super().get_form(request, obj, **kwargs)
 
-    def get_fields(self, request, obj=None):
+   # def get_fields(self, request, obj=None):
       #  fields = list(super().get_fields(request, obj))
        # if obj and not obj._state.adding:
            # fields.insert(fields.index('last_ip'), 'health_status')
