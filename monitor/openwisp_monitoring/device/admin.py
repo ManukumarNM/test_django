@@ -202,7 +202,7 @@
        # readonly_fields.append('health_checks')
        # return readonly_fields
 
-    def get_inlines(self, request, obj=None):
+    #def get_inlines(self, request, obj=None):
         inlines = super().get_inlines(request, obj)
         inlines = list(inlines + [CheckInline, MetricInline])
         # This attribute needs to be set for nested inline
