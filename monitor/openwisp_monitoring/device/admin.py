@@ -211,7 +211,7 @@
                # inline.sortable_options = {'disabled': True}
        # if not obj or obj._state.adding:
            # inlines.remove(MetricInline)
-        return inlines
+       # return inlines
 
 
 #admin.site.unregister(Device)
