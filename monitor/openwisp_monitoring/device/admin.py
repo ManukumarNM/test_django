@@ -210,7 +210,7 @@
           #  if not hasattr(inline, 'sortable_options'):
                # inline.sortable_options = {'disabled': True}
        # if not obj or obj._state.adding:
-            inlines.remove(MetricInline)
+           # inlines.remove(MetricInline)
         return inlines
 
 
