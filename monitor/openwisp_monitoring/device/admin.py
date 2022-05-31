@@ -203,8 +203,8 @@
        # return readonly_fields
 
     #def get_inlines(self, request, obj=None):
-        inlines = super().get_inlines(request, obj)
-        inlines = list(inlines + [CheckInline, MetricInline])
+        #inlines = super().get_inlines(request, obj)
+       # inlines = list(inlines + [CheckInline, MetricInline])
         # This attribute needs to be set for nested inline
        # for inline in inlines:
           #  if not hasattr(inline, 'sortable_options'):
