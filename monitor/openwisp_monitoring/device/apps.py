@@ -18,7 +18,7 @@
 
 #from ..check import settings as check_settings
 #from ..settings import MONITORING_API_BASEURL, MONITORING_API_URLCONF
-from ..utils import transaction_on_commit
+#from ..utils import transaction_on_commit
 from . import settings as app_settings
 from .signals import device_metrics_received, health_status_changed
 from .utils import get_device_cache_key, manage_short_retention_policy
