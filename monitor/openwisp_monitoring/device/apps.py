@@ -14,10 +14,10 @@
 #from openwisp_utils.admin_theme import (
     #register_dashboard_chart,
     #register_dashboard_template,
-)
+#)
 
-from ..check import settings as check_settings
-from ..settings import MONITORING_API_BASEURL, MONITORING_API_URLCONF
+#from ..check import settings as check_settings
+#from ..settings import MONITORING_API_BASEURL, MONITORING_API_URLCONF
 from ..utils import transaction_on_commit
 from . import settings as app_settings
 from .signals import device_metrics_received, health_status_changed
