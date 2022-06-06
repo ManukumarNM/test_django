@@ -23,8 +23,8 @@
    # except ObjectDoesNotExist:
        # logger.warning(f'The device with uuid {pk} has been deleted')
        # return
-    checks = device.checks.filter(is_active=True).only('id').values('id')
-    has_checks = False
+   # checks = device.checks.filter(is_active=True).only('id').values('id')
+   # has_checks = False
     for check in checks:
         perform_check.delay(check['id'])
         has_checks = True
