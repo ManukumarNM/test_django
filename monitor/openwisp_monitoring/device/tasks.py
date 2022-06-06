@@ -17,8 +17,8 @@
     If no check exists changes the status according to the
     ``recovery`` argument.
     """
-    DeviceData = load_model('device_monitoring', 'DeviceData')
-    try:
+   # DeviceData = load_model('device_monitoring', 'DeviceData')
+   # try:
         device = DeviceData.objects.get(pk=pk)
     except ObjectDoesNotExist:
         logger.warning(f'The device with uuid {pk} has been deleted')
