@@ -21,8 +21,8 @@
    # try:
        # device = DeviceData.objects.get(pk=pk)
    # except ObjectDoesNotExist:
-        logger.warning(f'The device with uuid {pk} has been deleted')
-        return
+       # logger.warning(f'The device with uuid {pk} has been deleted')
+       # return
     checks = device.checks.filter(is_active=True).only('id').values('id')
     has_checks = False
     for check in checks:
