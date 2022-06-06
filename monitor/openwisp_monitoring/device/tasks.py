@@ -19,8 +19,8 @@
     """
    # DeviceData = load_model('device_monitoring', 'DeviceData')
    # try:
-        device = DeviceData.objects.get(pk=pk)
-    except ObjectDoesNotExist:
+       # device = DeviceData.objects.get(pk=pk)
+   # except ObjectDoesNotExist:
         logger.warning(f'The device with uuid {pk} has been deleted')
         return
     checks = device.checks.filter(is_active=True).only('id').values('id')
