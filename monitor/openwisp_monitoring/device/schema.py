@@ -50,9 +50,9 @@
                       #  "type": "object",
                        # "title": "Disk",
                       #  "additionalProperties": False,
-                        "properties": {
-                            "mount_point": {"type": "string"},
-                            "filesystem": {"type": "string"},
+                       # "properties": {
+                          #  "mount_point": {"type": "string"},
+                           # "filesystem": {"type": "string"},
                             "used_bytes": {"type": "integer"},
                             "available_bytes": {"type": "integer"},
                             "used_percent": {"type": "integer"},
