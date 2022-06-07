@@ -53,11 +53,11 @@
                        # "properties": {
                           #  "mount_point": {"type": "string"},
                            # "filesystem": {"type": "string"},
-                            "used_bytes": {"type": "integer"},
-                            "available_bytes": {"type": "integer"},
-                            "used_percent": {"type": "integer"},
-                            "size_bytes": {"type": "integer"},
-                        },
+                           # "used_bytes": {"type": "integer"},
+                           # "available_bytes": {"type": "integer"},
+                          #  "used_percent": {"type": "integer"},
+                         #   "size_bytes": {"type": "integer"},
+                      #  },
                         "required": [
                             "mount_point",
                             "filesystem",
