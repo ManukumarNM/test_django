@@ -41,12 +41,12 @@
                        # "available": {"type": "integer"},
                     #},
                     #"required": ["total", "free", "buffered", "shared"],
-                },
-                "disk": {
-                    "type": "array",
-                    "additionalItems": False,
-                    "title": "Disks",
-                    "items": {
+               # },
+               # "disk": {
+                 #   "type": "array",
+                 #   "additionalItems": False,
+                 #   "title": "Disks",
+                 #   "items": {
                         "type": "object",
                         "title": "Disk",
                         "additionalProperties": False,
