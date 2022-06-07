@@ -47,9 +47,9 @@
                  #   "additionalItems": False,
                  #   "title": "Disks",
                  #   "items": {
-                        "type": "object",
-                        "title": "Disk",
-                        "additionalProperties": False,
+                      #  "type": "object",
+                       # "title": "Disk",
+                      #  "additionalProperties": False,
                         "properties": {
                             "mount_point": {"type": "string"},
                             "filesystem": {"type": "string"},
