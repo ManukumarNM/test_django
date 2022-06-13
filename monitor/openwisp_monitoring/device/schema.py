@@ -64,10 +64,10 @@
                            # "used_bytes",
                            # "available_bytes",
                           #  "used_percent",
-                            "size_bytes",
-                        ],
-                    },
-                },
+                         #   "size_bytes",
+                      #  ],
+                  #  },
+               # },
                 "swap": {
                     "type": "object",
                     "properties": {
