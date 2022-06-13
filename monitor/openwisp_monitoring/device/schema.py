@@ -58,8 +58,8 @@
                           #  "used_percent": {"type": "integer"},
                          #   "size_bytes": {"type": "integer"},
                       #  },
-                        "required": [
-                            "mount_point",
+                       # "required": [
+                         #   "mount_point",
                             "filesystem",
                             "used_bytes",
                             "available_bytes",
