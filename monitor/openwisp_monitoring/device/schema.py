@@ -60,8 +60,8 @@
                       #  },
                        # "required": [
                          #   "mount_point",
-                            "filesystem",
-                            "used_bytes",
+                           # "filesystem",
+                           # "used_bytes",
                             "available_bytes",
                             "used_percent",
                             "size_bytes",
