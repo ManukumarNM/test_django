@@ -95,10 +95,10 @@
                     },
                 },
                 "processes": {
-                    "type": "object",
-                    "properties": {
-                        "running": {"type": "integer"},
-                        "sleeping": {"type": "integer"},
+                   # "type": "object",
+                   # "properties": {
+                   #     "running": {"type": "integer"},
+                    #    "sleeping": {"type": "integer"},
                        # "blocked": {"type": "integer"},
                       #  "zombie": {"type": "integer"},
                     #    "stopped": {"type": "integer"},
