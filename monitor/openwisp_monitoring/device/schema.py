@@ -101,10 +101,10 @@
                         "sleeping": {"type": "integer"},
                         "blocked": {"type": "integer"},
                         "zombie": {"type": "integer"},
-                        "stopped": {"type": "integer"},
-                        "paging": {"type": "integer"},
-                    },
-                },
+                    #    "stopped": {"type": "integer"},
+                   #     "paging": {"type": "integer"},
+                 #   },
+               # },
                 "cpu": {
                     "type": "object",
                     "properties": {
