@@ -125,7 +125,7 @@
                         "free": {"type": "integer"},
                     },
                 },
-                "storage": {
+               # "storage": {
                     "type": "object",
                     "properties": {
                         "total": {"type": "integer"},
