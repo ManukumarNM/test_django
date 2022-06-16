@@ -90,8 +90,8 @@
                             "properties": {
                                 "tcp": {"type": "integer"},
                                 "udp": {"type": "integer"},
-                            },
-                        },
+                         #   },
+                      #  },
                  #   },
               #  },
                 #"processes": {
