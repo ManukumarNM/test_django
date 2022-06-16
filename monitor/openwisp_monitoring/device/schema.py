@@ -121,7 +121,7 @@
                 "flash": {
                     "type": "object",
                    # "properties": {
-                        "total": {"type": "integer"},
+                   #     "total": {"type": "integer"},
                   #      "free": {"type": "integer"},
                  #   },
                # },
