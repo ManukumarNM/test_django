@@ -118,8 +118,8 @@
                         "softirq": {"type": "integer"},
                     },
                 },
-                "flash": {
-                    "type": "object",
+                #"flash": {
+                  #  "type": "object",
                    # "properties": {
                    #     "total": {"type": "integer"},
                   #      "free": {"type": "integer"},
