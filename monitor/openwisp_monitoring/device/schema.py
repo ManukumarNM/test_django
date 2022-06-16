@@ -93,8 +93,8 @@
                             },
                         },
                     },
-                },
-                "processes": {
+              #  },
+                #"processes": {
                    # "type": "object",
                    # "properties": {
                    #     "running": {"type": "integer"},
