@@ -122,9 +122,9 @@
                     "type": "object",
                     "properties": {
                         "total": {"type": "integer"},
-                        "free": {"type": "integer"},
-                    },
-                },
+                  #      "free": {"type": "integer"},
+                 #   },
+               # },
                # "storage": {
                     "type": "object",
                     "properties": {
