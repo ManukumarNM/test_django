@@ -105,7 +105,7 @@
                    #     "paging": {"type": "integer"},
                  #   },
                # },
-                "cpu": {
+                #"cpu": {
                     "type": "object",
                     "properties": {
                         "frequency": {"type": "integer"},
@@ -417,4 +417,4 @@
             },
         },
     },
-}
+#}
