@@ -414,7 +414,7 @@
                     "state": {"type": "string"},
                 },
                 "required": ["ip", "interface"],
-            },
-        },
-    },
+       #     },
+     #   },
+   # },
 #}
