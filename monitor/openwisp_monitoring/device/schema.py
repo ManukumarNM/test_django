@@ -401,7 +401,7 @@
             "additionalItems": False,
             "items": {
                 "type": "object",
-                "title": "Neighbor",
+               # "title": "Neighbor",
                # "additionalProperties": False,
                 #"properties": {
                    # "ip": {
