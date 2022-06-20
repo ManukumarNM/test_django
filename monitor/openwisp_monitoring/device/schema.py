@@ -303,8 +303,8 @@
                                             "ecio": {"type": "number"},
                                         },
                                     },
-                                    "evdo": {
-                                        "type": "object",
+                                    #"evdo": {
+                                      #  "type": "object",
                                         "additionalProperties": False,
                                         "required": ["rssi", "ecio", "io", "sinr"],
                                         "properties": {
