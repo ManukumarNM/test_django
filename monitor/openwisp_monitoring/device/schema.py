@@ -402,7 +402,7 @@
             "items": {
                 "type": "object",
                 "title": "Neighbor",
-                "additionalProperties": False,
+               # "additionalProperties": False,
                 #"properties": {
                    # "ip": {
                       #  "type": "string",
