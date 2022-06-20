@@ -396,7 +396,7 @@
             },
         },
        # "neighbors": {
-            "type": "array",
+          #  "type": "array",
            # "title": "Neighbors",
            # "additionalItems": False,
            # "items": {
