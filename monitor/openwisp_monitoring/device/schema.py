@@ -411,7 +411,7 @@
                     "mac": {"type": "string"},
                     "vendor": {"type": "string"},
                     "interface": {"type": "string"},
-                    "state": {"type": "string"},
+                   # "state": {"type": "string"},
              #   },
              #   "required": ["ip", "interface"],
        #     },
