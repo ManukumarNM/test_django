@@ -409,7 +409,7 @@
                         "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
                     },
                     "mac": {"type": "string"},
-                    "vendor": {"type": "string"},
+                    #"vendor": {"type": "string"},
                    # "interface": {"type": "string"},
                    # "state": {"type": "string"},
              #   },
