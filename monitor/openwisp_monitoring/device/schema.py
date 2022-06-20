@@ -403,7 +403,7 @@
                 "type": "object",
                 "title": "Neighbor",
                 "additionalProperties": False,
-                "properties": {
+                #"properties": {
                    # "ip": {
                       #  "type": "string",
                     #    "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
