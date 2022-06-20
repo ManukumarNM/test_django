@@ -400,7 +400,7 @@
             "title": "Neighbors",
             "additionalItems": False,
             "items": {
-                "type": "object",
+              #  "type": "object",
                # "title": "Neighbor",
                # "additionalProperties": False,
                 #"properties": {
