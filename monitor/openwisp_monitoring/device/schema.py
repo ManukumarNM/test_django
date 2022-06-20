@@ -399,7 +399,7 @@
             "type": "array",
             "title": "Neighbors",
             "additionalItems": False,
-            "items": {
+           # "items": {
               #  "type": "object",
                # "title": "Neighbor",
                # "additionalProperties": False,
