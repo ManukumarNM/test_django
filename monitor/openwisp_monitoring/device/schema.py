@@ -388,7 +388,7 @@
                         "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
                     },
                     "mac": {"type": "string"},
-                    "vendor": {"type": "string"},
+                  #  "vendor": {"type": "string"},
                    # "client_name": {"type": "string"},
                  #   "client_id": {"type": "string"},
               #  },
