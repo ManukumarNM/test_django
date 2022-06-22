@@ -390,7 +390,7 @@
                     "mac": {"type": "string"},
                     "vendor": {"type": "string"},
                     "client_name": {"type": "string"},
-                    "client_id": {"type": "string"},
+                 #   "client_id": {"type": "string"},
               #  },
             #    "required": ["expiry", "ip", "mac", "client_name", "client_id"],
           #  },
