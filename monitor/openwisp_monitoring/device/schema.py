@@ -384,7 +384,7 @@
                 "properties": {
                     "expiry": {"type": "number"},
                     "ip": {
-                        "type": "string",
+                    #    "type": "string",
                    #     "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
                   #  },
                   #  "mac": {"type": "string"},
