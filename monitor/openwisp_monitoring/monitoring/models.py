@@ -12,7 +12,7 @@ class Metric(AbstractMetric):
 class Chart(AbstractChart):
     class Meta(AbstractChart.Meta):
         abstract = False
-     #   swappable = swappable_setting('monitoring', 'Chart')
+        swappable = swappable_setting('monitoring', 'Chart')
 
 
 #class AlertSettings(AbstractAlertSettings):
