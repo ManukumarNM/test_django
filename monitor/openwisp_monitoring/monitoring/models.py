@@ -17,5 +17,5 @@ class Chart(AbstractChart):
 
 class AlertSettings(AbstractAlertSettings):
     class Meta(AbstractAlertSettings.Meta):
-      #  abstract = False
+        abstract = False
        # swappable = swappable_setting('monitoring', 'AlertSettings')
