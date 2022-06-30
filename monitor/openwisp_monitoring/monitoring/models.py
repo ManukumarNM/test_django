@@ -5,7 +5,7 @@ from .base.models import AbstractAlertSettings, AbstractChart, AbstractMetric
 
 class Metric(AbstractMetric):
     class Meta(AbstractMetric.Meta):
-       # abstract = False
+        abstract = False
       #  swappable = swappable_setting('monitoring', 'Metric')
 
 
