@@ -1,4 +1,4 @@
-#from swapper import swappable_setting
+from swapper import swappable_setting
 
 #from .base.models import AbstractAlertSettings, AbstractChart, AbstractMetric
 
