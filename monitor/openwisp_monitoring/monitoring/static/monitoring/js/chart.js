@@ -1,6 +1,6 @@
-'use strict';
+#'use strict';
 
-(function ($) {
+#(function ($) {
     window.createChart = function (data, x, id, title, type) {
         if (data === false) {
             alert(gettext('error while receiving data from server'));
