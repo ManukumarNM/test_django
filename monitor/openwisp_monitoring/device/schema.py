@@ -115,7 +115,7 @@
                         "idle": {"type": "integer"},
                       #  "iowait": {"type": "integer"},
                       #  "irq": {"type": "integer"},
-                        "softirq": {"type": "integer"},
+                       # "softirq": {"type": "integer"},
                     },
                 },
                 #"flash": {
