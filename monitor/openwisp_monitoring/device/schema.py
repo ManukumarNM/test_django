@@ -68,7 +68,7 @@
                       #  ],
                   #  },
                # },
-                "swap": {
+               # "swap": {
                     "type": "object",
                     "properties": {
                         "total": {"type": "integer"},
