@@ -129,7 +129,7 @@
                    # "type": "object",
                     #"properties": {
                         #"total": {"type": "integer"},
-                        "free": {"type": "integer"},
+                      #  "free": {"type": "integer"},
                     },
                 },
             },
