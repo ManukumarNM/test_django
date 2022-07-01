@@ -73,7 +73,7 @@
                    # "properties": {
                        # "total": {"type": "integer"},
                        # "free": {"type": "integer"},
-                    },
+                   # },
                 },
                 "connections": {
                     "type": "object",
