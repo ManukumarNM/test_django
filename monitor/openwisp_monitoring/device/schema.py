@@ -69,7 +69,7 @@
                   #  },
                # },
                # "swap": {
-                    "type": "object",
+                   # "type": "object",
                     "properties": {
                         "total": {"type": "integer"},
                         "free": {"type": "integer"},
