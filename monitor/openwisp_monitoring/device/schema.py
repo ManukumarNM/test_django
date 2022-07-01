@@ -75,7 +75,7 @@
                        # "free": {"type": "integer"},
                    # },
                 #},
-                "connections": {
+               # "connections": {
                     "type": "object",
                     "properties": {
                         "ipv4": {
