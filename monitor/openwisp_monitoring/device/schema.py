@@ -382,7 +382,7 @@
                 "title": "DHCP lease",
                 "additionalProperties": False,
                 "properties": {
-                    "expiry": {"type": "number"},
+                   # "expiry": {"type": "number"},
                     "ip": {
                     #    "type": "string",
                    #     "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
