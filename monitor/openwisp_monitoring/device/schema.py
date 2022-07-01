@@ -127,8 +127,8 @@
                # },
                # "storage": {
                    # "type": "object",
-                    "properties": {
-                        "total": {"type": "integer"},
+                    #"properties": {
+                        #"total": {"type": "integer"},
                         "free": {"type": "integer"},
                     },
                 },
