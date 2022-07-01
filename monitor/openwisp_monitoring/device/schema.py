@@ -76,7 +76,7 @@
                    # },
                 #},
                # "connections": {
-                    "type": "object",
+                   # "type": "object",
                     "properties": {
                         "ipv4": {
                             "type": "object",
