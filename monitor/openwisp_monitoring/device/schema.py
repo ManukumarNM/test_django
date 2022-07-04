@@ -78,7 +78,7 @@
                # "connections": {
                    # "type": "object",
                     #"properties": {
-                        "ipv4": {
+                        #"ipv4": {
                             "type": "object",
                             "properties": {
                                 "tcp": {"type": "integer"},
