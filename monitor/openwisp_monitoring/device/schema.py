@@ -79,7 +79,7 @@
                    # "type": "object",
                     #"properties": {
                         #"ipv4": {
-                            "type": "object",
+                            #"type": "object",
                             "properties": {
                                 "tcp": {"type": "integer"},
                                 "udp": {"type": "integer"},
