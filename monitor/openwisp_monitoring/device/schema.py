@@ -106,7 +106,7 @@
                  #   },
                # },
                 #"cpu": {
-                    "type": "object",
+                   # "type": "object",
                     "properties": {
                         "frequency": {"type": "integer"},
                         "user": {"type": "integer"},
