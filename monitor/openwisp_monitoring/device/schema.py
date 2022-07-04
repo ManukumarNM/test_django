@@ -84,7 +84,7 @@
                                # "tcp": {"type": "integer"},
                                # "udp": {"type": "integer"},
                            # },
-                        },
+                       # },
                         "ipv6": {
                             "type": "object",
                             "properties": {
