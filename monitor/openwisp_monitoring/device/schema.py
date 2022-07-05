@@ -380,7 +380,7 @@
             "items": {
                 "type": "object",
                 #"title": "DHCP lease",
-                "additionalProperties": False,
+               # "additionalProperties": False,
                 "properties": {
                    # "expiry": {"type": "number"},
                    # "ip": {
