@@ -378,7 +378,7 @@
            # "title": "DHCP leases",
            # "additionalItems": False,
            # "items": {
-                "type": "object",
+              #  "type": "object",
                 #"title": "DHCP lease",
                # "additionalProperties": False,
                # "properties": {
