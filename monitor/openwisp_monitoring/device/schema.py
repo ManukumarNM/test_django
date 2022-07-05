@@ -375,7 +375,7 @@
         },
        # "dhcp_leases": {
            # "type": "array",
-            "title": "DHCP leases",
+           # "title": "DHCP leases",
             "additionalItems": False,
             "items": {
                 "type": "object",
