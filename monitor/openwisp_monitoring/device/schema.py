@@ -374,7 +374,7 @@
             },
         },
        # "dhcp_leases": {
-            "type": "array",
+           # "type": "array",
             "title": "DHCP leases",
             "additionalItems": False,
             "items": {
