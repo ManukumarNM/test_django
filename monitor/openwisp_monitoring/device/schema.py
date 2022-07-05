@@ -379,7 +379,7 @@
             "additionalItems": False,
             "items": {
                 "type": "object",
-                "title": "DHCP lease",
+                #"title": "DHCP lease",
                 "additionalProperties": False,
                 "properties": {
                    # "expiry": {"type": "number"},
