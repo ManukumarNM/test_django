@@ -381,7 +381,7 @@
                 "type": "object",
                 #"title": "DHCP lease",
                # "additionalProperties": False,
-                "properties": {
+               # "properties": {
                    # "expiry": {"type": "number"},
                    # "ip": {
                     #    "type": "string",
