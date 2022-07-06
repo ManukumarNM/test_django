@@ -299,7 +299,7 @@
                                        # "additionalProperties": False,
                                        # "required": ["rssi", "ecio"],
                                        # "properties": {
-                                            "rssi": {"type": "number"},
+                                           # "rssi": {"type": "number"},
                                             "ecio": {"type": "number"},
                                         },
                                     },
