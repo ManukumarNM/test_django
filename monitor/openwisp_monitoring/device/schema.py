@@ -294,7 +294,7 @@
                                         "required": ["rssi"],
                                         "properties": {"rssi": {"type": "number"}},
                                     },
-                                    "cdma1x": {
+                                   # "cdma1x": {
                                         "type": "object",
                                         "additionalProperties": False,
                                         "required": ["rssi", "ecio"],
