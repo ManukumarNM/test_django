@@ -300,7 +300,7 @@
                                        # "required": ["rssi", "ecio"],
                                        # "properties": {
                                            # "rssi": {"type": "number"},
-                                            "ecio": {"type": "number"},
+                                           # "ecio": {"type": "number"},
                                         },
                                     },
                                     #"evdo": {
