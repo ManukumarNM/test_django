@@ -367,7 +367,7 @@
                                     "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
                                 },
                                 "mask": {"type": "integer"},
-                            },
+                         #   },
                       #  },
                   #  },
                # },
