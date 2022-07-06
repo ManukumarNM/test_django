@@ -301,7 +301,7 @@
                                        # "properties": {
                                            # "rssi": {"type": "number"},
                                            # "ecio": {"type": "number"},
-                                        },
+                                       # },
                                     },
                                     #"evdo": {
                                       #  "type": "object",
