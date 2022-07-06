@@ -306,7 +306,7 @@
                                     #"evdo": {
                                       #  "type": "object",
                                        # "additionalProperties": False,
-                                        "required": ["rssi", "ecio", "io", "sinr"],
+                                       # "required": ["rssi", "ecio", "io", "sinr"],
                                         "properties": {
                                             "rssi": {"type": "number"},
                                             "ecio": {"type": "number"},
