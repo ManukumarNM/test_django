@@ -359,7 +359,7 @@
                             "title": "Address",
                             "type": "object",
                             "required": ["proto", "family", "address", "mask"],
-                            "properties": {
+                           # "properties": {
                                # "proto": {"type": "string"},
                                # "family": {"type": "string"},
                                # "address": {
