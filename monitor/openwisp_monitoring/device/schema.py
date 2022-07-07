@@ -364,7 +364,7 @@
                                 "family": {"type": "string"},
                                 "address": {
                                     "type": "string",
-                                    "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
+                                 #   "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
                               #  },
                              #   "mask": {"type": "integer"},
                          #   },
