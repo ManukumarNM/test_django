@@ -361,7 +361,7 @@
                             "required": ["proto", "family", "address", "mask"],
                             "properties": {
                                 "proto": {"type": "string"},
-                                "family": {"type": "string"},
+                               # "family": {"type": "string"},
                                # "address": {
                                   #  "type": "string",
                                  #   "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
