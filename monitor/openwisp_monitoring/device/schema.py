@@ -363,7 +363,7 @@
                                 "proto": {"type": "string"},
                                 "family": {"type": "string"},
                                 "address": {
-                                    "type": "string",
+                                  #  "type": "string",
                                  #   "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
                               #  },
                              #   "mask": {"type": "integer"},
