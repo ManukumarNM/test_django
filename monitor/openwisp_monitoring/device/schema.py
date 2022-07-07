@@ -362,7 +362,7 @@
                             "properties": {
                                 "proto": {"type": "string"},
                                 "family": {"type": "string"},
-                                "address": {
+                               # "address": {
                                   #  "type": "string",
                                  #   "anyOf": [{"format": "ipv4"}, {"format": "ipv6"}],
                               #  },
