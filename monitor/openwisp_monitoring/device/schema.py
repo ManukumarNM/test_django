@@ -360,7 +360,7 @@
                             "type": "object",
                             "required": ["proto", "family", "address", "mask"],
                             "properties": {
-                                "proto": {"type": "string"},
+                               # "proto": {"type": "string"},
                                # "family": {"type": "string"},
                                # "address": {
                                   #  "type": "string",
