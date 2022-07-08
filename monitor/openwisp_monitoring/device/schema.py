@@ -309,7 +309,7 @@
                                        # "required": ["rssi", "ecio", "io", "sinr"],
                                        # "properties": {
                                            # "rssi": {"type": "number"},
-                                            "ecio": {"type": "number"},
+                                           # "ecio": {"type": "number"},
                                             "io": {"type": "number"},
                                             "sinr": {"type": "number"},
                                         },
