@@ -348,7 +348,7 @@
                                 },
                             },
                         },
-                    },
+                  #  },
                    # "addresses": {
                        # "type": "array",
                        # "title": "Addresses",
