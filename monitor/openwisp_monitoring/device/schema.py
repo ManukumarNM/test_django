@@ -351,7 +351,7 @@
                     },
                     "addresses": {
                         "type": "array",
-                        "title": "Addresses",
+                       # "title": "Addresses",
                        # "uniqueItems": True,
                        # "additionalItems": False,
                        # "items": {
