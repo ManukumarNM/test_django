@@ -355,7 +355,7 @@
                         "uniqueItems": True,
                         "additionalItems": False,
                         "items": {
-                            "additionalProperties": True,
+                          #  "additionalProperties": True,
                            # "title": "Address",
                            # "type": "object",
                            # "required": ["proto", "family", "address", "mask"],
