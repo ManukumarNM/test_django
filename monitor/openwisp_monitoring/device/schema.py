@@ -313,7 +313,7 @@
                                            # "io": {"type": "number"},
                                           #  "sinr": {"type": "number"},
                                       #  },
-                                    },
+                                   # },
                                     "umts": {
                                         "type": "object",
                                         "additionalProperties": False,
