@@ -311,7 +311,7 @@
                                            # "rssi": {"type": "number"},
                                            # "ecio": {"type": "number"},
                                            # "io": {"type": "number"},
-                                            "sinr": {"type": "number"},
+                                          #  "sinr": {"type": "number"},
                                         },
                                     },
                                     "umts": {
