@@ -354,7 +354,7 @@
                         "title": "Addresses",
                         "uniqueItems": True,
                         "additionalItems": False,
-                        "items": {
+                       # "items": {
                           #  "additionalProperties": True,
                            # "title": "Address",
                            # "type": "object",
