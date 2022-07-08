@@ -349,7 +349,7 @@
                             },
                         },
                     },
-                    "addresses": {
+                   # "addresses": {
                        # "type": "array",
                        # "title": "Addresses",
                        # "uniqueItems": True,
