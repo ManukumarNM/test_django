@@ -352,7 +352,7 @@
                     "addresses": {
                         "type": "array",
                         "title": "Addresses",
-                        "uniqueItems": True,
+                       # "uniqueItems": True,
                        # "additionalItems": False,
                        # "items": {
                           #  "additionalProperties": True,
