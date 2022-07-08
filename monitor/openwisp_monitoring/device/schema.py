@@ -353,7 +353,7 @@
                         "type": "array",
                         "title": "Addresses",
                         "uniqueItems": True,
-                        "additionalItems": False,
+                       # "additionalItems": False,
                        # "items": {
                           #  "additionalProperties": True,
                            # "title": "Address",
