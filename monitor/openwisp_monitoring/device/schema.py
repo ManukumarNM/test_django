@@ -350,7 +350,7 @@
                         },
                     },
                     "addresses": {
-                        "type": "array",
+                       # "type": "array",
                        # "title": "Addresses",
                        # "uniqueItems": True,
                        # "additionalItems": False,
