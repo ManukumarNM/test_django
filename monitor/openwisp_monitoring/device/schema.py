@@ -358,7 +358,7 @@
                             "additionalProperties": True,
                             "title": "Address",
                             "type": "object",
-                            "required": ["proto", "family", "address", "mask"],
+                           # "required": ["proto", "family", "address", "mask"],
                            # "properties": {
                                # "proto": {"type": "string"},
                                # "family": {"type": "string"},
