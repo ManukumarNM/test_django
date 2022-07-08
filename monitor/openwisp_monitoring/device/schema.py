@@ -310,7 +310,7 @@
                                        # "properties": {
                                            # "rssi": {"type": "number"},
                                            # "ecio": {"type": "number"},
-                                            "io": {"type": "number"},
+                                           # "io": {"type": "number"},
                                             "sinr": {"type": "number"},
                                         },
                                     },
