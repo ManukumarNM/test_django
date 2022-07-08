@@ -312,7 +312,7 @@
                                            # "ecio": {"type": "number"},
                                            # "io": {"type": "number"},
                                           #  "sinr": {"type": "number"},
-                                        },
+                                      #  },
                                     },
                                     "umts": {
                                         "type": "object",
