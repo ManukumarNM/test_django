@@ -111,7 +111,7 @@
                         "frequency": {"type": "integer"},
                         "user": {"type": "integer"},
                       #  "system": {"type": "integer"},
-                        "nice": {"type": "integer"},
+                      #  "nice": {"type": "integer"},
                        # "idle": {"type": "integer"},
                       #  "iowait": {"type": "integer"},
                       #  "irq": {"type": "integer"},
