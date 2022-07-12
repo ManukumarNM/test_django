@@ -314,7 +314,7 @@
                                           #  "sinr": {"type": "number"},
                                       #  },
                                    # },
-                                    "umts": {
+                                   # "umts": {
                                         "type": "object",
                                         "additionalProperties": False,
                                         "required": ["ecio"],
