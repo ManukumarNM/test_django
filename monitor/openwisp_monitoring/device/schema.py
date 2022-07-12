@@ -141,7 +141,7 @@
            # "additionalItems": False,
            # "items": {
                # "type": "object",
-                "title": "Interface",
+                #"title": "Interface",
                 "additionalProperties": True,
                 "required": ["name"],
                 "properties": {
