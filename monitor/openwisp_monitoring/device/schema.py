@@ -134,7 +134,7 @@
                # },
            # },
        # },
-        "interfaces": {
+      #  "interfaces": {
             "type": "array",
             "title": "Interfaces",
             "uniqueItems": True,
