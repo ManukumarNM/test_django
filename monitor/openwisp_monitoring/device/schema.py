@@ -138,7 +138,7 @@
            # "type": "array",
            # "title": "Interfaces",
            # "uniqueItems": True,
-            "additionalItems": False,
+           # "additionalItems": False,
             "items": {
                 "type": "object",
                 "title": "Interface",
