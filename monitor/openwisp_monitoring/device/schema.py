@@ -132,7 +132,7 @@
                       #  "free": {"type": "integer"},
                   #  },
                # },
-            },
+           # },
         },
         "interfaces": {
             "type": "array",
