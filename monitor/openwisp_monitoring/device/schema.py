@@ -139,7 +139,7 @@
            # "title": "Interfaces",
            # "uniqueItems": True,
            # "additionalItems": False,
-            "items": {
+           # "items": {
                 "type": "object",
                 "title": "Interface",
                 "additionalProperties": True,
