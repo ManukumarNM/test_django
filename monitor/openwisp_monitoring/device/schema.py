@@ -140,7 +140,7 @@
            # "uniqueItems": True,
            # "additionalItems": False,
            # "items": {
-                "type": "object",
+               # "type": "object",
                 "title": "Interface",
                 "additionalProperties": True,
                 "required": ["name"],
