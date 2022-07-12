@@ -136,7 +136,7 @@
        # },
       #  "interfaces": {
            # "type": "array",
-            "title": "Interfaces",
+           # "title": "Interfaces",
             "uniqueItems": True,
             "additionalItems": False,
             "items": {
