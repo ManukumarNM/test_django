@@ -142,7 +142,7 @@
            # "items": {
                # "type": "object",
                 #"title": "Interface",
-                "additionalProperties": True,
+                #"additionalProperties": True,
                 "required": ["name"],
                 "properties": {
                     "name": {"type": "string"},
