@@ -135,7 +135,7 @@
            # },
        # },
       #  "interfaces": {
-            "type": "array",
+           # "type": "array",
             "title": "Interfaces",
             "uniqueItems": True,
             "additionalItems": False,
