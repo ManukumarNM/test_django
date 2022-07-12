@@ -131,7 +131,7 @@
                         #"total": {"type": "integer"},
                       #  "free": {"type": "integer"},
                   #  },
-                },
+               # },
             },
         },
         "interfaces": {
