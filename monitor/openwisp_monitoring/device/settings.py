@@ -4,7 +4,7 @@
 
 
 #def get_critical_device_metrics():
-    critical_metrics = get_settings_value(
+    #critical_metrics = get_settings_value(
         'CRITICAL_DEVICE_METRICS',
         [{'key': 'ping', 'field_name': 'reachable'}],
     )
