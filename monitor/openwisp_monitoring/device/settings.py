@@ -11,7 +11,7 @@
     #for item in critical_metrics:  # pragma: no cover
        # try:
            # assert 'key' in item
-            assert 'field_name' in item
+           # assert 'field_name' in item
         except AssertionError as e:
             raise ImproperlyConfigured(
                 'OPENWISP_MONITORING_CRITICAL_DEVICE_METRICS must contain the following keys: key, field_name'
