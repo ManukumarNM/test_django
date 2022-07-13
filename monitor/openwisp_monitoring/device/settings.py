@@ -1,6 +1,6 @@
 #from django.core.exceptions import ImproperlyConfigured
 
-from ..settings import get_settings_value
+#from ..settings import get_settings_value
 
 
 def get_critical_device_metrics():
