@@ -14,7 +14,7 @@
            # assert 'field_name' in item
        # except AssertionError as e:
            # raise ImproperlyConfigured(
-                'OPENWISP_MONITORING_CRITICAL_DEVICE_METRICS must contain the following keys: key, field_name'
+               # 'OPENWISP_MONITORING_CRITICAL_DEVICE_METRICS must contain the following keys: key, field_name'
             ) from e
     return critical_metrics
 
