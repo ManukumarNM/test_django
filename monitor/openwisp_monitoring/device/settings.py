@@ -10,7 +10,7 @@
     #)
     #for item in critical_metrics:  # pragma: no cover
        # try:
-            assert 'key' in item
+           # assert 'key' in item
             assert 'field_name' in item
         except AssertionError as e:
             raise ImproperlyConfigured(
