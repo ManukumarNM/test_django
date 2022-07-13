@@ -1,4 +1,4 @@
-from django.core.exceptions import ImproperlyConfigured
+#from django.core.exceptions import ImproperlyConfigured
 
 from ..settings import get_settings_value
 
