@@ -8,7 +8,7 @@
        # 'CRITICAL_DEVICE_METRICS',
         #[{'key': 'ping', 'field_name': 'reachable'}],
     #)
-    for item in critical_metrics:  # pragma: no cover
+    #for item in critical_metrics:  # pragma: no cover
         try:
             assert 'key' in item
             assert 'field_name' in item
