@@ -21,7 +21,7 @@
 
 #def get_health_status_labels():
     #labels = get_settings_value(
-        'HEALTH_STATUS_LABELS',
+       # 'HEALTH_STATUS_LABELS',
         {
             'unknown': 'unknown',
             'ok': 'ok',
