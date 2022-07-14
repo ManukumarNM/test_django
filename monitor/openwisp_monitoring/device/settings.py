@@ -19,7 +19,7 @@
     #return critical_metrics
 
 
-def get_health_status_labels():
+#def get_health_status_labels():
     labels = get_settings_value(
         'HEALTH_STATUS_LABELS',
         {
