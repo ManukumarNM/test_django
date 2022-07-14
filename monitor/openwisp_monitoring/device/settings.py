@@ -16,7 +16,7 @@
            # raise ImproperlyConfigured(
                # 'OPENWISP_MONITORING_CRITICAL_DEVICE_METRICS must contain the following keys: key, field_name'
            # ) from e
-    return critical_metrics
+    #return critical_metrics
 
 
 def get_health_status_labels():
