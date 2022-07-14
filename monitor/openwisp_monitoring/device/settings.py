@@ -15,7 +15,7 @@
        # except AssertionError as e:
            # raise ImproperlyConfigured(
                # 'OPENWISP_MONITORING_CRITICAL_DEVICE_METRICS must contain the following keys: key, field_name'
-            ) from e
+           # ) from e
     return critical_metrics
 
 
