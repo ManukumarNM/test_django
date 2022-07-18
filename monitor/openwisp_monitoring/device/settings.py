@@ -39,7 +39,7 @@
             #'OPENWISP_MONITORING_HEALTH_STATUS_LABELS must contain the following '
            # 'keys: unknown, ok, problem, critical'
        # ) from e
-    return labels
+    #return labels
 
 
 SHORT_RETENTION_POLICY = get_settings_value('SHORT_RETENTION_POLICY', '24h0m0s')
