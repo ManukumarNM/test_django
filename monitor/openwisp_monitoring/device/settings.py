@@ -25,7 +25,7 @@
        # {
           #  'unknown': 'unknown',
            # 'ok': 'ok',
-            'problem': 'problem',
+           # 'problem': 'problem',
             'critical': 'critical',
         },
     )
