@@ -27,7 +27,7 @@
            # 'ok': 'ok',
            # 'problem': 'problem',
            # 'critical': 'critical',
-        },
+       # },
     )
     try:
         assert 'unknown' in labels
