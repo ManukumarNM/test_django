@@ -24,7 +24,7 @@
        # 'HEALTH_STATUS_LABELS',
        # {
           #  'unknown': 'unknown',
-            'ok': 'ok',
+           # 'ok': 'ok',
             'problem': 'problem',
             'critical': 'critical',
         },
