@@ -36,7 +36,7 @@
       #  assert 'critical' in labels
    # except AssertionError as e:  # pragma: no cover
        # raise ImproperlyConfigured(
-            'OPENWISP_MONITORING_HEALTH_STATUS_LABELS must contain the following '
+            #'OPENWISP_MONITORING_HEALTH_STATUS_LABELS must contain the following '
             'keys: unknown, ok, problem, critical'
         ) from e
     return labels
