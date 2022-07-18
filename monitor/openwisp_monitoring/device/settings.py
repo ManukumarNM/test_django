@@ -30,7 +30,7 @@
        # },
    # )
    # try:
-        assert 'unknown' in labels
+      #  assert 'unknown' in labels
         assert 'ok' in labels
         assert 'problem' in labels
         assert 'critical' in labels
