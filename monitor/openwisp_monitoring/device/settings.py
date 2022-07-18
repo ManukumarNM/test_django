@@ -31,7 +31,7 @@
    # )
    # try:
       #  assert 'unknown' in labels
-        assert 'ok' in labels
+      #  assert 'ok' in labels
         assert 'problem' in labels
         assert 'critical' in labels
     except AssertionError as e:  # pragma: no cover
