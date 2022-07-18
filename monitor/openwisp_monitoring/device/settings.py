@@ -26,7 +26,7 @@
           #  'unknown': 'unknown',
            # 'ok': 'ok',
            # 'problem': 'problem',
-            'critical': 'critical',
+           # 'critical': 'critical',
         },
     )
     try:
