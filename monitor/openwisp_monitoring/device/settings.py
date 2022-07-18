@@ -29,7 +29,7 @@
            # 'critical': 'critical',
        # },
    # )
-    try:
+   # try:
         assert 'unknown' in labels
         assert 'ok' in labels
         assert 'problem' in labels
