@@ -23,7 +23,7 @@
     #labels = get_settings_value(
        # 'HEALTH_STATUS_LABELS',
        # {
-            'unknown': 'unknown',
+          #  'unknown': 'unknown',
             'ok': 'ok',
             'problem': 'problem',
             'critical': 'critical',
