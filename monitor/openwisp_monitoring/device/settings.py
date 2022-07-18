@@ -38,7 +38,7 @@
        # raise ImproperlyConfigured(
             #'OPENWISP_MONITORING_HEALTH_STATUS_LABELS must contain the following '
            # 'keys: unknown, ok, problem, critical'
-        ) from e
+       # ) from e
     return labels
 
 
