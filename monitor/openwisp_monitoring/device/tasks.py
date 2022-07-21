@@ -26,7 +26,7 @@
    # checks = device.checks.filter(is_active=True).only('id').values('id')
    # has_checks = False
     #for check in checks:
-        perform_check.delay(check['id'])
+       # perform_check.delay(check['id'])
         has_checks = True
     if not has_checks:
         status = 'ok' if recovery else 'critical'
