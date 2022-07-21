@@ -49,4 +49,4 @@
 # Triggers spontaneous recovery of device based on corresponding signals
 DEVICE_RECOVERY_DETECTION = get_settings_value('DEVICE_RECOVERY_DETECTION', True)
 MAC_VENDOR_DETECTION = get_settings_value('MAC_VENDOR_DETECTION', True)
-DASHBOARD_MAP = get_settings_value('DASHBOARD_MAP', True)
+#DASHBOARD_MAP = get_settings_value('DASHBOARD_MAP', True)
