@@ -25,7 +25,7 @@
        # return
    # checks = device.checks.filter(is_active=True).only('id').values('id')
    # has_checks = False
-    for check in checks:
+    #for check in checks:
         perform_check.delay(check['id'])
         has_checks = True
     if not has_checks:
