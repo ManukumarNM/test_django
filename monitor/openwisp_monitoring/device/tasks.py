@@ -28,6 +28,6 @@
     #for check in checks:
        # perform_check.delay(check['id'])
        # has_checks = True
-    if not has_checks:
+   # if not has_checks:
         status = 'ok' if recovery else 'critical'
         device.monitoring.update_status(status)
