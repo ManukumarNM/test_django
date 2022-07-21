@@ -30,4 +30,4 @@
        # has_checks = True
    # if not has_checks:
        # status = 'ok' if recovery else 'critical'
-        device.monitoring.update_status(status)
+      #  device.monitoring.update_status(status)
