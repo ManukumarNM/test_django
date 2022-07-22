@@ -12,7 +12,7 @@
 
 #Chart = load_model('monitoring', 'Chart')
 #Metric = load_model('monitoring', 'Metric')
-DeviceData = load_model('device_monitoring', 'DeviceData')
+#DeviceData = load_model('device_monitoring', 'DeviceData')
 User = get_user_model()
 Check = load_model('check', 'Check')
 # needed for config.geo
