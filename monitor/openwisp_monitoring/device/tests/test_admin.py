@@ -8,7 +8,7 @@
 
 #from ...check.settings import CHECK_CLASSES
 #from ..admin import CheckInline, CheckInlineFormSet
-from . import DeviceMonitoringTestCase
+#from . import DeviceMonitoringTestCase
 
 Chart = load_model('monitoring', 'Chart')
 Metric = load_model('monitoring', 'Metric')
