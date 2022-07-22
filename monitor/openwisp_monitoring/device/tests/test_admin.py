@@ -21,7 +21,7 @@
 #Location = load_model('geo', 'Location')
 
 
-class TestAdmin(DeviceMonitoringTestCase):
+#class TestAdmin(DeviceMonitoringTestCase):
     """
     Test the additions of openwisp-monitoring to DeviceAdmin
     """
