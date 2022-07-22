@@ -16,7 +16,7 @@
 #User = get_user_model()
 #Check = load_model('check', 'Check')
 # needed for config.geo
-Device = load_model('config', 'Device')
+#Device = load_model('config', 'Device')
 DeviceLocation = load_model('geo', 'DeviceLocation')
 Location = load_model('geo', 'Location')
 
