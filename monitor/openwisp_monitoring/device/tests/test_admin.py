@@ -18,7 +18,7 @@
 # needed for config.geo
 #Device = load_model('config', 'Device')
 #DeviceLocation = load_model('geo', 'DeviceLocation')
-Location = load_model('geo', 'Location')
+#Location = load_model('geo', 'Location')
 
 
 class TestAdmin(DeviceMonitoringTestCase):
