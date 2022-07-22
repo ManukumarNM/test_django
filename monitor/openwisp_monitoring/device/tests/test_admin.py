@@ -11,7 +11,7 @@
 #from . import DeviceMonitoringTestCase
 
 #Chart = load_model('monitoring', 'Chart')
-Metric = load_model('monitoring', 'Metric')
+#Metric = load_model('monitoring', 'Metric')
 DeviceData = load_model('device_monitoring', 'DeviceData')
 User = get_user_model()
 Check = load_model('check', 'Check')
