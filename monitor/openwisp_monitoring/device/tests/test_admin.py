@@ -6,7 +6,7 @@
 
 #from openwisp_controller.geo.tests.utils import TestGeoMixin
 
-from ...check.settings import CHECK_CLASSES
+#from ...check.settings import CHECK_CLASSES
 from ..admin import CheckInline, CheckInlineFormSet
 from . import DeviceMonitoringTestCase
 
