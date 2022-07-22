@@ -10,7 +10,7 @@
 #from ..admin import CheckInline, CheckInlineFormSet
 #from . import DeviceMonitoringTestCase
 
-Chart = load_model('monitoring', 'Chart')
+#Chart = load_model('monitoring', 'Chart')
 Metric = load_model('monitoring', 'Metric')
 DeviceData = load_model('device_monitoring', 'DeviceData')
 User = get_user_model()
