@@ -2,7 +2,7 @@
 #from django.contrib.contenttypes.forms import generic_inlineformset_factory
 #from django.urls import reverse
 #from django.utils.timezone import now
-from swapper import get_model_name, load_model
+#from swapper import get_model_name, load_model
 
 from openwisp_controller.geo.tests.utils import TestGeoMixin
 
