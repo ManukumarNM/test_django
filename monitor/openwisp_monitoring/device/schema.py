@@ -336,7 +336,7 @@
                                         },
                                     },
                                    # "5g": {
-                                        "type": "object",
+                                       # "type": "object",
                                         "additionalProperties": False,
                                         "required": ["rsrp", "rsrq", "snr"],
                                         "properties": {
