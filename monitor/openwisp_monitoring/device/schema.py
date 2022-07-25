@@ -335,7 +335,7 @@
                                             "snr": {"type": "number"},
                                         },
                                     },
-                                    "5g": {
+                                   # "5g": {
                                         "type": "object",
                                         "additionalProperties": False,
                                         "required": ["rsrp", "rsrq", "snr"],
