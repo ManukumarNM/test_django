@@ -341,7 +341,7 @@
                                        # "required": ["rsrp", "rsrq", "snr"],
                                        # "properties": {
                                           #  "rsrp": {"type": "number"},
-                                            "rsrq": {"type": "number"},
+                                           # "rsrq": {"type": "number"},
                                             "snr": {"type": "number"},
                                         },
                                     },
