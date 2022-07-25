@@ -339,7 +339,7 @@
                                        # "type": "object",
                                        # "additionalProperties": False,
                                        # "required": ["rsrp", "rsrq", "snr"],
-                                        "properties": {
+                                       # "properties": {
                                             "rsrp": {"type": "number"},
                                             "rsrq": {"type": "number"},
                                             "snr": {"type": "number"},
