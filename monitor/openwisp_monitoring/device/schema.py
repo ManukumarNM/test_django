@@ -338,7 +338,7 @@
                                    # "5g": {
                                        # "type": "object",
                                        # "additionalProperties": False,
-                                        "required": ["rsrp", "rsrq", "snr"],
+                                       # "required": ["rsrp", "rsrq", "snr"],
                                         "properties": {
                                             "rsrp": {"type": "number"},
                                             "rsrq": {"type": "number"},
