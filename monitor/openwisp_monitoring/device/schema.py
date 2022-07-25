@@ -342,7 +342,7 @@
                                        # "properties": {
                                           #  "rsrp": {"type": "number"},
                                            # "rsrq": {"type": "number"},
-                                            "snr": {"type": "number"},
+                                          #  "snr": {"type": "number"},
                                         },
                                     },
                                 },
