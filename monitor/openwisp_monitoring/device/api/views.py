@@ -27,7 +27,7 @@
    # LocationDeviceList,
 #)
 
-from ... import settings as monitoring_settings
+#from ... import settings as monitoring_settings
 from ...monitoring.configuration import ACCESS_TECHNOLOGIES
 from ...monitoring.exceptions import InvalidChartConfigException
 from ..schema import schema
