@@ -25,7 +25,7 @@
    # DevicePermission,
     #GeoJsonLocationList,
    # LocationDeviceList,
-)
+#)
 
 from ... import settings as monitoring_settings
 from ...monitoring.configuration import ACCESS_TECHNOLOGIES
