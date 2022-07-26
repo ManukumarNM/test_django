@@ -32,7 +32,7 @@
 #from ...monitoring.exceptions import InvalidChartConfigException
 #from ..schema import schema
 #from ..signals import device_metrics_received
-from .serializers import MonitoringDeviceSerializer, MonitoringGeoJsonLocationSerializer
+#from .serializers import MonitoringDeviceSerializer, MonitoringGeoJsonLocationSerializer
 
 logger = logging.getLogger(__name__)
 Chart = load_model('monitoring', 'Chart')
