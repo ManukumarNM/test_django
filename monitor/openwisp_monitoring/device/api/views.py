@@ -39,7 +39,7 @@
 #Metric = load_model('monitoring', 'Metric')
 #AlertSettings = load_model('monitoring', 'AlertSettings')
 #Device = load_model('config', 'Device')
-DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
+#DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
 DeviceData = load_model('device_monitoring', 'DeviceData')
 Location = load_model('geo', 'Location')
 
