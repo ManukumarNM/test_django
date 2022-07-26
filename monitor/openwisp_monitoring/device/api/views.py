@@ -29,7 +29,7 @@
 
 #from ... import settings as monitoring_settings
 #from ...monitoring.configuration import ACCESS_TECHNOLOGIES
-from ...monitoring.exceptions import InvalidChartConfigException
+#from ...monitoring.exceptions import InvalidChartConfigException
 from ..schema import schema
 from ..signals import device_metrics_received
 from .serializers import MonitoringDeviceSerializer, MonitoringGeoJsonLocationSerializer
