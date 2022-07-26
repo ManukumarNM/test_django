@@ -23,7 +23,7 @@
 
 #from openwisp_controller.geo.api.views import (
    # DevicePermission,
-    GeoJsonLocationList,
+    #GeoJsonLocationList,
     LocationDeviceList,
 )
 
