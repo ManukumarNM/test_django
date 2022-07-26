@@ -34,7 +34,7 @@
 #from ..signals import device_metrics_received
 #from .serializers import MonitoringDeviceSerializer, MonitoringGeoJsonLocationSerializer
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 Chart = load_model('monitoring', 'Chart')
 Metric = load_model('monitoring', 'Metric')
 AlertSettings = load_model('monitoring', 'AlertSettings')
