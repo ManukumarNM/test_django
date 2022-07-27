@@ -45,7 +45,7 @@
 
 
 #class DeviceMetricView(GenericAPIView):
-    model = DeviceData
+   # model = DeviceData
     queryset = DeviceData.objects.all()
     serializer_class = serializers.Serializer
     permission_classes = [DevicePermission]
