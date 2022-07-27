@@ -44,7 +44,7 @@
 #Location = load_model('geo', 'Location')
 
 
-class DeviceMetricView(GenericAPIView):
+#class DeviceMetricView(GenericAPIView):
     model = DeviceData
     queryset = DeviceData.objects.all()
     serializer_class = serializers.Serializer
