@@ -51,7 +51,7 @@
   #  permission_classes = [DevicePermission]
    # schema = schema
 
-    def get(self, request, pk):
+   # def get(self, request, pk):
         # ensure valid UUID
         try:
             pk = str(uuid.UUID(pk))
