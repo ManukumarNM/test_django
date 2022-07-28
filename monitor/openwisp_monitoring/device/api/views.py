@@ -49,7 +49,7 @@
    # queryset = DeviceData.objects.all()
    # serializer_class = serializers.Serializer
   #  permission_classes = [DevicePermission]
-    schema = schema
+   # schema = schema
 
     def get(self, request, pk):
         # ensure valid UUID
