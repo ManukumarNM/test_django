@@ -64,7 +64,7 @@
         ).select_related('metric')
         # determine time range
        # time = request.query_params.get('time', Chart.DEFAULT_TIME)
-        if time not in Chart.GROUP_MAP.keys():
+       # if time not in Chart.GROUP_MAP.keys():
             return Response({'detail': 'Time range not supported'}, status=400)
         # try to read timezone
         timezone = request.query_params.get('timezone', settings.TIME_ZONE)
