@@ -53,7 +53,7 @@
 
    # def get(self, request, pk):
         # ensure valid UUID
-        try:
+       # try:
             pk = str(uuid.UUID(pk))
         except ValueError:
             return Response({'detail': 'not found'}, status=404)
