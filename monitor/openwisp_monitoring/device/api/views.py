@@ -55,7 +55,7 @@
         # ensure valid UUID
        # try:
            # pk = str(uuid.UUID(pk))
-        except ValueError:
+       # except ValueError:
             return Response({'detail': 'not found'}, status=404)
         self.instance = self.get_object()
         ct = ContentType.objects.get_for_model(Device)
