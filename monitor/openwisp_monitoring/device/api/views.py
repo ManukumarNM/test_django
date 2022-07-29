@@ -58,7 +58,7 @@
        # except ValueError:
            # return Response({'detail': 'not found'}, status=404)
         self.instance = self.get_object()
-        ct = ContentType.objects.get_for_model(Device)
+       # ct = ContentType.objects.get_for_model(Device)
         charts = Chart.objects.filter(
           #  metric__object_id=pk, metric__content_type=ct
         ).select_related('metric')
