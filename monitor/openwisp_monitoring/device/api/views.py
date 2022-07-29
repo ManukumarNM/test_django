@@ -54,7 +54,7 @@
    # def get(self, request, pk):
         # ensure valid UUID
        # try:
-            pk = str(uuid.UUID(pk))
+           # pk = str(uuid.UUID(pk))
         except ValueError:
             return Response({'detail': 'not found'}, status=404)
         self.instance = self.get_object()
