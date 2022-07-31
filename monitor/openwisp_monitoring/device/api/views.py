@@ -525,7 +525,7 @@ class MonitoringGeoJsonLocationList(GeoJsonLocationList):
     )
 
 
-monitoring_geojson_location_list = MonitoringGeoJsonLocationList.as_view()
+#monitoring_geojson_location_list = MonitoringGeoJsonLocationList.as_view()
 
 
 #class MonitoringLocationDeviceList(LocationDeviceList):
