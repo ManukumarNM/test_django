@@ -522,7 +522,7 @@ class MonitoringGeoJsonLocationList(GeoJsonLocationList):
           #  ),
        # )
       #  .order_by('-created')
-    )
+   # )
 
 
 #monitoring_geojson_location_list = MonitoringGeoJsonLocationList.as_view()
