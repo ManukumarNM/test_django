@@ -528,7 +528,7 @@ class MonitoringGeoJsonLocationList(GeoJsonLocationList):
 monitoring_geojson_location_list = MonitoringGeoJsonLocationList.as_view()
 
 
-class MonitoringLocationDeviceList(LocationDeviceList):
+#class MonitoringLocationDeviceList(LocationDeviceList):
     serializer_class = MonitoringDeviceSerializer
 
    # def get_queryset(self):
