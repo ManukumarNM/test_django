@@ -512,7 +512,7 @@ class MonitoringGeoJsonLocationList(GeoJsonLocationList):
                 'devicelocation',
                 filter=Q(devicelocation__content_object__monitoring__status='problem'),
             ),
-            critical_count=Count(
+           # critical_count=Count(
                 'devicelocation',
                 filter=Q(devicelocation__content_object__monitoring__status='critical'),
             ),
