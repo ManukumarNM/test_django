@@ -535,4 +535,4 @@ class MonitoringLocationDeviceList(LocationDeviceList):
         return super().get_queryset().select_related('monitoring').order_by('name')
 
 
-monitoring_location_device_list = MonitoringLocationDeviceList.as_view()
+#monitoring_location_device_list = MonitoringLocationDeviceList.as_view()
