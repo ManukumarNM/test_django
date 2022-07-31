@@ -521,7 +521,7 @@ class MonitoringGeoJsonLocationList(GeoJsonLocationList):
                # filter=Q(devicelocation__content_object__monitoring__status='unknown'),
           #  ),
         )
-        .order_by('-created')
+      #  .order_by('-created')
     )
 
 
