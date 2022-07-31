@@ -529,7 +529,7 @@ monitoring_geojson_location_list = MonitoringGeoJsonLocationList.as_view()
 
 
 #class MonitoringLocationDeviceList(LocationDeviceList):
-    serializer_class = MonitoringDeviceSerializer
+   # serializer_class = MonitoringDeviceSerializer
 
    # def get_queryset(self):
        # return super().get_queryset().select_related('monitoring').order_by('name')
