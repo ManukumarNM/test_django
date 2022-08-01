@@ -76,7 +76,7 @@
        # data = self._get_charts_data(charts, time, timezone)
         # csv export has a different response
        # if request.query_params.get('csv'):
-            response = HttpResponse(self._get_csv(data), content_type='text/csv')
+           # response = HttpResponse(self._get_csv(data), content_type='text/csv')
             response['Content-Disposition'] = 'attachment; filename=data.csv'
             return response
         # add device data if requested
