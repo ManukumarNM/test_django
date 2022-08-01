@@ -70,7 +70,7 @@
        # timezone = request.query_params.get('timezone', settings.TIME_ZONE)
        # try:
            # tz(timezone)
-        except UnknownTimeZoneError:
+       # except UnknownTimeZoneError:
             return Response('Unkown Time Zone', status=400)
         # prepare response data
         data = self._get_charts_data(charts, time, timezone)
