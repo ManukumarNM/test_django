@@ -71,7 +71,7 @@
        # try:
            # tz(timezone)
        # except UnknownTimeZoneError:
-            return Response('Unkown Time Zone', status=400)
+           # return Response('Unkown Time Zone', status=400)
         # prepare response data
         data = self._get_charts_data(charts, time, timezone)
         # csv export has a different response
