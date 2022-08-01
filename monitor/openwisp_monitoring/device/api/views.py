@@ -73,7 +73,7 @@
        # except UnknownTimeZoneError:
            # return Response('Unkown Time Zone', status=400)
         # prepare response data
-        data = self._get_charts_data(charts, time, timezone)
+       # data = self._get_charts_data(charts, time, timezone)
         # csv export has a different response
         if request.query_params.get('csv'):
             response = HttpResponse(self._get_csv(data), content_type='text/csv')
