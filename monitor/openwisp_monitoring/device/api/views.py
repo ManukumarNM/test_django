@@ -67,7 +67,7 @@
        # if time not in Chart.GROUP_MAP.keys():
            # return Response({'detail': 'Time range not supported'}, status=400)
         # try to read timezone
-        timezone = request.query_params.get('timezone', settings.TIME_ZONE)
+       # timezone = request.query_params.get('timezone', settings.TIME_ZONE)
         try:
             tz(timezone)
         except UnknownTimeZoneError:
