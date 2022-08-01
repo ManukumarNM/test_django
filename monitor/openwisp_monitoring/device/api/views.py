@@ -69,7 +69,7 @@
         # try to read timezone
        # timezone = request.query_params.get('timezone', settings.TIME_ZONE)
        # try:
-            tz(timezone)
+           # tz(timezone)
         except UnknownTimeZoneError:
             return Response('Unkown Time Zone', status=400)
         # prepare response data
