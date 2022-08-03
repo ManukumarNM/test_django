@@ -85,7 +85,7 @@
        # return Response(data)
 
    # def _get_charts_data(self, charts, time, timezone):
-        chart_map = {}
+       # chart_map = {}
        # x_axys = True
        # data = OrderedDict({'charts': []})
        # for chart in charts:
