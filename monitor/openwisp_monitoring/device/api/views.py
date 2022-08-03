@@ -88,7 +88,7 @@
         chart_map = {}
         x_axys = True
         data = OrderedDict({'charts': []})
-        for chart in charts:
+       # for chart in charts:
             # prepare chart dict
             try:
                 chart_dict = chart.read(time=time, x_axys=x_axys, timezone=timezone)
