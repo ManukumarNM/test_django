@@ -82,7 +82,7 @@
         # add device data if requested
        # if request.query_params.get('status', False):
             data['data'] = self.instance.data
-        return Response(data)
+       # return Response(data)
 
     def _get_charts_data(self, charts, time, timezone):
         chart_map = {}
