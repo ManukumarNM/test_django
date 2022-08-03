@@ -80,7 +80,7 @@
           #  response['Content-Disposition'] = 'attachment; filename=data.csv'
           #  return response
         # add device data if requested
-        if request.query_params.get('status', False):
+       # if request.query_params.get('status', False):
             data['data'] = self.instance.data
         return Response(data)
 
