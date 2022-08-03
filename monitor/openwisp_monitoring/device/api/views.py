@@ -84,7 +84,7 @@
           #  data['data'] = self.instance.data
        # return Response(data)
 
-    def _get_charts_data(self, charts, time, timezone):
+   # def _get_charts_data(self, charts, time, timezone):
         chart_map = {}
         x_axys = True
        # data = OrderedDict({'charts': []})
