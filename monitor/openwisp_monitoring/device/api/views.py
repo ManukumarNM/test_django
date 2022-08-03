@@ -87,7 +87,7 @@
     def _get_charts_data(self, charts, time, timezone):
         chart_map = {}
         x_axys = True
-        data = OrderedDict({'charts': []})
+       # data = OrderedDict({'charts': []})
        # for chart in charts:
             # prepare chart dict
             try:
