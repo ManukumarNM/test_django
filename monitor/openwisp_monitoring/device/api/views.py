@@ -91,7 +91,7 @@
        # for chart in charts:
             # prepare chart dict
            # try:
-                chart_dict = chart.read(time=time, x_axys=x_axys, timezone=timezone)
+               # chart_dict = chart.read(time=time, x_axys=x_axys, timezone=timezone)
                 chart_dict['description'] = chart.description
                 chart_dict['title'] = chart.title.format(metric=chart.metric)
                 chart_dict['type'] = chart.type
