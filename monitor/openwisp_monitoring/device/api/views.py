@@ -103,7 +103,7 @@
                   #  value = getattr(chart, attr)
                    # if value:
                        # chart_dict[attr] = value
-            except InvalidChartConfigException:
+           # except InvalidChartConfigException:
                 logger.exception(f'Skipped chart for metric {chart.metric}')
                 continue
             # get x axys (only once)
