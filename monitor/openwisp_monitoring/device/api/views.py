@@ -116,7 +116,7 @@
           #  chart_map[key] = chart_dict
         # add sorted chart list to chart data
        # data['charts'] = list(OrderedDict(sorted(chart_map.items())).values())
-        return data
+       # return data
 
     def _get_csv(self, data):
         header = ['time']
