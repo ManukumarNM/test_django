@@ -99,7 +99,7 @@
                # chart_dict['summary_labels'] = chart.summary_labels
                # chart_dict['colors'] = chart.colors
                # chart_dict['colorscale'] = chart.colorscale
-                for attr in ['fill', 'xaxis', 'yaxis']:
+               # for attr in ['fill', 'xaxis', 'yaxis']:
                     value = getattr(chart, attr)
                     if value:
                         chart_dict[attr] = value
