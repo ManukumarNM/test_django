@@ -108,7 +108,7 @@
               #  continue
             # get x axys (only once)
            # if x_axys and chart_dict['x'] and chart.type != 'histogram':
-                data['x'] = chart_dict.pop('x')
+               # data['x'] = chart_dict.pop('x')
                 x_axys = False
             # prepare to sort the items according to
             # the order in the chart configuration
