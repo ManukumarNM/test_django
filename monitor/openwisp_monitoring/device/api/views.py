@@ -101,7 +101,7 @@
                # chart_dict['colorscale'] = chart.colorscale
                # for attr in ['fill', 'xaxis', 'yaxis']:
                   #  value = getattr(chart, attr)
-                    if value:
+                   # if value:
                         chart_dict[attr] = value
             except InvalidChartConfigException:
                 logger.exception(f'Skipped chart for metric {chart.metric}')
