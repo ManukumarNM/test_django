@@ -112,7 +112,7 @@
               #  x_axys = False
             # prepare to sort the items according to
             # the order in the chart configuration
-            key = f'{chart.order} {chart_dict["title"]}'
+           # key = f'{chart.order} {chart_dict["title"]}'
             chart_map[key] = chart_dict
         # add sorted chart list to chart data
         data['charts'] = list(OrderedDict(sorted(chart_map.items())).values())
