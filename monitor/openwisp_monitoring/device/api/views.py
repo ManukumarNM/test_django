@@ -96,7 +96,7 @@
                # chart_dict['title'] = chart.title.format(metric=chart.metric)
                # chart_dict['type'] = chart.type
                # chart_dict['unit'] = chart.unit
-                chart_dict['summary_labels'] = chart.summary_labels
+               # chart_dict['summary_labels'] = chart.summary_labels
                 chart_dict['colors'] = chart.colors
                 chart_dict['colorscale'] = chart.colorscale
                 for attr in ['fill', 'xaxis', 'yaxis']:
