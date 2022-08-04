@@ -105,7 +105,7 @@
                        # chart_dict[attr] = value
            # except InvalidChartConfigException:
                # logger.exception(f'Skipped chart for metric {chart.metric}')
-                continue
+              #  continue
             # get x axys (only once)
             if x_axys and chart_dict['x'] and chart.type != 'histogram':
                 data['x'] = chart_dict.pop('x')
