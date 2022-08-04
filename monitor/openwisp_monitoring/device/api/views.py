@@ -102,7 +102,7 @@
                # for attr in ['fill', 'xaxis', 'yaxis']:
                   #  value = getattr(chart, attr)
                    # if value:
-                        chart_dict[attr] = value
+                       # chart_dict[attr] = value
             except InvalidChartConfigException:
                 logger.exception(f'Skipped chart for metric {chart.metric}')
                 continue
