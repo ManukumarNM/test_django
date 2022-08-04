@@ -100,7 +100,7 @@
                # chart_dict['colors'] = chart.colors
                # chart_dict['colorscale'] = chart.colorscale
                # for attr in ['fill', 'xaxis', 'yaxis']:
-                    value = getattr(chart, attr)
+                  #  value = getattr(chart, attr)
                     if value:
                         chart_dict[attr] = value
             except InvalidChartConfigException:
