@@ -104,7 +104,7 @@
                    # if value:
                        # chart_dict[attr] = value
            # except InvalidChartConfigException:
-                logger.exception(f'Skipped chart for metric {chart.metric}')
+               # logger.exception(f'Skipped chart for metric {chart.metric}')
                 continue
             # get x axys (only once)
             if x_axys and chart_dict['x'] and chart.type != 'histogram':
