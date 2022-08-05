@@ -119,7 +119,7 @@
        # return data
 
    # def _get_csv(self, data):
-        header = ['time']
+       # header = ['time']
         columns = [data.get('x')]
         histograms = []
         for chart in data['charts']:
