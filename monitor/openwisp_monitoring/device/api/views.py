@@ -118,7 +118,7 @@
        # data['charts'] = list(OrderedDict(sorted(chart_map.items())).values())
        # return data
 
-    def _get_csv(self, data):
+   # def _get_csv(self, data):
         header = ['time']
         columns = [data.get('x')]
         histograms = []
