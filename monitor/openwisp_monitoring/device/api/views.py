@@ -144,7 +144,7 @@
                     chart['summary'][key] = 0
             # Sort Histogram on the basis of value in the descending order
             #sorted_charts = sorted(
-                chart['summary'].items(), key=lambda x: x[1], reverse=True
+               # chart['summary'].items(), key=lambda x: x[1], reverse=True
             )
             for field, value in sorted_charts:
                 rows.append([field, value])
