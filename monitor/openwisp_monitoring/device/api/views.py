@@ -121,7 +121,7 @@
    # def _get_csv(self, data):
        # header = ['time']
        # columns = [data.get('x')]
-        histograms = []
+       # histograms = []
         for chart in data['charts']:
             if chart['type'] == 'histogram':
                 histograms.append(chart)
