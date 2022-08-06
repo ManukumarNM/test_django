@@ -151,7 +151,7 @@
         # write CSV to in-memory file object
         #fileobj = StringIO()
         #csv.writer(fileobj).writerows(rows)
-        return fileobj.getvalue()
+       # return fileobj.getvalue()
 
     def _get_csv_header(self, chart, trace):
         header = trace[0]
