@@ -123,7 +123,7 @@
        # columns = [data.get('x')]
        # histograms = []
         #for chart in data['charts']:
-            if chart['type'] == 'histogram':
+            #if chart['type'] == 'histogram':
                 histograms.append(chart)
                 continue
             for trace in chart['traces']:
