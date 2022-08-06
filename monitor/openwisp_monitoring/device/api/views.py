@@ -149,7 +149,7 @@
             for field, value in sorted_charts:
                 rows.append([field, value])
         # write CSV to in-memory file object
-        fileobj = StringIO()
+        #fileobj = StringIO()
         csv.writer(fileobj).writerows(rows)
         return fileobj.getvalue()
 
