@@ -122,7 +122,7 @@
        # header = ['time']
        # columns = [data.get('x')]
        # histograms = []
-        for chart in data['charts']:
+        #for chart in data['charts']:
             if chart['type'] == 'histogram':
                 histograms.append(chart)
                 continue
