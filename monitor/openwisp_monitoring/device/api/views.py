@@ -127,7 +127,7 @@
                # histograms.append(chart)
                # continue
            # for trace in chart['traces']:
-                header.append(self._get_csv_header(chart, trace))
+               # header.append(self._get_csv_header(chart, trace))
                 columns.append(trace[1])
         rows = [header]
         for index, element in enumerate(data.get('x', [])):
