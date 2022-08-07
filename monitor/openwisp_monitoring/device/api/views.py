@@ -158,7 +158,7 @@
         return f'{header} - {chart["title"]}'
 
     def post(self, request, pk):
-        self.instance = self.get_object()
+      #  self.instance = self.get_object()
       #  self._init_previous_data()
        # self.instance.data = request.data
         # validate incoming data
