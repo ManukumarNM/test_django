@@ -131,7 +131,7 @@
                # columns.append(trace[1])
 #rows = [header]
        # for index, element in enumerate(data.get('x', [])):
-            row = []
+          #  row = []
             for column in columns:
                 row.append(column[index])
             rows.append(row)
