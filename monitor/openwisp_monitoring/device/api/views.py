@@ -159,7 +159,7 @@
 
     def post(self, request, pk):
         self.instance = self.get_object()
-        self._init_previous_data()
+      #  self._init_previous_data()
        # self.instance.data = request.data
         # validate incoming data
         try:
