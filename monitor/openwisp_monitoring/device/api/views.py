@@ -125,7 +125,7 @@
         #for chart in data['charts']:
             #if chart['type'] == 'histogram':
                # histograms.append(chart)
-                continue
+               # continue
             for trace in chart['traces']:
                 header.append(self._get_csv_header(chart, trace))
                 columns.append(trace[1])
