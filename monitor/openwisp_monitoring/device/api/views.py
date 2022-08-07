@@ -132,7 +132,7 @@
 #rows = [header]
        # for index, element in enumerate(data.get('x', [])):
           #  row = []
-            for column in columns:
+           # for column in columns:
                 row.append(column[index])
             rows.append(row)
         for chart in histograms:
