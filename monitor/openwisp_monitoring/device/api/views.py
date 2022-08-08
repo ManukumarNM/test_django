@@ -134,7 +134,7 @@
           #  row = []
            # for column in columns:
                # row.append(column[index])
-            rows.append(row)
+           # rows.append(row)
         for chart in histograms:
             rows.append([])
             rows.append([chart['title']])
