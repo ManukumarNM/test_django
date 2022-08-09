@@ -140,7 +140,7 @@
            # rows.append([chart['title']])
             # Export value as 0 if it is None
            # for key, value in chart['summary'].items():
-                if chart['summary'][key] is None:
+               # if chart['summary'][key] is None:
                     chart['summary'][key] = 0
             # Sort Histogram on the basis of value in the descending order
             #sorted_charts = sorted(
