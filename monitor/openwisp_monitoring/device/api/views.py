@@ -146,7 +146,7 @@
             #sorted_charts = sorted(
                # chart['summary'].items(), key=lambda x: x[1], reverse=True
           #  )
-            for field, value in sorted_charts:
+           # for field, value in sorted_charts:
                 rows.append([field, value])
         # write CSV to in-memory file object
         #fileobj = StringIO()
