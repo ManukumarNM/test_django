@@ -154,7 +154,7 @@
        # return fileobj.getvalue()
 
    # def _get_csv_header(self, chart, trace):
-        header = trace[0]
+      #  header = trace[0]
         return f'{header} - {chart["title"]}'
 
     def post(self, request, pk):
