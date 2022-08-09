@@ -157,7 +157,7 @@
       #  header = trace[0]
        # return f'{header} - {chart["title"]}'
 
-    def post(self, request, pk):
+  #  def post(self, request, pk):
       #  self.instance = self.get_object()
       #  self._init_previous_data()
        # self.instance.data = request.data
