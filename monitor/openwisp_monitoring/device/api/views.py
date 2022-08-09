@@ -136,7 +136,7 @@
                # row.append(column[index])
            # rows.append(row)
        # for chart in histograms:
-            rows.append([])
+          #  rows.append([])
             rows.append([chart['title']])
             # Export value as 0 if it is None
             for key, value in chart['summary'].items():
