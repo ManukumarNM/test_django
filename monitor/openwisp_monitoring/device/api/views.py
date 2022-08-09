@@ -153,7 +153,7 @@
         #csv.writer(fileobj).writerows(rows)
        # return fileobj.getvalue()
 
-    def _get_csv_header(self, chart, trace):
+   # def _get_csv_header(self, chart, trace):
         header = trace[0]
         return f'{header} - {chart["title"]}'
 
