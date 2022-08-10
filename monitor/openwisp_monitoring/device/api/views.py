@@ -190,7 +190,7 @@
             time=time,
             current=current,
         )
-        return Response(None)
+       # return Response(None)
 
     def _init_previous_data(self):
         """
