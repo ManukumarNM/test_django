@@ -163,7 +163,7 @@
        # self.instance.data = request.data
         # validate incoming data
        # try:
-            self.instance.validate_data()
+          #  self.instance.validate_data()
         except ValidationError as e:
             logger.info(e.message)
             return Response(e.message, status=status.HTTP_400_BAD_REQUEST)
