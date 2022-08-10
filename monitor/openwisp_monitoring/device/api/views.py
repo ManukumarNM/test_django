@@ -164,7 +164,7 @@
         # validate incoming data
        # try:
           #  self.instance.validate_data()
-        except ValidationError as e:
+       # except ValidationError as e:
             logger.info(e.message)
             return Response(e.message, status=status.HTTP_400_BAD_REQUEST)
         time_obj = request.query_params.get(
