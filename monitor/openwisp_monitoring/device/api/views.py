@@ -162,7 +162,7 @@
       #  self._init_previous_data()
        # self.instance.data = request.data
         # validate incoming data
-        try:
+       # try:
             self.instance.validate_data()
         except ValidationError as e:
             logger.info(e.message)
