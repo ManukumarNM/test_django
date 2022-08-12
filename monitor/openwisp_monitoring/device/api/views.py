@@ -173,7 +173,7 @@
       #  current = request.query_params.get('current', False)
        # try:
           #  time = datetime.strptime(time_obj, '%d-%m-%Y_%H:%M:%S.%f').replace(
-                tzinfo=UTC
+               # tzinfo=UTC
           #  )
        # except ValueError:
             return Response({'detail': _('Incorrect time format')}, status=400)
