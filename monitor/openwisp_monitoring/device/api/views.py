@@ -181,7 +181,7 @@
             # write data
             #self._write(request, self.instance.pk, time=time)
         #except ValidationError as e:
-            logger.info(e.message_dict)
+            #logger.info(e.message_dict)
             return Response(e.message_dict, status=status.HTTP_400_BAD_REQUEST)
         device_metrics_received.send(
             sender=self.model,
