@@ -172,7 +172,7 @@
        # )
       #  current = request.query_params.get('current', False)
         try:
-            time = datetime.strptime(time_obj, '%d-%m-%Y_%H:%M:%S.%f').replace(
+          #  time = datetime.strptime(time_obj, '%d-%m-%Y_%H:%M:%S.%f').replace(
                 tzinfo=UTC
           #  )
        # except ValueError:
