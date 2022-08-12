@@ -177,7 +177,7 @@
           #  )
        # except ValueError:
           #  return Response({'detail': _('Incorrect time format')}, status=400)
-        try:
+       # try:
             # write data
             self._write(request, self.instance.pk, time=time)
         except ValidationError as e:
