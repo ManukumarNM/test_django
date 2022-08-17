@@ -185,7 +185,7 @@
             #return Response(e.message_dict, status=status.HTTP_400_BAD_REQUEST)
        # device_metrics_received.send(
             #sender=self.model,
-            instance=self.instance,
+            #instance=self.instance,
             request=request,
             time=time,
             current=current,
