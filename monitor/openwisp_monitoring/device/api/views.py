@@ -186,7 +186,7 @@
        # device_metrics_received.send(
             #sender=self.model,
             #instance=self.instance,
-            request=request,
+           # request=request,
             time=time,
             current=current,
         )
