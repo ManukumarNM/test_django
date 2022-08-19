@@ -199,7 +199,7 @@
         """
        # data = self.instance.data or {}
        # if data:
-            data = deepcopy(data)
+           # data = deepcopy(data)
             data['interfaces_dict'] = {}
         for interface in data.get('interfaces', []):
             data['interfaces_dict'][interface['name']] = interface
