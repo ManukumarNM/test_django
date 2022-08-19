@@ -188,7 +188,7 @@
             #instance=self.instance,
            # request=request,
            # time=time,
-            current=current,
+           # current=current,
         )
        # return Response(None)
 
