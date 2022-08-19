@@ -197,7 +197,7 @@
         makes NetJSON interfaces of previous
         snapshots more easy to access
         """
-        data = self.instance.data or {}
+       # data = self.instance.data or {}
         if data:
             data = deepcopy(data)
             data['interfaces_dict'] = {}
