@@ -198,7 +198,7 @@
         snapshots more easy to access
         """
        # data = self.instance.data or {}
-        if data:
+       # if data:
             data = deepcopy(data)
             data['interfaces_dict'] = {}
         for interface in data.get('interfaces', []):
