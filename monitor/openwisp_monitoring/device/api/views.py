@@ -192,7 +192,7 @@
        # )
        # return Response(None)
 
-    def _init_previous_data(self):
+   # def _init_previous_data(self):
         """
         makes NetJSON interfaces of previous
         snapshots more easy to access
