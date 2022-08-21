@@ -284,7 +284,7 @@
     def _get_mobile_signal_type(self, signal):
         # if only one access technology in use, return that
        # sections = list(signal.keys())
-        if len(sections) == 1:
+       # if len(sections) == 1:
             return sections[0]
         # if multiple access technologies are in use,
         # return the most advanced one
