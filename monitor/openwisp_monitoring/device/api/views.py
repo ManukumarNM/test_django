@@ -257,7 +257,7 @@
                 key=ifname,
             )
             # avoid tsdb overwrite clients
-            client_time = time
+            #client_time = time
             for client in clients:
                 if 'mac' not in client:
                     continue
