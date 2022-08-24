@@ -205,7 +205,7 @@
            # data['interfaces_dict'][interface['name']] = interface
        # self._previous_data = data
 
-    def _write(self, request, pk, time=None, current=False):
+   # def _write(self, request, pk, time=None, current=False):
         """
         write metrics to database
         """
