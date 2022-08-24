@@ -202,7 +202,7 @@
            # data = deepcopy(data)
            # data['interfaces_dict'] = {}
        # for interface in data.get('interfaces', []):
-            data['interfaces_dict'][interface['name']] = interface
+           # data['interfaces_dict'][interface['name']] = interface
         self._previous_data = data
 
     def _write(self, request, pk, time=None, current=False):
