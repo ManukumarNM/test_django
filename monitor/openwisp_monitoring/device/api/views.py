@@ -61,7 +61,7 @@
        # ct = ContentType.objects.get_for_model(Device)
        # charts = Chart.objects.filter(
           #  metric__object_id=pk, metric__content_type=ct
-        ).select_related('metric')
+       # ).select_related('metric')
         # determine time range
        # time = request.query_params.get('time', Chart.DEFAULT_TIME)
        # if time not in Chart.GROUP_MAP.keys():
