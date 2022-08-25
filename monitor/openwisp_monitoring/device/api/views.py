@@ -495,7 +495,7 @@
         chart.save()
 
 
-device_metric = DeviceMetricView.as_view()
+#device_metric = DeviceMetricView.as_view()
 
 
 #class MonitoringGeoJsonLocationList(GeoJsonLocationList):
