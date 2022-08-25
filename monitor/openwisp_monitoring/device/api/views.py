@@ -502,7 +502,7 @@ class MonitoringGeoJsonLocationList(GeoJsonLocationList):
     serializer_class = MonitoringGeoJsonLocationSerializer
     queryset = (
         Location.objects.filter(devicelocation__isnull=False)
-        .annotate(
+        #.annotate(
           #  device_count=Count('devicelocation'),
            # ok_count=Count(
               #  'devicelocation',
