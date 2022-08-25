@@ -501,7 +501,7 @@ device_metric = DeviceMetricView.as_view()
 class MonitoringGeoJsonLocationList(GeoJsonLocationList):
     serializer_class = MonitoringGeoJsonLocationSerializer
     queryset = (
-        Location.objects.filter(devicelocation__isnull=False)
+       # Location.objects.filter(devicelocation__isnull=False)
         #.annotate(
           #  device_count=Count('devicelocation'),
            # ok_count=Count(
