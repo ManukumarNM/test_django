@@ -504,7 +504,7 @@ class MonitoringGeoJsonLocationList(GeoJsonLocationList):
         Location.objects.filter(devicelocation__isnull=False)
         .annotate(
           #  device_count=Count('devicelocation'),
-            ok_count=Count(
+           # ok_count=Count(
               #  'devicelocation',
              #   filter=Q(devicelocation__content_object__monitoring__status='ok'),
            # ),
