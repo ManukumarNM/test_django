@@ -506,7 +506,7 @@ class MonitoringGeoJsonLocationList(GeoJsonLocationList):
             device_count=Count('devicelocation'),
             ok_count=Count(
                 'devicelocation',
-                filter=Q(devicelocation__content_object__monitoring__status='ok'),
+             #   filter=Q(devicelocation__content_object__monitoring__status='ok'),
            # ),
           #  problem_count=Count(
              #   'devicelocation',
