@@ -498,7 +498,7 @@
 device_metric = DeviceMetricView.as_view()
 
 
-class MonitoringGeoJsonLocationList(GeoJsonLocationList):
+#class MonitoringGeoJsonLocationList(GeoJsonLocationList):
    # serializer_class = MonitoringGeoJsonLocationSerializer
    # queryset = (
        # Location.objects.filter(devicelocation__isnull=False)
