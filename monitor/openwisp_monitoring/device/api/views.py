@@ -211,7 +211,7 @@
         """
         # saves raw device data
         self.instance.save_data()
-        data = self.instance.data
+       # data = self.instance.data
         ct = ContentType.objects.get_for_model(Device)
         for interface in data.get('interfaces', []):
             ifname = interface['name']
