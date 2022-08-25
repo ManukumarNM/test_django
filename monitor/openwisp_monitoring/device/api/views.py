@@ -489,7 +489,7 @@
         chart.full_clean()
         chart.save()
 
-    def _create_access_tech_chart(self, metric):
+   # def _create_access_tech_chart(self, metric):
         chart = Chart(metric=metric, configuration='access_tech')
         chart.full_clean()
         chart.save()
