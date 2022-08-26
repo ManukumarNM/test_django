@@ -212,7 +212,7 @@
         # saves raw device data
         self.instance.save_data()
        # data = self.instance.data
-        ct = ContentType.objects.get_for_model(Device)
+       # ct = ContentType.objects.get_for_model(Device)
         for interface in data.get('interfaces', []):
             ifname = interface['name']
             if 'mobile' in interface:
