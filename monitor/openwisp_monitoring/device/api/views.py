@@ -220,7 +220,7 @@
            # ifstats = interface.get('statistics', {})
             # Explicitly stated None to avoid skipping in case the stats are zero
            # if (
-                ifstats.get('rx_bytes') is not None
+               # ifstats.get('rx_bytes') is not None
                 and ifstats.get('rx_bytes') is not None
             ):
                 field_value = self._calculate_increment(
