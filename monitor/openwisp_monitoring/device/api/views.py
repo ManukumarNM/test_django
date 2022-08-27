@@ -215,7 +215,7 @@
        # ct = ContentType.objects.get_for_model(Device)
        # for interface in data.get('interfaces', []):
            # ifname = interface['name']
-            if 'mobile' in interface:
+           # if 'mobile' in interface:
                 self._write_mobile_signal(interface, ifname, ct, pk, current, time=time)
             ifstats = interface.get('statistics', {})
             # Explicitly stated None to avoid skipping in case the stats are zero
