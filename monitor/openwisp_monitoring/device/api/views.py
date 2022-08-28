@@ -231,7 +231,7 @@
                         ifname, 'tx_bytes', ifstats['tx_bytes']
                     )
                 }
-                name = f'{ifname} traffic'
+               # name = f'{ifname} traffic'
                 metric, created = Metric._get_or_create(
                     object_id=pk,
                     content_type=ct,
