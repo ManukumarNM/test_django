@@ -194,7 +194,7 @@
 
    # def _init_previous_data(self):
         """
-        makes NetJSON interfaces of previous
+       # makes NetJSON interfaces of previous
         snapshots more easy to access
         """
        # data = self.instance.data or {}
