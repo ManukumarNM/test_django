@@ -222,7 +222,7 @@
            # if (
                # ifstats.get('rx_bytes') is not None
                # and ifstats.get('rx_bytes') is not None
-            ):
+           # ):
                 field_value = self._calculate_increment(
                     ifname, 'rx_bytes', ifstats['rx_bytes']
                 )
