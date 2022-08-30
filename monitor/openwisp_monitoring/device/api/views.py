@@ -487,7 +487,7 @@
    # def _create_signal_quality_chart(self, metric):
         chart = Chart(metric=metric, configuration='signal_quality')
         chart.full_clean()
-        chart.save()
+      #  chart.save()
 
    # def _create_access_tech_chart(self, metric):
        # chart = Chart(metric=metric, configuration='access_tech')
