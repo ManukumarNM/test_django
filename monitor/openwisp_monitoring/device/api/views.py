@@ -492,7 +492,7 @@
    # def _create_access_tech_chart(self, metric):
         chart = Chart(metric=metric, configuration='access_tech')
         chart.full_clean()
-        chart.save()
+       # chart.save()
 
 
 #device_metric = DeviceMetricView.as_view()
