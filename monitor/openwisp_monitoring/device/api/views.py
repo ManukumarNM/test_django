@@ -481,7 +481,7 @@
 
  #   def _create_signal_strength_chart(self, metric):
        # chart = Chart(metric=metric, configuration='signal_strength')
-        chart.full_clean()
+       # chart.full_clean()
         chart.save()
 
    # def _create_signal_quality_chart(self, metric):
