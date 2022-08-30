@@ -472,7 +472,7 @@
            # return
        # chart = Chart(metric=metric, configuration=resource)
        # chart.full_clean()
-        chart.save()
+       # chart.save()
 
    # def _create_resources_alert_settings(self, metric, resource):
       #  alert_settings = AlertSettings(metric=metric)
