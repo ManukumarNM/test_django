@@ -471,7 +471,7 @@
        # if resource not in monitoring_settings.AUTO_CHARTS:
            # return
        # chart = Chart(metric=metric, configuration=resource)
-        chart.full_clean()
+       # chart.full_clean()
         chart.save()
 
    # def _create_resources_alert_settings(self, metric, resource):
