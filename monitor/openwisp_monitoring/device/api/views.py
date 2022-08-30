@@ -468,7 +468,7 @@
         chart.save()
 
    # def _create_resources_chart(self, metric, resource):
-        if resource not in monitoring_settings.AUTO_CHARTS:
+       # if resource not in monitoring_settings.AUTO_CHARTS:
             return
         chart = Chart(metric=metric, configuration=resource)
         chart.full_clean()
