@@ -347,7 +347,7 @@
             if created:
                 self._create_signal_quality_chart(metric)
         # create access technology chart
-        metric, created = Metric._get_or_create(
+        #metric, created = Metric._get_or_create(
             object_id=pk,
             content_type=ct,
             configuration='access_tech',
