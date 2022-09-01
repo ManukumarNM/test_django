@@ -465,7 +465,7 @@
             return
         chart = Chart(metric=metric, configuration='wifi_clients')
         chart.full_clean()
-        chart.save()
+       # chart.save()
 
    # def _create_resources_chart(self, metric, resource):
        # if resource not in monitoring_settings.AUTO_CHARTS:
