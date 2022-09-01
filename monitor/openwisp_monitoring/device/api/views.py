@@ -226,7 +226,7 @@
                # field_value = self._calculate_increment(
                    # ifname, 'rx_bytes', ifstats['rx_bytes']
                 )
-                extra_values = {
+               # extra_values = {
                     'tx_bytes': self._calculate_increment(
                         ifname, 'tx_bytes', ifstats['tx_bytes']
                     )
