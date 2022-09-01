@@ -285,7 +285,7 @@
         # if only one access technology in use, return that
        # sections = list(signal.keys())
        # if len(sections) == 1:
-            return sections[0]
+           # return sections[0]
         # if multiple access technologies are in use,
         # return the most advanced one
        # access_technologies = list(ACCESS_TECHNOLOGIES.keys())
