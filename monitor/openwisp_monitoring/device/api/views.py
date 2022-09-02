@@ -463,7 +463,7 @@
         """
         if 'wifi_clients' not in monitoring_settings.AUTO_CHARTS:
             return
-        chart = Chart(metric=metric, configuration='wifi_clients')
+       # chart = Chart(metric=metric, configuration='wifi_clients')
        # chart.full_clean()
        # chart.save()
 
