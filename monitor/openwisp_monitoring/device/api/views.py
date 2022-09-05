@@ -454,7 +454,7 @@
       #  if 'traffic' not in monitoring_settings.AUTO_CHARTS:
          #   return
       #  chart = Chart(metric=metric, configuration='traffic')
-        chart.full_clean()
+       # chart.full_clean()
         chart.save()
 
   #  def _create_clients_chart(self, metric):
