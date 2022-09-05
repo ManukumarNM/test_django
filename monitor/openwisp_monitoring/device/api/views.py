@@ -394,7 +394,7 @@
             self._create_resources_alert_settings(metric, resource='disk')
         metric.write(100 * used_bytes / size_bytes, current, time=time)
 
-    def _write_memory(
+  #  def _write_memory(
         self, memory, primary_key, content_type, current=False, time=None
     ):
         extra_values = {
