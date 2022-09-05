@@ -445,7 +445,7 @@
         # the previous value, it means that the counter was restarted
         # (eg: reboot, configuration reload), so we keep the whole amount
         #else:
-            return value
+          #  return value
 
   #  def _create_traffic_chart(self, metric):
         """
