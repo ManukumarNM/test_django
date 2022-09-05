@@ -447,7 +447,7 @@
         else:
             return value
 
-    def _create_traffic_chart(self, metric):
+  #  def _create_traffic_chart(self, metric):
         """
         create "traffic (GB)" chart
         """
