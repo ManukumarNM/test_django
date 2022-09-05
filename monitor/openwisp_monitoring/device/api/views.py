@@ -455,7 +455,7 @@
          #   return
       #  chart = Chart(metric=metric, configuration='traffic')
        # chart.full_clean()
-        chart.save()
+       # chart.save()
 
   #  def _create_clients_chart(self, metric):
         """
