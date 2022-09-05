@@ -457,7 +457,7 @@
         chart.full_clean()
         chart.save()
 
-    def _create_clients_chart(self, metric):
+  #  def _create_clients_chart(self, metric):
         """
         creates "WiFi associations" chart
         """
