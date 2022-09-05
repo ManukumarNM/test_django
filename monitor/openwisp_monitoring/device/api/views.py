@@ -238,7 +238,7 @@
               #      configuration='traffic',
               #      name=name,
               #      key=ifname,
-                )
+              #  )
                 metric.write(field_value, current, time=time, extra_values=extra_values)
                 if created:
                     self._create_traffic_chart(metric)
