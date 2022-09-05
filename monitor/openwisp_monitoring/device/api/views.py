@@ -451,7 +451,7 @@
         """
         create "traffic (GB)" chart
         """
-        if 'traffic' not in monitoring_settings.AUTO_CHARTS:
+      #  if 'traffic' not in monitoring_settings.AUTO_CHARTS:
             return
         chart = Chart(metric=metric, configuration='traffic')
         chart.full_clean()
