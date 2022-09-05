@@ -453,7 +453,7 @@
         """
       #  if 'traffic' not in monitoring_settings.AUTO_CHARTS:
          #   return
-        chart = Chart(metric=metric, configuration='traffic')
+      #  chart = Chart(metric=metric, configuration='traffic')
         chart.full_clean()
         chart.save()
 
