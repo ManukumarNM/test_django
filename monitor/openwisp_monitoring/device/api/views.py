@@ -452,7 +452,7 @@
         create "traffic (GB)" chart
         """
       #  if 'traffic' not in monitoring_settings.AUTO_CHARTS:
-            return
+         #   return
         chart = Chart(metric=metric, configuration='traffic')
         chart.full_clean()
         chart.save()
