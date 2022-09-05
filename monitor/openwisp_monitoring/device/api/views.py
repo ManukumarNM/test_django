@@ -439,7 +439,7 @@
         # it means the interface traffic counter is increasing
         # and to calculate the traffic performed since the last
         # measurement we have to calculate the difference
-        if value >= previous_counter:
+        #if value >= previous_counter:
             return value - previous_counter
         # on the other side, if the current value is less than
         # the previous value, it means that the counter was restarted
