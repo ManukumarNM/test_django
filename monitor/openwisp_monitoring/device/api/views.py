@@ -228,7 +228,7 @@
                 )
                # extra_values = {
                    # 'tx_bytes': self._calculate_increment(
-                        ifname, 'tx_bytes', ifstats['tx_bytes']
+                      #  ifname, 'tx_bytes', ifstats['tx_bytes']
                     )
                 }
                # name = f'{ifname} traffic'
