@@ -227,7 +227,7 @@
                    # ifname, 'rx_bytes', ifstats['rx_bytes']
                 )
                # extra_values = {
-                    'tx_bytes': self._calculate_increment(
+                   # 'tx_bytes': self._calculate_increment(
                         ifname, 'tx_bytes', ifstats['tx_bytes']
                     )
                 }
