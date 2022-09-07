@@ -240,7 +240,7 @@
               #      key=ifname,
               #  )
               #  metric.write(field_value, current, time=time, extra_values=extra_values)
-                if created:
+               # if created:
                     self._create_traffic_chart(metric)
             try:
                 clients = interface['wireless']['clients']
