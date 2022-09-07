@@ -255,7 +255,7 @@
                 configuration='clients',
                 name=name,
                 key=ifname,
-            )
+           # )
             # avoid tsdb overwrite clients
             #client_time = time
             for client in clients:
