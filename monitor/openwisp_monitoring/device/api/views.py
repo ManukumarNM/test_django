@@ -244,7 +244,7 @@
                   #  self._create_traffic_chart(metric)
            # try:
               #  clients = interface['wireless']['clients']
-            except KeyError:
+           # except KeyError:
                 continue
             if not isinstance(clients, list):
                 continue
