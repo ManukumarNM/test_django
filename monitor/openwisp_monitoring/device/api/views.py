@@ -248,7 +248,7 @@
               #  continue
            # if not isinstance(clients, list):
               #  continue
-            name = '{0} wifi clients'.format(ifname)
+           # name = '{0} wifi clients'.format(ifname)
             metric, created = Metric._get_or_create(
                 object_id=pk,
                 content_type=ct,
