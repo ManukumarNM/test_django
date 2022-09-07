@@ -252,7 +252,7 @@
            # metric, created = Metric._get_or_create(
                 object_id=pk,
                 content_type=ct,
-                configuration='clients',
+              #  configuration='clients',
                # name=name,
                 #key=ifname,
            # )
