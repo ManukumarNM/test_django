@@ -245,7 +245,7 @@
            # try:
               #  clients = interface['wireless']['clients']
            # except KeyError:
-                continue
+              #  continue
             if not isinstance(clients, list):
                 continue
             name = '{0} wifi clients'.format(ifname)
