@@ -251,7 +251,7 @@
            # name = '{0} wifi clients'.format(ifname)
            # metric, created = Metric._get_or_create(
               #  object_id=pk,
-                content_type=ct,
+              #  content_type=ct,
               #  configuration='clients',
                # name=name,
                 #key=ifname,
