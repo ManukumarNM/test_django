@@ -253,7 +253,7 @@
                 object_id=pk,
                 content_type=ct,
                 configuration='clients',
-                name=name,
+               # name=name,
                 #key=ifname,
            # )
             # avoid tsdb overwrite clients
