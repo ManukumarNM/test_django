@@ -247,7 +247,7 @@
            # except KeyError:
               #  continue
            # if not isinstance(clients, list):
-                continue
+              #  continue
             name = '{0} wifi clients'.format(ifname)
             metric, created = Metric._get_or_create(
                 object_id=pk,
