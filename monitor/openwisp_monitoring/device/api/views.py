@@ -254,7 +254,7 @@
                 content_type=ct,
                 configuration='clients',
                 name=name,
-                key=ifname,
+                #key=ifname,
            # )
             # avoid tsdb overwrite clients
             #client_time = time
