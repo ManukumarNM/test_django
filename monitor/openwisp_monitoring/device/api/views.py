@@ -242,7 +242,7 @@
               #  metric.write(field_value, current, time=time, extra_values=extra_values)
                # if created:
                   #  self._create_traffic_chart(metric)
-            try:
+           # try:
                 clients = interface['wireless']['clients']
             except KeyError:
                 continue
