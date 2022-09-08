@@ -432,7 +432,7 @@
        # data = self._previous_data
        # try:
           #  previous_counter = data['interfaces_dict'][ifname]['statistics'][stat]
-        except KeyError:
+       # except KeyError:
             # if no previous measurements present, counter will start from zero
            # previous_counter = 0
         # if current value is higher than previous value,
