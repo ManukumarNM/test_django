@@ -412,7 +412,7 @@
        # if 'available' in memory:
             extra_values.update({'available_memory': memory['available']})
             if memory['available'] > memory['free']:
-                percent_used = 100 * (
+               # percent_used = 100 * (
                 #    1 - (memory['available'] + memory['buffered']) / memory['total']
               #  )
        # metric, created = Metric._get_or_create(
