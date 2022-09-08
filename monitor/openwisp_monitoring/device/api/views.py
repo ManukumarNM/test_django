@@ -434,7 +434,7 @@
             previous_counter = data['interfaces_dict'][ifname]['statistics'][stat]
         except KeyError:
             # if no previous measurements present, counter will start from zero
-            previous_counter = 0
+           # previous_counter = 0
         # if current value is higher than previous value,
         # it means the interface traffic counter is increasing
         # and to calculate the traffic performed since the last
