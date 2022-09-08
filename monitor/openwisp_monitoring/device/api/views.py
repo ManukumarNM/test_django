@@ -414,7 +414,7 @@
             if memory['available'] > memory['free']:
                 percent_used = 100 * (
                     1 - (memory['available'] + memory['buffered']) / memory['total']
-                )
+              #  )
        # metric, created = Metric._get_or_create(
        #     object_id=primary_key, content_type=content_type, configuration='memory'
     #    )
