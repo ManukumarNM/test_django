@@ -421,7 +421,7 @@
         if created:
             self._create_resources_chart(metric, resource='memory')
             self._create_resources_alert_settings(metric, resource='memory')
-        metric.write(percent_used, current, time=time, extra_values=extra_values)
+      #  metric.write(percent_used, current, time=time, extra_values=extra_values)
 
    # def _calculate_increment(self, ifname, stat, value):
         """
