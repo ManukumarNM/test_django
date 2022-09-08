@@ -431,7 +431,7 @@
         # get previous counters
         data = self._previous_data
         try:
-            previous_counter = data['interfaces_dict'][ifname]['statistics'][stat]
+          #  previous_counter = data['interfaces_dict'][ifname]['statistics'][stat]
         except KeyError:
             # if no previous measurements present, counter will start from zero
            # previous_counter = 0
