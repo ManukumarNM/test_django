@@ -429,7 +429,7 @@
         calculates the increment of the value (which is returned)
         """
         # get previous counters
-        data = self._previous_data
+       # data = self._previous_data
         try:
           #  previous_counter = data['interfaces_dict'][ifname]['statistics'][stat]
         except KeyError:
