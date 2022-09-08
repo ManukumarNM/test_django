@@ -430,7 +430,7 @@
         """
         # get previous counters
        # data = self._previous_data
-        try:
+       # try:
           #  previous_counter = data['interfaces_dict'][ifname]['statistics'][stat]
         except KeyError:
             # if no previous measurements present, counter will start from zero
