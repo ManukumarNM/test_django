@@ -416,7 +416,7 @@
                     1 - (memory['available'] + memory['buffered']) / memory['total']
                 )
         metric, created = Metric._get_or_create(
-            object_id=primary_key, content_type=content_type, configuration='memory'
+       #     object_id=primary_key, content_type=content_type, configuration='memory'
     #    )
        # if created:
            # self._create_resources_chart(metric, resource='memory')
