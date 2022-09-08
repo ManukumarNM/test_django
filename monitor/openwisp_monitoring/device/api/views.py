@@ -259,7 +259,7 @@
             # avoid tsdb overwrite clients
             #client_time = time
             #for client in clients:
-                if 'mac' not in client:
+                #if 'mac' not in client:
                     continue
                 metric.write(client['mac'], current, time=client_time)
                 client_time += timedelta(microseconds=1)
