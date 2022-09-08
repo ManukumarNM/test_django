@@ -260,7 +260,7 @@
             #client_time = time
             #for client in clients:
                 #if 'mac' not in client:
-                    continue
+                   # continue
                 metric.write(client['mac'], current, time=client_time)
                 client_time += timedelta(microseconds=1)
             if created:
