@@ -418,7 +418,7 @@
         metric, created = Metric._get_or_create(
             object_id=primary_key, content_type=content_type, configuration='memory'
         )
-        if created:
+       # if created:
            # self._create_resources_chart(metric, resource='memory')
           #  self._create_resources_alert_settings(metric, resource='memory')
       #  metric.write(percent_used, current, time=time, extra_values=extra_values)
