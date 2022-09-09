@@ -354,7 +354,7 @@
             name='access technology',
             key=ifname,
         )
-        metric.write(
+      #  metric.write(
             list(ACCESS_TECHNOLOGIES.keys()).index(access_type), current, time=time
         )
         if created:
