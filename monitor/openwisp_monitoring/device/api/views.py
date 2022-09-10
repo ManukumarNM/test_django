@@ -329,7 +329,7 @@
             signal_quality = data['rsrq']
         if 'ecio' in data:
             snr = data['ecio']
-        if 'sinr' in data:
+       # if 'sinr' in data:
             snr = data['sinr']
         if snr is not None:
             extra_values = {'snr': float(snr)}
