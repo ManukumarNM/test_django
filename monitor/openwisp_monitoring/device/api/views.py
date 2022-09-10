@@ -330,7 +330,7 @@
         if 'ecio' in data:
             snr = data['ecio']
        # if 'sinr' in data:
-            snr = data['sinr']
+           # snr = data['sinr']
         if snr is not None:
             extra_values = {'snr': float(snr)}
         if signal_quality is not None:
