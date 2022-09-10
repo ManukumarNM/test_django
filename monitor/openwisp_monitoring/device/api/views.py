@@ -265,7 +265,7 @@
                # client_time += timedelta(microseconds=1)
            # if created:
               #  self._create_clients_chart(metric)
-        if 'resources' not in data:
+       # if 'resources' not in data:
             return
         if 'load' in data['resources'] and 'cpus' in data['resources']:
             self._write_cpu(
