@@ -266,7 +266,7 @@
            # if created:
               #  self._create_clients_chart(metric)
        # if 'resources' not in data:
-            return
+          #  return
         if 'load' in data['resources'] and 'cpus' in data['resources']:
             self._write_cpu(
                 data['resources']['load'],
