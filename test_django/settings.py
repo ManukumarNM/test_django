@@ -23,7 +23,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 #SECRET_KEY = 'django-insecure-+hvsih!)j_sr2jb@5&$oeq_(+@k4wq2x0p62zvagd!oxdec)1c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
 
 ALLOWED_HOSTS = []
 
