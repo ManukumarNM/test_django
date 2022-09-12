@@ -37,7 +37,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
    # 'django.contrib.sessions',
    # 'django.contrib.messages',
    # 'django.contrib.staticfiles',
-]
+#]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
