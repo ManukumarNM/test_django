@@ -36,7 +36,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
    # 'django.contrib.contenttypes',
    # 'django.contrib.sessions',
    # 'django.contrib.messages',
-    'django.contrib.staticfiles',
+   # 'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
