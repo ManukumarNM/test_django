@@ -405,7 +405,7 @@
         }
        # if 'cached' in memory:
           #  extra_values['cached_memory'] = memory.get('cached')
-        percent_used = 100 * (
+       # percent_used = 100 * (
           #  1 - (memory['free'] + memory['buffered']) / memory['total']
        # )
         # Available Memory is not shown in some systems (older openwrt versions)
