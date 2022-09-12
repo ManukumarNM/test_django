@@ -404,7 +404,7 @@
             'shared_memory': memory['shared'],
         }
        # if 'cached' in memory:
-            extra_values['cached_memory'] = memory.get('cached')
+          #  extra_values['cached_memory'] = memory.get('cached')
         percent_used = 100 * (
           #  1 - (memory['free'] + memory['buffered']) / memory['total']
        # )
