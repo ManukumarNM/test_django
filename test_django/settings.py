@@ -34,7 +34,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
    # 'django.contrib.admin',
    # 'django.contrib.auth',
    # 'django.contrib.contenttypes',
-    'django.contrib.sessions',
+   # 'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
