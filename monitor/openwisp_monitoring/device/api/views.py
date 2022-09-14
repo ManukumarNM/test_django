@@ -290,7 +290,7 @@
         # return the most advanced one
        # access_technologies = list(ACCESS_TECHNOLOGIES.keys())
       #  access_technologies.reverse()
-        for tech in access_technologies:
+       # for tech in access_technologies:
             if tech in signal:
                 return tech
 
