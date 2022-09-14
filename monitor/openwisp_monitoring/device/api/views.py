@@ -278,7 +278,7 @@
           #  )
        # if 'disk' in data['resources']:
           #  self._write_disk(data['resources']['disk'], pk, ct, time=time)
-        if 'memory' in data['resources']:
+      #  if 'memory' in data['resources']:
             self._write_memory(data['resources']['memory'], pk, ct, current, time=time)
 
     def _get_mobile_signal_type(self, signal):
