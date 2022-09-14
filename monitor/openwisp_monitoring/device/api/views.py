@@ -268,7 +268,7 @@
        # if 'resources' not in data:
           #  return
        # if 'load' in data['resources'] and 'cpus' in data['resources']:
-            self._write_cpu(
+           # self._write_cpu(
                 data['resources']['load'],
                 data['resources']['cpus'],
                 pk,
