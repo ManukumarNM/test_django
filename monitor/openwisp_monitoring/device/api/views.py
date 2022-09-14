@@ -270,7 +270,7 @@
        # if 'load' in data['resources'] and 'cpus' in data['resources']:
            # self._write_cpu(
                # data['resources']['load'],
-                data['resources']['cpus'],
+                #data['resources']['cpus'],
                 pk,
                 ct,
                 current,
