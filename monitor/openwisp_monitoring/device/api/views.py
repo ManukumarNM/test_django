@@ -271,7 +271,7 @@
            # self._write_cpu(
                # data['resources']['load'],
                 #data['resources']['cpus'],
-                pk,
+              #  pk,
                 ct,
                 current,
                 time=time,
