@@ -291,7 +291,7 @@
        # access_technologies = list(ACCESS_TECHNOLOGIES.keys())
       #  access_technologies.reverse()
        # for tech in access_technologies:
-            if tech in signal:
+           # if tech in signal:
                 return tech
 
  #   def _write_mobile_signal(self, interface, ifname, ct, pk, current=False, time=None):
