@@ -281,7 +281,7 @@
       #  if 'memory' in data['resources']:
            # self._write_memory(data['resources']['memory'], pk, ct, current, time=time)
 
-    def _get_mobile_signal_type(self, signal):
+   # def _get_mobile_signal_type(self, signal):
         # if only one access technology in use, return that
        # sections = list(signal.keys())
        # if len(sections) == 1:
