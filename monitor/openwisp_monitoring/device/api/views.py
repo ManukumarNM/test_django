@@ -295,7 +295,7 @@
               #  return tech
 
  #   def _write_mobile_signal(self, interface, ifname, ct, pk, current=False, time=None):
-        access_type = self._get_mobile_signal_type(interface['mobile']['signal'])
+       # access_type = self._get_mobile_signal_type(interface['mobile']['signal'])
         data = interface['mobile']['signal'][access_type]
         signal_power = signal_strength = None
         extra_values = {}
