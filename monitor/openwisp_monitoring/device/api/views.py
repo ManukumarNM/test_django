@@ -273,7 +273,7 @@
                 #data['resources']['cpus'],
               #  pk,
                # ct,
-                current,
+               # current,
                 time=time,
             )
        # if 'disk' in data['resources']:
