@@ -272,7 +272,7 @@
                # data['resources']['load'],
                 #data['resources']['cpus'],
               #  pk,
-                ct,
+               # ct,
                 current,
                 time=time,
             )
