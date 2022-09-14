@@ -277,7 +277,7 @@
               #  time=time,
           #  )
        # if 'disk' in data['resources']:
-            self._write_disk(data['resources']['disk'], pk, ct, time=time)
+          #  self._write_disk(data['resources']['disk'], pk, ct, time=time)
         if 'memory' in data['resources']:
             self._write_memory(data['resources']['memory'], pk, ct, current, time=time)
 
