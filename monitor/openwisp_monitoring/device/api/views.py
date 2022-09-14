@@ -289,7 +289,7 @@
         # if multiple access technologies are in use,
         # return the most advanced one
        # access_technologies = list(ACCESS_TECHNOLOGIES.keys())
-        access_technologies.reverse()
+      #  access_technologies.reverse()
         for tech in access_technologies:
             if tech in signal:
                 return tech
