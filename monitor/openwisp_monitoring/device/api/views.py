@@ -298,7 +298,7 @@
        # access_type = self._get_mobile_signal_type(interface['mobile']['signal'])
        # data = interface['mobile']['signal'][access_type]
        # signal_power = signal_strength = None
-        extra_values = {}
+       # extra_values = {}
         if 'rssi' in data:
             signal_strength = data['rssi']
         if 'rsrp' in data:
