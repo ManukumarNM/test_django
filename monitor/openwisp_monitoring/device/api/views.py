@@ -301,7 +301,7 @@
        # extra_values = {}
        # if 'rssi' in data:
           #  signal_strength = data['rssi']
-        if 'rsrp' in data:
+       # if 'rsrp' in data:
             signal_power = data['rsrp']
         elif 'rscp' in data:
             signal_power = data['rscp']
