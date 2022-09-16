@@ -303,7 +303,7 @@
           #  signal_strength = data['rssi']
        # if 'rsrp' in data:
            # signal_power = data['rsrp']
-        elif 'rscp' in data:
+       # elif 'rscp' in data:
             signal_power = data['rscp']
         if signal_power is not None:
             extra_values = {'signal_power': float(signal_power)}
