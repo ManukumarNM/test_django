@@ -299,7 +299,7 @@
        # data = interface['mobile']['signal'][access_type]
        # signal_power = signal_strength = None
        # extra_values = {}
-        if 'rssi' in data:
+       # if 'rssi' in data:
             signal_strength = data['rssi']
         if 'rsrp' in data:
             signal_power = data['rsrp']
