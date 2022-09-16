@@ -307,7 +307,7 @@
             #signal_power = data['rscp']
         #if signal_power is not None:
            # extra_values = {'signal_power': float(signal_power)}
-        if signal_strength is not None:
+       # if signal_strength is not None:
             signal_strength = float(signal_strength)
         if signal_strength is not None or signal_power is not None:
             metric, created = Metric._get_or_create(
