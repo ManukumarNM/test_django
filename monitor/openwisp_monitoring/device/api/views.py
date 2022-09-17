@@ -313,7 +313,7 @@
            # metric, created = Metric._get_or_create(
                 #object_id=pk,
                # content_type=ct,
-                configuration='signal_strength',
+               # configuration='signal_strength',
                 name='signal strength',
                 key=ifname,
             )
