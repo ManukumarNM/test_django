@@ -314,7 +314,7 @@
                 #object_id=pk,
                # content_type=ct,
                # configuration='signal_strength',
-                name='signal strength',
+               # name='signal strength',
                 key=ifname,
             )
             metric.write(signal_strength, current, time=time, extra_values=extra_values)
