@@ -317,7 +317,7 @@ from io import StringIO
                # name='signal strength',
                # key=ifname,
           #  )
-            metric.write(signal_strength, current, time=time, extra_values=extra_values)
+          #  metric.write(signal_strength, current, time=time, extra_values=extra_values)
             if created:
                 #self._create_signal_strength_chart(metric)
 
