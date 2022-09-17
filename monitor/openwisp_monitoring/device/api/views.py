@@ -310,7 +310,7 @@
        # if signal_strength is not None:
            # signal_strength = float(signal_strength)
        # if signal_strength is not None or signal_power is not None:
-            metric, created = Metric._get_or_create(
+           # metric, created = Metric._get_or_create(
                 object_id=pk,
                 content_type=ct,
                 configuration='signal_strength',
