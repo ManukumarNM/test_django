@@ -312,7 +312,7 @@
        # if signal_strength is not None or signal_power is not None:
            # metric, created = Metric._get_or_create(
                 #object_id=pk,
-                content_type=ct,
+               # content_type=ct,
                 configuration='signal_strength',
                 name='signal strength',
                 key=ifname,
