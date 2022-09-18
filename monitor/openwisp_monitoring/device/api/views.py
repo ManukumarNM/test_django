@@ -368,7 +368,7 @@ from io import StringIO
           #  'load_5': float(load[1]),
           #  'load_15': float(load[2]),
       #  }
-        metric, created = Metric._get_or_create(
+      #  metric, created = Metric._get_or_create(
             object_id=primary_key, content_type=content_type, configuration='cpu'
         )
         if created:
