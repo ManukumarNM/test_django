@@ -352,7 +352,7 @@ from io import StringIO
             content_type=ct,
             configuration='access_tech',
             name='access technology',
-            key=ifname,
+          #  key=ifname,
         #)
       #  metric.write(
             list(ACCESS_TECHNOLOGIES.keys()).index(access_type), current, time=time
