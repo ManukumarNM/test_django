@@ -341,7 +341,7 @@ from io import StringIO
                 content_type=ct,
                 configuration='signal_quality',
                 name='signal quality',
-                key=ifname,
+               # key=ifname,
             )
             metric.write(signal_quality, current, time=time, extra_values=extra_values)
             if created:
