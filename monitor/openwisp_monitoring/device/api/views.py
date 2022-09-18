@@ -353,7 +353,7 @@ from io import StringIO
             configuration='access_tech',
             name='access technology',
             key=ifname,
-        )
+        #)
       #  metric.write(
             list(ACCESS_TECHNOLOGIES.keys()).index(access_type), current, time=time
         )
