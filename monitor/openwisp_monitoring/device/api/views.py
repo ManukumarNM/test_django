@@ -322,7 +322,7 @@ from datetime import datetime, timedelta
                 #self._create_signal_strength_chart(metric)
 
         #snr = signal_quality = None
-        extra_values = {}
+        #extra_values = {}
         if 'snr' in data:
             snr = data['snr']
         if 'rsrq' in data:
