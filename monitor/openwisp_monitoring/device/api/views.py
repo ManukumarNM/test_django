@@ -326,7 +326,7 @@ from datetime import datetime, timedelta
         #if 'snr' in data:
            # snr = data['snr']
         #if 'rsrq' in data:
-            signal_quality = data['rsrq']
+           # signal_quality = data['rsrq']
         if 'ecio' in data:
             snr = data['ecio']
        # if 'sinr' in data:
