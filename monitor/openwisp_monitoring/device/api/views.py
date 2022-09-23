@@ -339,7 +339,7 @@ from datetime import datetime, timedelta
            # metric, created = Metric._get_or_create(
                # object_id=pk,
                # content_type=ct,
-                configuration='signal_quality',
+               # configuration='signal_quality',
                 name='signal quality',
                # key=ifname,
             )
