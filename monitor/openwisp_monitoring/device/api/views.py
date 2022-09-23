@@ -333,7 +333,7 @@ from datetime import datetime, timedelta
            # snr = data['sinr']
         #if snr is not None:
           #  extra_values = {'snr': float(snr)}
-        if signal_quality is not None:
+        #if signal_quality is not None:
             signal_quality = float(signal_quality)
         if snr is not None or signal_quality is not None:
             metric, created = Metric._get_or_create(
