@@ -340,7 +340,7 @@ from datetime import datetime, timedelta
                # object_id=pk,
                # content_type=ct,
                # configuration='signal_quality',
-                name='signal quality',
+               # name='signal quality',
                # key=ifname,
             )
             metric.write(signal_quality, current, time=time, extra_values=extra_values)
