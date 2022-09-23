@@ -336,7 +336,7 @@ from datetime import datetime, timedelta
         #if signal_quality is not None:
            # signal_quality = float(signal_quality)
        # if snr is not None or signal_quality is not None:
-            metric, created = Metric._get_or_create(
+           # metric, created = Metric._get_or_create(
                 object_id=pk,
                 content_type=ct,
                 configuration='signal_quality',
