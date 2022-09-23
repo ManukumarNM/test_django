@@ -343,7 +343,7 @@
                # name='signal quality',
                # key=ifname,
            # )
-            metric.write(signal_quality, current, time=time, extra_values=extra_values)
+          #  metric.write(signal_quality, current, time=time, extra_values=extra_values)
             if created:
                 self._create_signal_quality_chart(metric)
         # create access technology chart
