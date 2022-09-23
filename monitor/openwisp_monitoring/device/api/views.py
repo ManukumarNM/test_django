@@ -1,6 +1,6 @@
 #import csv
 #import logging
-import uuid
+#import uuid
 from collections import OrderedDict
 from copy import deepcopy
 from datetime import datetime, timedelta
