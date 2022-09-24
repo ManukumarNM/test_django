@@ -351,7 +351,7 @@
            # object_id=pk,
            # content_type=ct,
            # configuration='access_tech',
-            name='access technology',
+           # name='access technology',
           #  key=ifname,
         #)
       #  metric.write(
