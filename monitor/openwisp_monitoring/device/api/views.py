@@ -350,7 +350,7 @@
         #metric, created = Metric._get_or_create(
            # object_id=pk,
            # content_type=ct,
-            configuration='access_tech',
+           # configuration='access_tech',
             name='access technology',
           #  key=ifname,
         #)
