@@ -369,7 +369,7 @@
           #  'load_15': float(load[2]),
       #  }
       #  metric, created = Metric._get_or_create(
-            object_id=primary_key, content_type=content_type, configuration='cpu'
+           # object_id=primary_key, content_type=content_type, configuration='cpu'
         )
         if created:
             self._create_resources_chart(metric, resource='cpu')
