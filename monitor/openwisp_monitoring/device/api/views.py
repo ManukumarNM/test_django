@@ -361,7 +361,7 @@
            # self._create_access_tech_chart(metric)
 
    # def _write_cpu(
-        self, load, cpus, primary_key, content_type, current=False, time=None
+       # self, load, cpus, primary_key, content_type, current=False, time=None
     ):
       #  extra_values = {
           #  'load_1': float(load[0]),
