@@ -358,7 +358,7 @@
            # list(ACCESS_TECHNOLOGIES.keys()).index(access_type), current, time=time
        # )
        # if created:
-            self._create_access_tech_chart(metric)
+           # self._create_access_tech_chart(metric)
 
     def _write_cpu(
         self, load, cpus, primary_key, content_type, current=False, time=None
