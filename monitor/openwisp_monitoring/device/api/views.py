@@ -356,7 +356,7 @@
         #)
       #  metric.write(
            # list(ACCESS_TECHNOLOGIES.keys()).index(access_type), current, time=time
-        )
+       # )
        # if created:
             self._create_access_tech_chart(metric)
 
