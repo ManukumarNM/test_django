@@ -378,7 +378,7 @@
             #100 * float(load[0] / cpus), current, time=time, extra_values=extra_values
        # )
 
-    def _write_disk(
+   # def _write_disk(
         self, disk_list, primary_key, content_type, current=False, time=None
     ):
         used_bytes, size_bytes, available_bytes = 0, 0, 0
