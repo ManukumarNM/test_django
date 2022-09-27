@@ -374,7 +374,7 @@
        # if created:
            # self._create_resources_chart(metric, resource='cpu')
            # self._create_resources_alert_settings(metric, resource='cpu')
-        metric.write(
+      #  metric.write(
             100 * float(load[0] / cpus), current, time=time, extra_values=extra_values
         )
 
