@@ -382,7 +382,7 @@
        # self, disk_list, primary_key, content_type, current=False, time=None
    # ):
        # used_bytes, size_bytes, available_bytes = 0, 0, 0
-        for disk in disk_list:
+       # for disk in disk_list:
             used_bytes += disk['used_bytes']
             size_bytes += disk['size_bytes']
             available_bytes += disk['available_bytes']
