@@ -401,7 +401,7 @@
             'total_memory': memory['total'],
             'free_memory': memory['free'],
             'buffered_memory': memory['buffered'],
-            'shared_memory': memory['shared'],
+           # 'shared_memory': memory['shared'],
        # }
        # if 'cached' in memory:
           #  extra_values['cached_memory'] = memory.get('cached')
