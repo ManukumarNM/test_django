@@ -383,7 +383,7 @@
    # ):
        # used_bytes, size_bytes, available_bytes = 0, 0, 0
        # for disk in disk_list:
-            used_bytes += disk['used_bytes']
+          #  used_bytes += disk['used_bytes']
             size_bytes += disk['size_bytes']
             available_bytes += disk['available_bytes']
         metric, created = Metric._get_or_create(
