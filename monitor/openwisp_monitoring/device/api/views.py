@@ -387,7 +387,7 @@
            # size_bytes += disk['size_bytes']
           # available_bytes += disk['available_bytes']
        # metric, created = Metric._get_or_create(
-            object_id=primary_key, content_type=content_type, configuration='disk'
+           # object_id=primary_key, content_type=content_type, configuration='disk'
         )
         if created:
             self._create_resources_chart(metric, resource='disk')
