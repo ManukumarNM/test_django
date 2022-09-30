@@ -391,7 +391,7 @@
       #  )
        # if created:
           #  self._create_resources_chart(metric, resource='disk')
-            self._create_resources_alert_settings(metric, resource='disk')
+          #  self._create_resources_alert_settings(metric, resource='disk')
         metric.write(100 * used_bytes / size_bytes, current, time=time)
 
   #  def _write_memory(
