@@ -399,7 +399,7 @@
    # ):
        # extra_values = {
           #  'total_memory': memory['total'],
-            'free_memory': memory['free'],
+          #  'free_memory': memory['free'],
             'buffered_memory': memory['buffered'],
            # 'shared_memory': memory['shared'],
        # }
