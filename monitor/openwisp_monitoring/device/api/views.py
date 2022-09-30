@@ -396,7 +396,7 @@
 
   #  def _write_memory(
        # self, memory, primary_key, content_type, current=False, time=None
-    ):
+   # ):
         extra_values = {
             'total_memory': memory['total'],
             'free_memory': memory['free'],
