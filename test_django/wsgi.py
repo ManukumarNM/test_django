@@ -13,4 +13,4 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
 
 #os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'test_django.settings')
 
-application = get_wsgi_application()
+#application = get_wsgi_application()
