@@ -25,7 +25,7 @@
 
 
 #class DeviceMonitoringConfig(AppConfig):
-    name = 'openwisp_monitoring.device'
+   # name = 'openwisp_monitoring.device'
     label = 'device_monitoring'
     verbose_name = _('Device Monitoring')
 
