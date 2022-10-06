@@ -116,7 +116,7 @@
                    # '[{site.name}] PROBLEM: {notification.target} {notification.verb}'
                 #),
                # 'message': _(
-                    'The device [{notification.target}]({notification.target_link}) '
+                   # 'The device [{notification.target}]({notification.target_link}) '
                     '{notification.verb}.'
                 ),
             },
