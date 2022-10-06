@@ -115,7 +115,7 @@
                 #'email_subject': _(
                    # '[{site.name}] PROBLEM: {notification.target} {notification.verb}'
                 #),
-                'message': _(
+               # 'message': _(
                     'The device [{notification.target}]({notification.target_link}) '
                     '{notification.verb}.'
                 ),
