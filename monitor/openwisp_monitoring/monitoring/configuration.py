@@ -117,7 +117,7 @@
                 #),
                # 'message': _(
                    # 'The device [{notification.target}]({notification.target_link}) '
-                    '{notification.verb}.'
+                   # '{notification.verb}.'
                 ),
             },
             'recovery': {
