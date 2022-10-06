@@ -118,7 +118,7 @@
                # 'message': _(
                    # 'The device [{notification.target}]({notification.target_link}) '
                    # '{notification.verb}.'
-                ),
+            #    ),
             },
             'recovery': {
                 'verbose_name': 'Ping RECOVERY',
