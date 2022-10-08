@@ -14,7 +14,7 @@ from django.http import HttpResponse
 from django.utils.timezone import now
 from django.utils.translation import gettext_lazy as _
 from pytz import UTC
-#from pytz import timezone as tz
+from pytz import timezone as tz
 #from pytz.exceptions import UnknownTimeZoneError
 #from rest_framework import serializers, status
 #from rest_framework.generics import GenericAPIView
