@@ -12,7 +12,7 @@ from django.core.exceptions import ValidationError
 from django.db.models import Count, Q
 from django.http import HttpResponse
 from django.utils.timezone import now
-#from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 #from pytz import UTC
 #from pytz import timezone as tz
 #from pytz.exceptions import UnknownTimeZoneError
