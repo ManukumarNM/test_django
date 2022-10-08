@@ -19,7 +19,7 @@ from pytz.exceptions import UnknownTimeZoneError
 from rest_framework import serializers, status
 from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
-#from swapper import load_model
+from swapper import load_model
 
 #from openwisp_controller.geo.api.views import (
    # DevicePermission,
