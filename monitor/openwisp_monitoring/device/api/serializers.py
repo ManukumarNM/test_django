@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from swapper import load_model
 
-#from openwisp_controller.geo.api.serializers import (
+from openwisp_controller.geo.api.serializers import (
     #GeoJsonLocationSerializer,
     #LocationDeviceSerializer,
 #)
