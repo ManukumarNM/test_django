@@ -23,7 +23,7 @@ from swapper import load_model
 
 from openwisp_controller.geo.api.views import (
    DevicePermission,
-    #GeoJsonLocationList,
+   GeoJsonLocationList,
    # LocationDeviceList,
 #)
 
