@@ -21,7 +21,7 @@ from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 from swapper import load_model
 
-#from openwisp_controller.geo.api.views import (
+from openwisp_controller.geo.api.views import (
    # DevicePermission,
     #GeoJsonLocationList,
    # LocationDeviceList,
