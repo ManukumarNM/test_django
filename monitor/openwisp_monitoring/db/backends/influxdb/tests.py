@@ -6,7 +6,7 @@
 #from django.test import TestCase
 #from django.utils.timezone import now
 #from freezegun import freeze_time
-from influxdb import InfluxDBClient
+#from influxdb import InfluxDBClient
 from influxdb.exceptions import InfluxDBClientError, InfluxDBServerError
 from pytz import timezone as tz
 from swapper import load_model
