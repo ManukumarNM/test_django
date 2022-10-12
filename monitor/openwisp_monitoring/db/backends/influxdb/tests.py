@@ -5,7 +5,7 @@
 #from django.core.exceptions import ValidationError
 #from django.test import TestCase
 #from django.utils.timezone import now
-from freezegun import freeze_time
+#from freezegun import freeze_time
 from influxdb import InfluxDBClient
 from influxdb.exceptions import InfluxDBClientError, InfluxDBServerError
 from pytz import timezone as tz
