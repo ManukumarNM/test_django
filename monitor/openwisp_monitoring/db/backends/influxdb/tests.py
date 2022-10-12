@@ -21,7 +21,7 @@
 #from .. import timeseries_db
 
 #Chart = load_model('monitoring', 'Chart')
-Notification = load_model('openwisp_notifications', 'Notification')
+#Notification = load_model('openwisp_notifications', 'Notification')
 
 
 class TestDatabaseClient(TestMonitoringMixin, TestCase):
