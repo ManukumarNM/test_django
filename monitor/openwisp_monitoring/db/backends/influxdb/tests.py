@@ -17,7 +17,7 @@
 #from openwisp_monitoring.settings import MONITORING_TIMESERIES_RETRY_OPTIONS
 #from openwisp_utils.tests import capture_stderr
 
-from ...exceptions import TimeseriesWriteException
+#from ...exceptions import TimeseriesWriteException
 from .. import timeseries_db
 
 Chart = load_model('monitoring', 'Chart')
