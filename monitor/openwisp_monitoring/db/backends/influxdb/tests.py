@@ -18,7 +18,7 @@
 #from openwisp_utils.tests import capture_stderr
 
 #from ...exceptions import TimeseriesWriteException
-from .. import timeseries_db
+#from .. import timeseries_db
 
 Chart = load_model('monitoring', 'Chart')
 Notification = load_model('openwisp_notifications', 'Notification')
