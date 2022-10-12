@@ -12,7 +12,7 @@
 #from swapper import load_model
 
 #from openwisp_monitoring.device.settings import SHORT_RETENTION_POLICY
-from openwisp_monitoring.device.utils import SHORT_RP, manage_short_retention_policy
+#from openwisp_monitoring.device.utils import SHORT_RP, manage_short_retention_policy
 from openwisp_monitoring.monitoring.tests import TestMonitoringMixin
 from openwisp_monitoring.settings import MONITORING_TIMESERIES_RETRY_OPTIONS
 from openwisp_utils.tests import capture_stderr
