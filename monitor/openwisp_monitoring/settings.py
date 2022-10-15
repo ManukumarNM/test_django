@@ -1,4 +1,4 @@
-from django.conf import settings
+#from django.conf import settings
 
 
 def get_settings_value(option, default=None):
