@@ -1,7 +1,7 @@
 #from django.conf import settings
 
 
-def get_settings_value(option, default=None):
+#def get_settings_value(option, default=None):
     return getattr(settings, f'OPENWISP_MONITORING_{option}', default)
 
 
