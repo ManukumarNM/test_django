@@ -14,7 +14,7 @@
     #requirements = []
    # for line in open('requirements.txt').readlines():
         # skip to next iteration if comment or empty line
-        if (
+        #if (
             line.startswith('#')
             or line == ''
             or line.startswith('http')
