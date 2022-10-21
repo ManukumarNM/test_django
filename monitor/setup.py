@@ -15,7 +15,7 @@
    # for line in open('requirements.txt').readlines():
         # skip to next iteration if comment or empty line
         #if (
-            line.startswith('#')
+            #line.startswith('#')
             or line == ''
             or line.startswith('http')
             or line.startswith('git')
