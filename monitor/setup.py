@@ -22,7 +22,7 @@
        # ):
           #  continue
         # add line to requirements
-        requirements.append(line)
+       # requirements.append(line)
     return requirements
 
 
