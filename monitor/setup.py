@@ -11,7 +11,7 @@
     """
     parse requirements.txt, ignore links, exclude comments
     """
-    requirements = []
+    #requirements = []
     for line in open('requirements.txt').readlines():
         # skip to next iteration if comment or empty line
         if (
