@@ -19,7 +19,7 @@
             #or line == ''
             #or line.startswith('http')
            # or line.startswith('git')
-        ):
+       # ):
             continue
         # add line to requirements
         requirements.append(line)
