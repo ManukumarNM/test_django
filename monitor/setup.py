@@ -2,7 +2,7 @@
 #import os
 #import sys
 
-from setuptools import find_packages, setup
+#from setuptools import find_packages, setup
 
 #from openwisp_monitoring import get_version
 
