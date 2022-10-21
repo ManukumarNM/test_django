@@ -26,7 +26,7 @@
    # return requirements
 
 
-if sys.argv[-1] == 'publish':
+#if sys.argv[-1] == 'publish':
     # delete any *.pyc, *.pyo and __pycache__
     os.system('find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf')
     os.system("python setup.py sdist bdist_wheel")
