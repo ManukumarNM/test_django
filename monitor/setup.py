@@ -7,7 +7,7 @@
 #from openwisp_monitoring import get_version
 
 
-def get_install_requires():
+#def get_install_requires():
     """
     parse requirements.txt, ignore links, exclude comments
     """
