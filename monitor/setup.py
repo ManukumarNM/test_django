@@ -23,7 +23,7 @@
           #  continue
         # add line to requirements
        # requirements.append(line)
-    return requirements
+   # return requirements
 
 
 if sys.argv[-1] == 'publish':
