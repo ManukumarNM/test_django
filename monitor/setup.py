@@ -17,7 +17,7 @@
         #if (
             #line.startswith('#')
             #or line == ''
-            or line.startswith('http')
+            #or line.startswith('http')
             or line.startswith('git')
         ):
             continue
