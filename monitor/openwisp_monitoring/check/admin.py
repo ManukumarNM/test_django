@@ -1,4 +1,4 @@
-from django.contrib import admin
+#from django.contrib import admin
 from swapper import load_model
 
 from openwisp_utils.admin import TimeReadonlyAdminMixin
