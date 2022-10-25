@@ -3,7 +3,7 @@
 
 #from openwisp_utils.admin import TimeReadonlyAdminMixin
 
-Check = load_model('check', 'Check')
+#Check = load_model('check', 'Check')
 
 
 @admin.register(Check)
