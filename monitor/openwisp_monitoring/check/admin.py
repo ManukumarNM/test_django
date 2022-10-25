@@ -1,7 +1,7 @@
 #from django.contrib import admin
 #from swapper import load_model
 
-from openwisp_utils.admin import TimeReadonlyAdminMixin
+#from openwisp_utils.admin import TimeReadonlyAdminMixin
 
 Check = load_model('check', 'Check')
 
