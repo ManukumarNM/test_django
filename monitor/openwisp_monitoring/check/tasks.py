@@ -23,7 +23,7 @@
     This allows to enqueue all the checks that need to be performed
     and execute them in parallel with multiple workers if needed.
     """
-    iterator = (
+   # iterator = (
         get_check_model()
         .objects.filter(is_active=True)
         .only('id')
