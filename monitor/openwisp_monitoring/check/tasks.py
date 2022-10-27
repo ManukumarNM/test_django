@@ -7,7 +7,7 @@
 #from django.core.exceptions import ObjectDoesNotExist
 #from swapper import load_model
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 
 def get_check_model():
