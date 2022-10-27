@@ -5,7 +5,7 @@
 #from django.conf import settings
 #from django.contrib.contenttypes.models import ContentType
 #from django.core.exceptions import ObjectDoesNotExist
-from swapper import load_model
+#from swapper import load_model
 
 logger = logging.getLogger(__name__)
 
