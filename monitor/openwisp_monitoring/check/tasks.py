@@ -2,7 +2,7 @@
 #import logging
 
 #from celery import shared_task
-from django.conf import settings
+#from django.conf import settings
 from django.contrib.contenttypes.models import ContentType
 from django.core.exceptions import ObjectDoesNotExist
 from swapper import load_model
