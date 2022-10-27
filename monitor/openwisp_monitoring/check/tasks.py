@@ -15,7 +15,7 @@
 
 
 #@shared_task
-def run_checks():
+#def run_checks():
     """
     Retrieves the id of all active checks in chunks of 2000 items
     and calls the ``perform_check`` task (defined below) for each of them.
