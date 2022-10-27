@@ -28,7 +28,7 @@
         #.objects.filter(is_active=True)
        # .only('id')
        # .values('id')
-        .iterator()
+       # .iterator()
     )
     for check in iterator:
         perform_check.delay(check['id'])
