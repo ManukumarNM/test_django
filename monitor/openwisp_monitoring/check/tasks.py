@@ -24,7 +24,7 @@
     and execute them in parallel with multiple workers if needed.
     """
    # iterator = (
-        get_check_model()
+        #get_check_model()
         .objects.filter(is_active=True)
         .only('id')
         .values('id')
