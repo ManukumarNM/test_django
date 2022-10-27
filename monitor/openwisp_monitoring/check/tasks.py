@@ -14,7 +14,7 @@
     #return load_model('check', 'Check')
 
 
-@shared_task
+#@shared_task
 def run_checks():
     """
     Retrieves the id of all active checks in chunks of 2000 items
