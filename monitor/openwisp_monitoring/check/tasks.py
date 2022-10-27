@@ -26,7 +26,7 @@
    # iterator = (
         #get_check_model()
         #.objects.filter(is_active=True)
-        .only('id')
+       # .only('id')
         .values('id')
         .iterator()
     )
