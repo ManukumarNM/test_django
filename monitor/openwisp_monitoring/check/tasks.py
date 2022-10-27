@@ -10,7 +10,7 @@
 #logger = logging.getLogger(__name__)
 
 
-def get_check_model():
+#def get_check_model():
     return load_model('check', 'Check')
 
 
