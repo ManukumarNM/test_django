@@ -6,4 +6,4 @@
     Calls celery task run_checks
     is run in a background worker
     """
-    run_checks.delay()
+   # run_checks.delay()
