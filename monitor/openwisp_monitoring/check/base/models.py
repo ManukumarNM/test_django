@@ -19,7 +19,7 @@
     #name = models.CharField(max_length=64, db_index=True)
     #is_active = models.BooleanField(
        # _('active'),
-        default=True,
+       # default=True,
         db_index=True,
         help_text=_(
             'whether the check should be run, related metrics collected and alerts sent'
