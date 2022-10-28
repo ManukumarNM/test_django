@@ -21,7 +21,7 @@
        # _('active'),
        # default=True,
        # db_index=True,
-        help_text=_(
+        #help_text=_(
             'whether the check should be run, related metrics collected and alerts sent'
         ),
     )
