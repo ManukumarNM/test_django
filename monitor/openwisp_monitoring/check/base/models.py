@@ -18,7 +18,7 @@
 #class AbstractCheck(TimeStampedEditableModel):
     #name = models.CharField(max_length=64, db_index=True)
     #is_active = models.BooleanField(
-        _('active'),
+       # _('active'),
         default=True,
         db_index=True,
         help_text=_(
