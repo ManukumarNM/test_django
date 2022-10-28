@@ -20,7 +20,7 @@
     #is_active = models.BooleanField(
        # _('active'),
        # default=True,
-        db_index=True,
+       # db_index=True,
         help_text=_(
             'whether the check should be run, related metrics collected and alerts sent'
         ),
