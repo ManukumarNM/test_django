@@ -1,7 +1,7 @@
 #from collections import OrderedDict
 
 #from django.contrib.contenttypes.fields import GenericForeignKey
-from django.contrib.contenttypes.models import ContentType
+#from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.utils.functional import cached_property
 from django.utils.module_loading import import_string
