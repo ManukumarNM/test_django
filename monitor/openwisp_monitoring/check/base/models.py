@@ -1,4 +1,4 @@
-from collections import OrderedDict
+#from collections import OrderedDict
 
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
