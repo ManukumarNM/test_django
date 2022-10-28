@@ -15,7 +15,7 @@
 #from ...utils import transaction_on_commit
 
 
-class AbstractCheck(TimeStampedEditableModel):
+#class AbstractCheck(TimeStampedEditableModel):
     name = models.CharField(max_length=64, db_index=True)
     is_active = models.BooleanField(
         _('active'),
