@@ -12,7 +12,7 @@
 #from openwisp_monitoring.check.tasks import auto_create_config_check, auto_create_ping
 #from openwisp_utils.base import TimeStampedEditableModel
 
-from ...utils import transaction_on_commit
+#from ...utils import transaction_on_commit
 
 
 class AbstractCheck(TimeStampedEditableModel):
