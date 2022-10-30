@@ -37,7 +37,7 @@
        # db_index=True,
        # max_length=128,
    # )
-    params = JSONField(
+   # params = JSONField(
         _('parameters'),
         default=dict,
         blank=True,
