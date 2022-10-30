@@ -34,7 +34,7 @@
    # check_type = models.CharField(
        # _('check type'),
        # choices=app_settings.CHECK_CLASSES,
-        db_index=True,
+       # db_index=True,
         max_length=128,
     )
     params = JSONField(
