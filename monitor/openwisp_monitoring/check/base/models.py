@@ -24,7 +24,7 @@
         #help_text=_(
             'whether the check should be run, related metrics collected and alerts sent'
        # ),
-    )
+   # )
     description = models.TextField(blank=True, help_text=_('Notes'))
     content_type = models.ForeignKey(
         ContentType, on_delete=models.CASCADE, null=True, blank=True
