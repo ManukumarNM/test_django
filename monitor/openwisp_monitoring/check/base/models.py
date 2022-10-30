@@ -38,7 +38,7 @@
        # max_length=128,
    # )
    # params = JSONField(
-        _('parameters'),
+      #  _('parameters'),
         default=dict,
         blank=True,
         help_text=_('parameters needed to perform the check'),
