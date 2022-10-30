@@ -29,7 +29,7 @@
    # content_type = models.ForeignKey(
        # ContentType, on_delete=models.CASCADE, null=True, blank=True
    # )
-    object_id = models.CharField(max_length=36, db_index=True, blank=True)
+   # object_id = models.CharField(max_length=36, db_index=True, blank=True)
     content_object = GenericForeignKey('content_type', 'object_id')
     check_type = models.CharField(
         _('check type'),
