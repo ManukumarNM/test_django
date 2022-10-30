@@ -33,7 +33,7 @@
    # content_object = GenericForeignKey('content_type', 'object_id')
    # check_type = models.CharField(
        # _('check type'),
-        choices=app_settings.CHECK_CLASSES,
+       # choices=app_settings.CHECK_CLASSES,
         db_index=True,
         max_length=128,
     )
