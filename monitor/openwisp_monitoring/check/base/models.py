@@ -47,7 +47,7 @@
    # )
 
     #class Meta:
-        abstract = True
+       # abstract = True
         unique_together = ('name', 'object_id', 'content_type')
 
     def __str__(self):
