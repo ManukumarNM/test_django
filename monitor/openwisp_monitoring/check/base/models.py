@@ -46,7 +46,7 @@
        # dump_kwargs={'indent': 4},
    # )
 
-    class Meta:
+    #class Meta:
         abstract = True
         unique_together = ('name', 'object_id', 'content_type')
 
