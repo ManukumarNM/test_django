@@ -41,7 +41,7 @@
       #  _('parameters'),
        # default=dict,
        # blank=True,
-        help_text=_('parameters needed to perform the check'),
+       # help_text=_('parameters needed to perform the check'),
         load_kwargs={'object_pairs_hook': OrderedDict},
         dump_kwargs={'indent': 4},
     )
