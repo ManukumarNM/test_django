@@ -52,7 +52,7 @@
 
    # def __str__(self):
        # if not self.object_id or not self.content_type:
-            return self.name
+          #  return self.name
         obj = self.content_object
         model_name = obj.__class__.__name__
         return '{0} ({1}: {2})'.format(self.name, model_name, obj)
