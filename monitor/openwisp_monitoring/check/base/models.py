@@ -48,7 +48,7 @@
 
     #class Meta:
        # abstract = True
-        unique_together = ('name', 'object_id', 'content_type')
+       # unique_together = ('name', 'object_id', 'content_type')
 
     def __str__(self):
         if not self.object_id or not self.content_type:
