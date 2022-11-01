@@ -51,7 +51,7 @@
        # unique_together = ('name', 'object_id', 'content_type')
 
    # def __str__(self):
-        if not self.object_id or not self.content_type:
+       # if not self.object_id or not self.content_type:
             return self.name
         obj = self.content_object
         model_name = obj.__class__.__name__
