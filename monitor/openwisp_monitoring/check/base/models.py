@@ -61,7 +61,7 @@
         self.check_instance.validate()
 
     @cached_property
-    def check_class(self):
+    #def check_class(self):
         """
         returns check class
         """
