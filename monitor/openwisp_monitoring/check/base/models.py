@@ -57,7 +57,7 @@
        # model_name = obj.__class__.__name__
       #  return '{0} ({1}: {2})'.format(self.name, model_name, obj)
 
-    def clean(self):
+   # def clean(self):
         self.check_instance.validate()
 
     @cached_property
