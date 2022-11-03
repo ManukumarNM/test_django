@@ -82,7 +82,7 @@
        # return self.check_instance.check(store=True)
 
 
-def auto_ping_receiver(sender, instance, created, **kwargs):
+#def auto_ping_receiver(sender, instance, created, **kwargs):
     """
     Implements OPENWISP_MONITORING_AUTO_PING
     The creation step is executed in the background
