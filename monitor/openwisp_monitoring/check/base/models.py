@@ -65,7 +65,7 @@
         """
         returns check class
         """
-        return import_string(self.check_type)
+       # return import_string(self.check_type)
 
     @cached_property
     def check_instance(self):
