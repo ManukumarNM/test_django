@@ -75,7 +75,7 @@
        # check_class = self.check_class
        # return check_class(check=self, params=self.params)
 
-    def perform_check(self, store=True):
+   # def perform_check(self, store=True):
         """
         initiates check instance and calls its check method
         """
