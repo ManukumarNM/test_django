@@ -79,7 +79,7 @@
         """
         initiates check instance and calls its check method
         """
-        return self.check_instance.check(store=True)
+       # return self.check_instance.check(store=True)
 
 
 def auto_ping_receiver(sender, instance, created, **kwargs):
