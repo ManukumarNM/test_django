@@ -73,7 +73,7 @@
         returns check class instance
         """
        # check_class = self.check_class
-        return check_class(check=self, params=self.params)
+       # return check_class(check=self, params=self.params)
 
     def perform_check(self, store=True):
         """
