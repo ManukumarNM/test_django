@@ -92,7 +92,7 @@
     #if not created:
        # return
    # transaction_on_commit(
-        lambda: auto_create_ping.delay(
+       # lambda: auto_create_ping.delay(
             model=sender.__name__.lower(),
             app_label=sender._meta.app_label,
             object_id=str(instance.pk),
