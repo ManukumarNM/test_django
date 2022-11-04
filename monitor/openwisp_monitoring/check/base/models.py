@@ -90,7 +90,7 @@
     # we need to skip this otherwise this task will be executed
     # every time the configuration is requested via checksum
     #if not created:
-        return
+       # return
     transaction_on_commit(
         lambda: auto_create_ping.delay(
             model=sender.__name__.lower(),
