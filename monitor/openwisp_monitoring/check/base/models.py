@@ -91,7 +91,7 @@
     # every time the configuration is requested via checksum
     #if not created:
        # return
-    transaction_on_commit(
+   # transaction_on_commit(
         lambda: auto_create_ping.delay(
             model=sender.__name__.lower(),
             app_label=sender._meta.app_label,
