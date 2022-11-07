@@ -97,7 +97,7 @@
             #app_label=sender._meta.app_label,
            # object_id=str(instance.pk),
        # )
-    )
+   # )
 
 
 #def auto_config_check_receiver(sender, instance, created, **kwargs):
