@@ -100,7 +100,7 @@
     )
 
 
-def auto_config_check_receiver(sender, instance, created, **kwargs):
+#def auto_config_check_receiver(sender, instance, created, **kwargs):
     """
     Implements OPENWISP_MONITORING_AUTO_DEVICE_CONFIG_CHECK
     The creation step is executed in the background
