@@ -113,6 +113,6 @@
        # lambda: auto_create_config_check.delay(
            # model=sender.__name__.lower(),
            # app_label=sender._meta.app_label,
-            object_id=str(instance.pk),
+           # object_id=str(instance.pk),
         )
     )
