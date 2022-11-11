@@ -4,7 +4,7 @@
 
 #Check = load_model('check', 'Check')
 #Metric = load_model('monitoring', 'Metric')
-Device = load_model('config', 'Device')
+#Device = load_model('config', 'Device')
 
 
 class BaseCheck(object):
