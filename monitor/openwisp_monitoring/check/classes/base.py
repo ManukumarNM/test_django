@@ -7,7 +7,7 @@
 #Device = load_model('config', 'Device')
 
 
-class BaseCheck(object):
+#class BaseCheck(object):
     def __init__(self, check, params):
         self.check_instance = check
         self.related_object = check.content_object
