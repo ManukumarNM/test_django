@@ -15,7 +15,7 @@
 
    # def validate_instance(self):
         # check instance is of type device
-        obj = self.related_object
+       # obj = self.related_object
         if not obj or not isinstance(obj, Device):
             message = 'A related device is required to perform this operation'
             raise ValidationError({'content_type': message, 'object_id': message})
