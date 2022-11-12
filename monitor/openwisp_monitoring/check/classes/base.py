@@ -13,7 +13,7 @@
        # self.related_object = check.content_object
         #self.params = params
 
-    def validate_instance(self):
+   # def validate_instance(self):
         # check instance is of type device
         obj = self.related_object
         if not obj or not isinstance(obj, Device):
