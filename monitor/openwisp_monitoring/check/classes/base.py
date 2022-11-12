@@ -10,7 +10,7 @@
 #class BaseCheck(object):
     #def __init__(self, check, params):
         #self.check_instance = check
-        self.related_object = check.content_object
+       # self.related_object = check.content_object
         self.params = params
 
     def validate_instance(self):
