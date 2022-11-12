@@ -11,7 +11,7 @@
     #def __init__(self, check, params):
         #self.check_instance = check
        # self.related_object = check.content_object
-        self.params = params
+        #self.params = params
 
     def validate_instance(self):
         # check instance is of type device
