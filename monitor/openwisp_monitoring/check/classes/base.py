@@ -38,7 +38,7 @@
         #if check.object_id and check.content_type:
             #obj_id = check.object_id
             #ct = check.content_type
-        else:
+       # else:
             obj_id = str(check.id)
             ct = ContentType.objects.get_for_model(Check)
         options = dict(
