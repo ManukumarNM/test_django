@@ -30,7 +30,7 @@
     #def check(self, store=True):
         #raise NotImplementedError
 
-    def _get_or_create_metric(self, configuration=None):
+   # def _get_or_create_metric(self, configuration=None):
         """
         Gets or creates metric
         """
