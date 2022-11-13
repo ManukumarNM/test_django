@@ -34,7 +34,7 @@
         """
         Gets or creates metric
         """
-        check = self.check_instance
+       # check = self.check_instance
         if check.object_id and check.content_type:
             obj_id = check.object_id
             ct = check.content_type
