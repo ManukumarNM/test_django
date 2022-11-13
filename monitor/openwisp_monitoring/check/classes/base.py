@@ -22,7 +22,7 @@
 
    # def validate(self):
         #self.validate_instance()
-        self.validate_params()
+        #self.validate_params()
 
     def validate_params(self):
         pass
