@@ -36,7 +36,7 @@
         """
        # check = self.check_instance
         #if check.object_id and check.content_type:
-            obj_id = check.object_id
+            #obj_id = check.object_id
             ct = check.content_type
         else:
             obj_id = str(check.id)
