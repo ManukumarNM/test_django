@@ -21,7 +21,7 @@
           #  raise ValidationError({'content_type': message, 'object_id': message})
 
    # def validate(self):
-        self.validate_instance()
+        #self.validate_instance()
         self.validate_params()
 
     def validate_params(self):
