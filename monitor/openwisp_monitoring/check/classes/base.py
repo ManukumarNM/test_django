@@ -25,7 +25,7 @@
         #self.validate_params()
 
     #def validate_params(self):
-        pass
+        #pass
 
     def check(self, store=True):
         raise NotImplementedError
