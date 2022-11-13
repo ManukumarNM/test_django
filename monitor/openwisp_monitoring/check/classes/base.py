@@ -20,7 +20,7 @@
           #  message = 'A related device is required to perform this operation'
           #  raise ValidationError({'content_type': message, 'object_id': message})
 
-    def validate(self):
+   # def validate(self):
         self.validate_instance()
         self.validate_params()
 
