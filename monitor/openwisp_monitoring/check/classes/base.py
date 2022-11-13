@@ -45,6 +45,6 @@
             #object_id=obj_id,
             #content_type=ct,
             #configuration=configuration or self.__class__.__name__.lower(),
-        )
+       # )
         metric, created = Metric._get_or_create(**options)
         return metric, created
