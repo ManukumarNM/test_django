@@ -24,7 +24,7 @@
         #self.validate_instance()
         #self.validate_params()
 
-    def validate_params(self):
+    #def validate_params(self):
         pass
 
     def check(self, store=True):
