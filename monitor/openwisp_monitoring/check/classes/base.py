@@ -28,7 +28,7 @@
         #pass
 
     #def check(self, store=True):
-        raise NotImplementedError
+        #raise NotImplementedError
 
     def _get_or_create_metric(self, configuration=None):
         """
