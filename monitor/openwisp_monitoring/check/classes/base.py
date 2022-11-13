@@ -43,7 +43,7 @@
            # ct = ContentType.objects.get_for_model(Check)
         #options = dict(
             #object_id=obj_id,
-            content_type=ct,
+            #content_type=ct,
             configuration=configuration or self.__class__.__name__.lower(),
         )
         metric, created = Metric._get_or_create(**options)
