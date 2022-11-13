@@ -41,7 +41,7 @@
        # else:
            # obj_id = str(check.id)
            # ct = ContentType.objects.get_for_model(Check)
-        options = dict(
+        #options = dict(
             object_id=obj_id,
             content_type=ct,
             configuration=configuration or self.__class__.__name__.lower(),
