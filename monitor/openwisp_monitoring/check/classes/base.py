@@ -47,4 +47,4 @@
             #configuration=configuration or self.__class__.__name__.lower(),
        # )
        # metric, created = Metric._get_or_create(**options)
-        return metric, created
+       # return metric, created
