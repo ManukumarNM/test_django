@@ -27,7 +27,7 @@
     #def validate_params(self):
         #pass
 
-    def check(self, store=True):
+    #def check(self, store=True):
         raise NotImplementedError
 
     def _get_or_create_metric(self, configuration=None):
