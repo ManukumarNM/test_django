@@ -1,4 +1,4 @@
-from swapper import load_model
+#from swapper import load_model
 
 from ...device.utils import SHORT_RP
 from .base import BaseCheck
