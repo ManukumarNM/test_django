@@ -3,7 +3,7 @@
 #from ...device.utils import SHORT_RP
 #from .base import BaseCheck
 
-AlertSettings = load_model('monitoring', 'AlertSettings')
+#AlertSettings = load_model('monitoring', 'AlertSettings')
 
 
 class ConfigApplied(BaseCheck):
