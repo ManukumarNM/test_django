@@ -16,7 +16,7 @@
                # 'critical',
                # 'unknown',
            # ]
-            or not hasattr(self.related_object, 'config')
+           # or not hasattr(self.related_object, 'config')
         ):
             return
         result = int(self.related_object.config.status == 'applied')
