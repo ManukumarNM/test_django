@@ -17,7 +17,7 @@
                # 'unknown',
            # ]
            # or not hasattr(self.related_object, 'config')
-        ):
+       # ):
             return
         result = int(self.related_object.config.status == 'applied')
         # If the device config is in error status we don't need to notify
