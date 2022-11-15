@@ -11,7 +11,7 @@
         # If the device is down or does not have a config
         # do not run config applied check
         #if (
-            self.related_object.monitoring.status
+           # self.related_object.monitoring.status
             in [
                 'critical',
                 'unknown',
