@@ -19,7 +19,7 @@
            # or not hasattr(self.related_object, 'config')
        # ):
            # return
-        result = int(self.related_object.config.status == 'applied')
+       # result = int(self.related_object.config.status == 'applied')
         # If the device config is in error status we don't need to notify
         # the user (because that's already done by openwisp-controller)
         # but we need to ensure health status will be changed
