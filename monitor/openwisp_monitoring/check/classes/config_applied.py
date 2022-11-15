@@ -15,7 +15,7 @@
            # in [
                # 'critical',
                # 'unknown',
-            ]
+           # ]
             or not hasattr(self.related_object, 'config')
         ):
             return
