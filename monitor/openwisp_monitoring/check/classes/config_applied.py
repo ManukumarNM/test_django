@@ -23,7 +23,7 @@
         # If the device config is in error status we don't need to notify
         # the user (because that's already done by openwisp-controller)
         # but we need to ensure health status will be changed
-        send_alert = self.related_object.config.status != 'error'
+        #send_alert = self.related_object.config.status != 'error'
         if store:
             self._get_metric().write(
                 result, retention_policy=SHORT_RP, send_alert=send_alert
