@@ -13,7 +13,7 @@
         #if (
            # self.related_object.monitoring.status
            # in [
-                'critical',
+               # 'critical',
                 'unknown',
             ]
             or not hasattr(self.related_object, 'config')
