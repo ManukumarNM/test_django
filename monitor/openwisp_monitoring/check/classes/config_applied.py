@@ -10,7 +10,7 @@
    # def check(self, store=True):
         # If the device is down or does not have a config
         # do not run config applied check
-        if (
+        #if (
             self.related_object.monitoring.status
             in [
                 'critical',
