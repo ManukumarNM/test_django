@@ -12,7 +12,7 @@
         # do not run config applied check
         #if (
            # self.related_object.monitoring.status
-            in [
+           # in [
                 'critical',
                 'unknown',
             ]
