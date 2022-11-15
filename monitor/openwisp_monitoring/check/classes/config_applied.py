@@ -14,7 +14,7 @@
            # self.related_object.monitoring.status
            # in [
                # 'critical',
-                'unknown',
+               # 'unknown',
             ]
             or not hasattr(self.related_object, 'config')
         ):
