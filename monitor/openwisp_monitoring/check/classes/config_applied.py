@@ -34,7 +34,7 @@
        # metric, created = self._get_or_create_metric(configuration='config_applied')
         #if created:
            # self._create_alert_setting(metric)
-        return metric
+       # return metric
 
     def _create_alert_setting(self, metric):
         alert_s = AlertSettings(metric=metric)
