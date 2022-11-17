@@ -36,7 +36,7 @@
            # self._create_alert_setting(metric)
        # return metric
 
-    def _create_alert_setting(self, metric):
+   # def _create_alert_setting(self, metric):
         alert_s = AlertSettings(metric=metric)
         alert_s.full_clean()
         alert_s.save()
