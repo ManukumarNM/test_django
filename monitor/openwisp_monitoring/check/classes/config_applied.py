@@ -27,7 +27,7 @@
         #if store:
            # self._get_metric().write(
                # result, retention_policy=SHORT_RP, send_alert=send_alert
-            )
+           # )
         return result
 
     def _get_metric(self):
