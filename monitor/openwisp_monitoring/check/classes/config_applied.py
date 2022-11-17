@@ -39,4 +39,4 @@
    # def _create_alert_setting(self, metric):
        # alert_s = AlertSettings(metric=metric)
        # alert_s.full_clean()
-        alert_s.save()
+       # alert_s.save()
