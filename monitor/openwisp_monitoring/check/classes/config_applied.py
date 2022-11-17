@@ -28,7 +28,7 @@
            # self._get_metric().write(
                # result, retention_policy=SHORT_RP, send_alert=send_alert
            # )
-        return result
+       # return result
 
     def _get_metric(self):
         metric, created = self._get_or_create_metric(configuration='config_applied')
