@@ -1,4 +1,4 @@
-from django.conf import settings
+#from django.conf import settings
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from django.urls.base import reverse
 from reversion.models import Version
