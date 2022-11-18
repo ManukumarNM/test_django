@@ -1,7 +1,7 @@
 #from django.conf import settings
 #from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 #from django.urls.base import reverse
-from reversion.models import Version
+#from reversion.models import Version
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException, UnexpectedAlertPresentException
 from selenium.webdriver.common.by import By
