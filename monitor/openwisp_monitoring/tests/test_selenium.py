@@ -4,7 +4,7 @@
 #from reversion.models import Version
 #from selenium import webdriver
 #from selenium.common.exceptions import TimeoutException, UnexpectedAlertPresentException
-from selenium.webdriver.common.by import By
+#from selenium.webdriver.common.by import By
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
