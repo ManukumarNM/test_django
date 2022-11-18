@@ -1,2 +1,2 @@
-class TimeseriesWriteException(Exception):
+#class TimeseriesWriteException(Exception):
     pass
