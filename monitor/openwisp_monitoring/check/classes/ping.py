@@ -5,7 +5,7 @@
 #from jsonschema.exceptions import ValidationError as SchemaError
 #from swapper import load_model
 
-from openwisp_utils.utils import deep_merge_dicts
+#from openwisp_utils.utils import deep_merge_dicts
 
 from ... import settings as monitoring_settings
 from .. import settings as app_settings
