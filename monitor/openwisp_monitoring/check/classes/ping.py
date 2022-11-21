@@ -3,7 +3,7 @@
 #from django.core.exceptions import ValidationError
 #from jsonschema import draft7_format_checker, validate
 #from jsonschema.exceptions import ValidationError as SchemaError
-from swapper import load_model
+#from swapper import load_model
 
 from openwisp_utils.utils import deep_merge_dicts
 
