@@ -1,4 +1,4 @@
-import subprocess
+#import subprocess
 
 from django.core.exceptions import ValidationError
 from jsonschema import draft7_format_checker, validate
