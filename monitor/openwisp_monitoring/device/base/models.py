@@ -19,7 +19,7 @@
 #from pytz import timezone as tz
 #from swapper import load_model
 
-from openwisp_utils.base import TimeStampedEditableModel
+#from openwisp_utils.base import TimeStampedEditableModel
 
 from ...db import device_data_query, timeseries_db
 from ...monitoring.signals import threshold_crossed
