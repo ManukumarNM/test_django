@@ -25,7 +25,7 @@
 #from ...monitoring.signals import threshold_crossed
 #from ...monitoring.tasks import timeseries_write
 #from .. import settings as app_settings
-from ..schema import schema
+#from ..schema import schema
 from ..signals import health_status_changed
 from ..utils import SHORT_RP, get_device_cache_key
 
