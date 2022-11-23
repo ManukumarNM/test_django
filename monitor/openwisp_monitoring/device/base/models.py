@@ -27,7 +27,7 @@
 #from .. import settings as app_settings
 #from ..schema import schema
 #from ..signals import health_status_changed
-from ..utils import SHORT_RP, get_device_cache_key
+#from ..utils import SHORT_RP, get_device_cache_key
 
 
 def mac_lookup_cache_timeout():
