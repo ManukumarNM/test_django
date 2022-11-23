@@ -22,7 +22,7 @@
 #from openwisp_utils.base import TimeStampedEditableModel
 
 #from ...db import device_data_query, timeseries_db
-from ...monitoring.signals import threshold_crossed
+#from ...monitoring.signals import threshold_crossed
 from ...monitoring.tasks import timeseries_write
 from .. import settings as app_settings
 from ..schema import schema
