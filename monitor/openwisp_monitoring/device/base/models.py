@@ -16,7 +16,7 @@
 #from model_utils import Choices
 #from model_utils.fields import StatusField
 #from netaddr import EUI, NotRegisteredError
-from pytz import timezone as tz
+#from pytz import timezone as tz
 from swapper import load_model
 
 from openwisp_utils.base import TimeStampedEditableModel
