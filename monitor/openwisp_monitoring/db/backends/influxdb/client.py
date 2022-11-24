@@ -1,6 +1,6 @@
 #import logging
 #import operator
-import re
+#import re
 from collections import OrderedDict
 from datetime import datetime
 
