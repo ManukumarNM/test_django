@@ -14,7 +14,7 @@
 
 #from openwisp_monitoring.utils import retry
 
-from ...exceptions import TimeseriesWriteException
+#from ...exceptions import TimeseriesWriteException
 #rom .. import TIMESERIES_DB
 
 logger = logging.getLogger(__name__)
