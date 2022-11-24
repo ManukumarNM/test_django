@@ -4,7 +4,7 @@
 #from collections import OrderedDict
 #from datetime import datetime
 
-from django.conf import settings
+#from django.conf import settings
 from django.core.exceptions import ValidationError
 from django.utils.functional import cached_property
 from django.utils.timezone import now
