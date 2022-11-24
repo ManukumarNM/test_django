@@ -1,5 +1,5 @@
 #import logging
-import operator
+#import operator
 import re
 from collections import OrderedDict
 from datetime import datetime
