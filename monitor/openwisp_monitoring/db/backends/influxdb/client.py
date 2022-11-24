@@ -12,7 +12,7 @@
 #from influxdb import InfluxDBClient
 #from influxdb.exceptions import InfluxDBClientError
 
-from openwisp_monitoring.utils import retry
+#from openwisp_monitoring.utils import retry
 
 from ...exceptions import TimeseriesWriteException
 from .. import TIMESERIES_DB
