@@ -52,7 +52,7 @@
         """
         Do not attempt at pushing the conf if the device is not reachable
         """
-        can_be_updated = super().can_be_updated()
+        #can_be_updated = super().can_be_updated()
         return can_be_updated and self.monitoring.status not in ['critical', 'unknown']
 
     @property
