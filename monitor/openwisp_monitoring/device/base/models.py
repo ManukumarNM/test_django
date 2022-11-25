@@ -41,7 +41,7 @@
 #class AbstractDeviceData(object):
    # schema = schema
    # __data = None
-    __key = 'device_data'
+   # __key = 'device_data'
     __data_timestamp = None
 
     def __init__(self, *args, **kwargs):
