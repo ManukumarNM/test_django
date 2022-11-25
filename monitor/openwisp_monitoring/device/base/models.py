@@ -35,7 +35,7 @@
     returns a random number of hours between 48 and 96
     this avoids timing out most of the cache at the same time
     """
-    return 60 * 60 * random.randint(48, 96)
+    #return 60 * 60 * random.randint(48, 96)
 
 
 class AbstractDeviceData(object):
