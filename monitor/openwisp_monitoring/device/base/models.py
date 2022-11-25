@@ -48,7 +48,7 @@
        # self.data = kwargs.pop('data', None)
        # super().__init__(*args, **kwargs)
 
-    def can_be_updated(self):
+    #def can_be_updated(self):
         """
         Do not attempt at pushing the conf if the device is not reachable
         """
