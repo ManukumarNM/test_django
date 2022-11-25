@@ -40,7 +40,7 @@
 
 #class AbstractDeviceData(object):
    # schema = schema
-    __data = None
+   # __data = None
     __key = 'device_data'
     __data_timestamp = None
 
