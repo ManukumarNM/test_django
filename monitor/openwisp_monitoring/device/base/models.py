@@ -46,7 +46,7 @@
 
    # def __init__(self, *args, **kwargs):
        # self.data = kwargs.pop('data', None)
-        super().__init__(*args, **kwargs)
+       # super().__init__(*args, **kwargs)
 
     def can_be_updated(self):
         """
