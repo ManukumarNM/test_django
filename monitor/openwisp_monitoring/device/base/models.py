@@ -38,7 +38,7 @@
     #return 60 * 60 * random.randint(48, 96)
 
 
-class AbstractDeviceData(object):
+#class AbstractDeviceData(object):
     schema = schema
     __data = None
     __key = 'device_data'
