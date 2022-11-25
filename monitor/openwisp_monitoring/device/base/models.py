@@ -42,7 +42,7 @@
    # schema = schema
    # __data = None
    # __key = 'device_data'
-    __data_timestamp = None
+   # __data_timestamp = None
 
     def __init__(self, *args, **kwargs):
         self.data = kwargs.pop('data', None)
