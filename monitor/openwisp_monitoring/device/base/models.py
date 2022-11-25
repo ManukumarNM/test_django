@@ -44,7 +44,7 @@
    # __key = 'device_data'
    # __data_timestamp = None
 
-    def __init__(self, *args, **kwargs):
+   # def __init__(self, *args, **kwargs):
         self.data = kwargs.pop('data', None)
         super().__init__(*args, **kwargs)
 
