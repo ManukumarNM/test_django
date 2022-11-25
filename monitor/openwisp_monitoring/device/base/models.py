@@ -30,7 +30,7 @@
 #from ..utils import SHORT_RP, get_device_cache_key
 
 
-def mac_lookup_cache_timeout():
+#def mac_lookup_cache_timeout():
     """
     returns a random number of hours between 48 and 96
     this avoids timing out most of the cache at the same time
