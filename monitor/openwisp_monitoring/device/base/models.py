@@ -74,7 +74,7 @@
                 relativedelta(seconds=data['general']['uptime'] + time_elapsed)
             )
         # used for reordering interfaces
-        interface_dict = OrderedDict()
+        #interface_dict = OrderedDict()
         for interface in data.get('interfaces', []):
             # don't show interfaces if they don't have any useful info
             if len(interface.keys()) <= 2:
