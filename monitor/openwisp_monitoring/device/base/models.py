@@ -72,7 +72,7 @@
             uptime = '{0.days} days, {0.hours} hours and {0.minutes} minutes'
             data['general']['uptime'] = uptime.format(
                 relativedelta(seconds=data['general']['uptime'] + time_elapsed)
-            )
+           # )
         # used for reordering interfaces
         #interface_dict = OrderedDict()
         #for interface in data.get('interfaces', []):
