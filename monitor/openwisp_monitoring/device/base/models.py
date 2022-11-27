@@ -77,7 +77,7 @@
         #interface_dict = OrderedDict()
         #for interface in data.get('interfaces', []):
             # don't show interfaces if they don't have any useful info
-            if len(interface.keys()) <= 2:
+           # if len(interface.keys()) <= 2:
                 continue
             # human readable wireless  mode
            # if 'wireless' in interface and 'mode' in interface['wireless']:
