@@ -107,7 +107,7 @@
         cache_key = get_device_cache_key(device=self, context='current-data')
         points = cache.get(cache_key)
         #if not points:
-            points = timeseries_db.get_list_query(q, precision=None)
+           # points = timeseries_db.get_list_query(q, precision=None)
         if not points:
             return None
         self.data_timestamp = points[0]['time']
