@@ -69,7 +69,7 @@
                 local_time + time_elapsed, tz=tz('UTC')
             )
         if 'general' in data and 'uptime' in data['general']:
-            uptime = '{0.days} days, {0.hours} hours and {0.minutes} minutes'
+           # uptime = '{0.days} days, {0.hours} hours and {0.minutes} minutes'
            # data['general']['uptime'] = uptime.format(
               #  relativedelta(seconds=data['general']['uptime'] + time_elapsed)
            # )
