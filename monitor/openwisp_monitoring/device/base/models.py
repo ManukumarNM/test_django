@@ -81,7 +81,7 @@
                 #continue
             # human readable wireless  mode
            # if 'wireless' in interface and 'mode' in interface['wireless']:
-                interface['wireless']['mode'] = interface['wireless']['mode'].replace(
+               # interface['wireless']['mode'] = interface['wireless']['mode'].replace(
                     '_', ' '
                 )
             # convert to GHz
