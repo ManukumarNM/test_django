@@ -97,11 +97,11 @@
         return data
 
     @property
-    def data(self):
+    #def data(self):
         """
         retrieves last data snapshot from Timeseries Database
         """
-        if self.__data:
+       # if self.__data:
             return self.__data
         q = device_data_query.format(SHORT_RP, self.__key, self.pk)
         cache_key = get_device_cache_key(device=self, context='current-data')
