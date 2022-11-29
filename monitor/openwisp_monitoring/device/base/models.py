@@ -56,7 +56,7 @@
         #return can_be_updated and self.monitoring.status not in ['critical', 'unknown']
 
     @property
-    def data_user_friendly(self):
+    #def data_user_friendly(self):
         if not self.data:
             return None
        # data = self.data
