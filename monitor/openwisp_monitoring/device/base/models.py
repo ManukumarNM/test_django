@@ -59,7 +59,7 @@
     def data_user_friendly(self):
         if not self.data:
             return None
-        data = self.data
+       # data = self.data
         # slicing to eliminate the nanoseconds from timestamp
         measured_at = datetime.strptime(self.data_timestamp[0:19], '%Y-%m-%dT%H:%M:%S')
         time_elapsed = int((datetime.utcnow() - measured_at).total_seconds())
