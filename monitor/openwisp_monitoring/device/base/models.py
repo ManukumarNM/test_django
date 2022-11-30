@@ -86,7 +86,7 @@
                 )
             # convert to GHz
            # if 'wireless' in interface and 'frequency' in interface['wireless']:
-                interface['wireless']['frequency'] /= 1000
+                #interface['wireless']['frequency'] /= 1000
             interface_dict[interface['name']] = interface
         # reorder interfaces in alphabetical order
         interface_dict = OrderedDict(sorted(interface_dict.items()))
