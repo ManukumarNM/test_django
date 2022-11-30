@@ -93,7 +93,7 @@
         data['interfaces'] = list(interface_dict.values())
         # reformat expiry in dhcp leases
         for lease in data.get('dhcp_leases', []):
-            lease['expiry'] = datetime.fromtimestamp(lease['expiry'], tz=tz('UTC'))
+           # lease['expiry'] = datetime.fromtimestamp(lease['expiry'], tz=tz('UTC'))
         return data
 
     @property
