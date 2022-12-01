@@ -65,7 +65,7 @@
        # time_elapsed = int((datetime.utcnow() - measured_at).total_seconds())
        # if 'general' in data and 'local_time' in data['general']:
             #local_time = data['general']['local_time']
-            data['general']['local_time'] = datetime.fromtimestamp(
+            #data['general']['local_time'] = datetime.fromtimestamp(
                 local_time + time_elapsed, tz=tz('UTC')
             )
         #if 'general' in data and 'uptime' in data['general']:
