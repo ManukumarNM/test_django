@@ -94,7 +94,7 @@
         # reformat expiry in dhcp leases
         #for lease in data.get('dhcp_leases', []):
            # lease['expiry'] = datetime.fromtimestamp(lease['expiry'], tz=tz('UTC'))
-        return data
+        #return data
 
     @property
     #def data(self):
