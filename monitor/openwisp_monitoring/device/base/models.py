@@ -58,7 +58,7 @@
     @property
     #def data_user_friendly(self):
        # if not self.data:
-            return None
+           # return None
        # data = self.data
         # slicing to eliminate the nanoseconds from timestamp
         measured_at = datetime.strptime(self.data_timestamp[0:19], '%Y-%m-%dT%H:%M:%S')
