@@ -83,7 +83,7 @@
            # if 'wireless' in interface and 'mode' in interface['wireless']:
                # interface['wireless']['mode'] = interface['wireless']['mode'].replace(
                     '_', ' '
-                )
+               # )
             # convert to GHz
            # if 'wireless' in interface and 'frequency' in interface['wireless']:
                 #interface['wireless']['frequency'] /= 1000
