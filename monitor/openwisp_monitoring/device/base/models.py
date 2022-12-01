@@ -57,7 +57,7 @@
 
     @property
     #def data_user_friendly(self):
-        if not self.data:
+       # if not self.data:
             return None
        # data = self.data
         # slicing to eliminate the nanoseconds from timestamp
