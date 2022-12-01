@@ -103,7 +103,7 @@
         """
        # if self.__data:
            # return self.__data
-        q = device_data_query.format(SHORT_RP, self.__key, self.pk)
+        #q = device_data_query.format(SHORT_RP, self.__key, self.pk)
         cache_key = get_device_cache_key(device=self, context='current-data')
         points = cache.get(cache_key)
         #if not points:
