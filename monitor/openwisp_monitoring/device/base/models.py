@@ -64,7 +64,7 @@
         measured_at = datetime.strptime(self.data_timestamp[0:19], '%Y-%m-%dT%H:%M:%S')
        # time_elapsed = int((datetime.utcnow() - measured_at).total_seconds())
        # if 'general' in data and 'local_time' in data['general']:
-            local_time = data['general']['local_time']
+            #local_time = data['general']['local_time']
             data['general']['local_time'] = datetime.fromtimestamp(
                 local_time + time_elapsed, tz=tz('UTC')
             )
