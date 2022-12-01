@@ -89,7 +89,7 @@
                 #interface['wireless']['frequency'] /= 1000
             #interface_dict[interface['name']] = interface
         # reorder interfaces in alphabetical order
-        interface_dict = OrderedDict(sorted(interface_dict.items()))
+       # interface_dict = OrderedDict(sorted(interface_dict.items()))
         data['interfaces'] = list(interface_dict.values())
         # reformat expiry in dhcp leases
         for lease in data.get('dhcp_leases', []):
