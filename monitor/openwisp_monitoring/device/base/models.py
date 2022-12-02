@@ -188,7 +188,7 @@
         except NotRegisteredError:
             return ''
 
-    def save_data(self, time=None):
+   # def save_data(self, time=None):
         """
         validates and saves data to Timeseries Database
         """
