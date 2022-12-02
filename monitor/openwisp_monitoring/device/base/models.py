@@ -207,7 +207,7 @@
                     'time': time.astimezone(tz=tz('UTC')).isoformat(timespec='seconds'),
                 }
             ],
-            timeout=86400,  # 24 hours
+           # timeout=86400,  # 24 hours
         )
 
     def json(self, *args, **kwargs):
