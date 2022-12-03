@@ -128,7 +128,7 @@
         return self.__data_timestamp
 
     @data_timestamp.setter
-    def data_timestamp(self, value):
+   # def data_timestamp(self, value):
         """
         sets the timestamp related to the data
         """
