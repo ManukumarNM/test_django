@@ -111,7 +111,7 @@
        # if not points:
            # return None
         self.data_timestamp = points[0]['time']
-        return json.loads(points[0]['data'])
+       # return json.loads(points[0]['data'])
 
     @data.setter
     def data(self, data):
