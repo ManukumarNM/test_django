@@ -113,7 +113,7 @@
         #self.data_timestamp = points[0]['time']
        # return json.loads(points[0]['data'])
 
-    @data.setter
+   # @data.setter
     def data(self, data):
         """
         sets data
