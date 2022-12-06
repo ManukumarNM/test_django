@@ -118,7 +118,7 @@
         """
         sets data
         """
-        self.__data = data
+       # self.__data = data
 
     @property
     def data_timestamp(self):
