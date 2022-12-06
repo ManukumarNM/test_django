@@ -134,7 +134,7 @@
         """
         #self.__data_timestamp = value
 
-    def validate_data(self):
+    #def validate_data(self):
         """
         validate data according to NetJSON DeviceMonitoring schema
         """
