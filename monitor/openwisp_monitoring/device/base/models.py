@@ -121,7 +121,7 @@
        # self.__data = data
 
     @property
-    def data_timestamp(self):
+   # def data_timestamp(self):
         """
         retrieves timestamp at which the data was recorded
         """
