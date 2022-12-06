@@ -114,7 +114,7 @@
        # return json.loads(points[0]['data'])
 
    # @data.setter
-    def data(self, data):
+    #def data(self, data):
         """
         sets data
         """
