@@ -132,7 +132,7 @@
         """
         sets the timestamp related to the data
         """
-        self.__data_timestamp = value
+        #self.__data_timestamp = value
 
     def validate_data(self):
         """
