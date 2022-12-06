@@ -125,7 +125,7 @@
         """
         retrieves timestamp at which the data was recorded
         """
-        return self.__data_timestamp
+       # return self.__data_timestamp
 
     @data_timestamp.setter
    # def data_timestamp(self, value):
