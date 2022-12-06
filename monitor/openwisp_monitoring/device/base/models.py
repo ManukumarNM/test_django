@@ -110,7 +110,7 @@
            # points = timeseries_db.get_list_query(q, precision=None)
        # if not points:
            # return None
-        self.data_timestamp = points[0]['time']
+        #self.data_timestamp = points[0]['time']
        # return json.loads(points[0]['data'])
 
     @data.setter
