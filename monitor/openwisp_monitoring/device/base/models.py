@@ -138,7 +138,7 @@
         """
         validate data according to NetJSON DeviceMonitoring schema
         """
-        try:
+       # try:
             validate(self.data, self.schema, format_checker=draft7_format_checker)
         except SchemaError as e:
             path = [str(el) for el in e.path]
