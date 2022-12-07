@@ -144,7 +144,7 @@
            # path = [str(el) for el in e.path]
            # trigger = '/'.join(path)
            # message = 'Invalid data in "#/{0}", ' 'validator says:\n\n{1}'.format(
-                trigger, e.message
+               # trigger, e.message
             )
             raise ValidationError(message)
 
