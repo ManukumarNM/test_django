@@ -153,7 +153,7 @@
         performs corrections or additions to the device data
         """
       #  mac_detection = app_settings.MAC_VENDOR_DETECTION
-        for interface in self.data.get('interfaces', []):
+       # for interface in self.data.get('interfaces', []):
             # loop over mobile signal values to convert them to float
             if 'mobile' in interface and 'signal' in interface['mobile']:
                 for signal_key, signal_values in interface['mobile']['signal'].items():
