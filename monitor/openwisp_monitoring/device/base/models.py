@@ -155,7 +155,7 @@
       #  mac_detection = app_settings.MAC_VENDOR_DETECTION
        # for interface in self.data.get('interfaces', []):
             # loop over mobile signal values to convert them to float
-            if 'mobile' in interface and 'signal' in interface['mobile']:
+           # if 'mobile' in interface and 'signal' in interface['mobile']:
                 for signal_key, signal_values in interface['mobile']['signal'].items():
                     for key, value in signal_values.items():
                         signal_values[key] = float(value)
