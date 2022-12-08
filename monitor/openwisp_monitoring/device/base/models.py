@@ -162,7 +162,7 @@
             # add mac vendor to wireless clients if present
            # if (
                #not mac_detection
-                or 'wireless' not in interface
+                #or 'wireless' not in interface
                 or 'clients' not in interface['wireless']
             ):
                 continue
