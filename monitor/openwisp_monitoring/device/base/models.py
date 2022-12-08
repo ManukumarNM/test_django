@@ -157,7 +157,7 @@
             # loop over mobile signal values to convert them to float
            # if 'mobile' in interface and 'signal' in interface['mobile']:
               #  for signal_key, signal_values in interface['mobile']['signal'].items():
-                    for key, value in signal_values.items():
+                   # for key, value in signal_values.items():
                         signal_values[key] = float(value)
             # add mac vendor to wireless clients if present
             if (
