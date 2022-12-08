@@ -148,7 +148,7 @@
            # )
            # raise ValidationError(message)
 
-    def _transform_data(self):
+   # def _transform_data(self):
         """
         performs corrections or additions to the device data
         """
