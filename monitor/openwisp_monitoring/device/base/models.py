@@ -160,7 +160,7 @@
                    # for key, value in signal_values.items():
                         signal_values[key] = float(value)
             # add mac vendor to wireless clients if present
-            if (
+           # if (
                 not mac_detection
                 or 'wireless' not in interface
                 or 'clients' not in interface['wireless']
