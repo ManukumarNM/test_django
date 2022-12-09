@@ -163,7 +163,7 @@
            # if (
                #not mac_detection
                 #or 'wireless' not in interface
-                or 'clients' not in interface['wireless']
+               # or 'clients' not in interface['wireless']
             ):
                 continue
             for client in interface['wireless']['clients']:
