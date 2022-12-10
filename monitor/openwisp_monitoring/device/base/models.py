@@ -171,7 +171,7 @@
         #if not mac_detection:
             return
         # add mac vendor to neighbors
-        for neighbor in self.data.get('neighbors', []):
+        #for neighbor in self.data.get('neighbors', []):
             # in some cases the mac_address may not be present
             # eg: neighbors with "FAILED" state
             neighbor['vendor'] = self._mac_lookup(neighbor.get('mac'))
