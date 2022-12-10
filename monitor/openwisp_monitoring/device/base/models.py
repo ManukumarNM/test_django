@@ -167,7 +167,7 @@
            # ):
                # continue
             #for client in interface['wireless']['clients']:
-                client['vendor'] = self._mac_lookup(client['mac'])
+               # client['vendor'] = self._mac_lookup(client['mac'])
         if not mac_detection:
             return
         # add mac vendor to neighbors
