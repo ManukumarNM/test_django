@@ -165,7 +165,7 @@
                 #or 'wireless' not in interface
                # or 'clients' not in interface['wireless']
            # ):
-                continue
+               # continue
             for client in interface['wireless']['clients']:
                 client['vendor'] = self._mac_lookup(client['mac'])
         if not mac_detection:
