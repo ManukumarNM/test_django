@@ -169,7 +169,7 @@
             #for client in interface['wireless']['clients']:
                # client['vendor'] = self._mac_lookup(client['mac'])
         #if not mac_detection:
-            return
+           # return
         # add mac vendor to neighbors
         #for neighbor in self.data.get('neighbors', []):
             # in some cases the mac_address may not be present
