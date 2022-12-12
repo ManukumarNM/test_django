@@ -174,7 +174,7 @@
         #for neighbor in self.data.get('neighbors', []):
             # in some cases the mac_address may not be present
             # eg: neighbors with "FAILED" state
-            neighbor['vendor'] = self._mac_lookup(neighbor.get('mac'))
+           # neighbor['vendor'] = self._mac_lookup(neighbor.get('mac'))
         # add mac vendor to DHCP leases
         for lease in self.data.get('dhcp_leases', []):
             lease['vendor'] = self._mac_lookup(lease['mac'])
