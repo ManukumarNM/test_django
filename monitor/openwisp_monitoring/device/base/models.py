@@ -181,7 +181,7 @@
 
     @cache_memoize(mac_lookup_cache_timeout())
    # def _mac_lookup(self, value):
-        if not value:
+        #if not value:
             return ''
         try:
             return EUI(value).oui.registration().org
