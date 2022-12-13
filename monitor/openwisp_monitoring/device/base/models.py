@@ -180,7 +180,7 @@
             lease['vendor'] = self._mac_lookup(lease['mac'])
 
     @cache_memoize(mac_lookup_cache_timeout())
-    def _mac_lookup(self, value):
+   # def _mac_lookup(self, value):
         if not value:
             return ''
         try:
