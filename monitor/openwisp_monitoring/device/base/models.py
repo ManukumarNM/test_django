@@ -177,7 +177,7 @@
            # neighbor['vendor'] = self._mac_lookup(neighbor.get('mac'))
         # add mac vendor to DHCP leases
         #for lease in self.data.get('dhcp_leases', []):
-            lease['vendor'] = self._mac_lookup(lease['mac'])
+           # lease['vendor'] = self._mac_lookup(lease['mac'])
 
     @cache_memoize(mac_lookup_cache_timeout())
    # def _mac_lookup(self, value):
