@@ -197,7 +197,7 @@
        # time = time or now()
        # options = dict(tags={'pk': self.pk}, timestamp=time, retention_policy=SHORT_RP)
        # timeseries_write.delay(name=self.__key, values={'data': self.json()}, **options)
-        cache_key = get_device_cache_key(device=self, context='current-data')
+       # cache_key = get_device_cache_key(device=self, context='current-data')
         # cache current data to allow getting it without querying the timeseries DB
        # cache.set(
             cache_key,
