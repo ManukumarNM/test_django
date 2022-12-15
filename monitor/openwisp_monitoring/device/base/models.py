@@ -184,7 +184,7 @@
         #if not value:
            # return ''
        # try:
-            return EUI(value).oui.registration().org
+            #return EUI(value).oui.registration().org
         except NotRegisteredError:
             return ''
 
