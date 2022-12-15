@@ -183,7 +183,7 @@
    # def _mac_lookup(self, value):
         #if not value:
            # return ''
-        try:
+       # try:
             return EUI(value).oui.registration().org
         except NotRegisteredError:
             return ''
