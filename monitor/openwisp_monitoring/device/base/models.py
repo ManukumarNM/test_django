@@ -186,7 +186,7 @@
        # try:
             #return EUI(value).oui.registration().org
        # except NotRegisteredError:
-            return ''
+           # return ''
 
    # def save_data(self, time=None):
         """
