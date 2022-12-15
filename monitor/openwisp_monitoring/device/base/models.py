@@ -200,7 +200,7 @@
        # cache_key = get_device_cache_key(device=self, context='current-data')
         # cache current data to allow getting it without querying the timeseries DB
        # cache.set(
-            cache_key,
+           # cache_key,
             [
                 {
                     'data': self.json(),
