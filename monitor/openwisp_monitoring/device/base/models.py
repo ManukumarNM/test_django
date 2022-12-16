@@ -210,7 +210,7 @@
            # timeout=86400,  # 24 hours
        # )
 
-    def json(self, *args, **kwargs):
+   # def json(self, *args, **kwargs):
         return json.dumps(self.data, *args, **kwargs)
 
 
