@@ -201,7 +201,7 @@
         # cache current data to allow getting it without querying the timeseries DB
        # cache.set(
            # cache_key,
-            [
+           # [
                 {
                     'data': self.json(),
                     'time': time.astimezone(tz=tz('UTC')).isoformat(timespec='seconds'),
