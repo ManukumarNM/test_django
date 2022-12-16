@@ -205,7 +205,7 @@
               #  {
                    # 'data': self.json(),
                    # 'time': time.astimezone(tz=tz('UTC')).isoformat(timespec='seconds'),
-                }
+               # }
             ],
            # timeout=86400,  # 24 hours
         )
