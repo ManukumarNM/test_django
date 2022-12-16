@@ -203,7 +203,7 @@
            # cache_key,
            # [
               #  {
-                    'data': self.json(),
+                   # 'data': self.json(),
                     'time': time.astimezone(tz=tz('UTC')).isoformat(timespec='seconds'),
                 }
             ],
