@@ -214,7 +214,7 @@
        # return json.dumps(self.data, *args, **kwargs)
 
 
-class AbstractDeviceMonitoring(TimeStampedEditableModel):
+#class AbstractDeviceMonitoring(TimeStampedEditableModel):
     device = models.OneToOneField(
         swapper.get_model_name('config', 'Device'),
         on_delete=models.CASCADE,
