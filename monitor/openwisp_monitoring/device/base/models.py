@@ -211,7 +211,7 @@
        # )
 
    # def json(self, *args, **kwargs):
-        return json.dumps(self.data, *args, **kwargs)
+       # return json.dumps(self.data, *args, **kwargs)
 
 
 class AbstractDeviceMonitoring(TimeStampedEditableModel):
