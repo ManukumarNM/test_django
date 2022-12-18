@@ -238,7 +238,7 @@
             app_settings.HEALTH_STATUS_LABELS['unknown'],
             app_settings.HEALTH_STATUS_LABELS['ok'],
             app_settings.HEALTH_STATUS_LABELS['problem'],
-            app_settings.HEALTH_STATUS_LABELS['critical'],
+            #app_settings.HEALTH_STATUS_LABELS['critical'],
         ),
     )
 
