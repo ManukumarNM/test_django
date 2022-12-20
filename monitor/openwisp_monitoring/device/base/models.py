@@ -220,7 +220,7 @@
         on_delete=models.CASCADE,
        # related_name='monitoring',
     )
-    STATUS = Choices(
+   # STATUS = Choices(
         ('unknown', _(app_settings.HEALTH_STATUS_LABELS['unknown'])),
         ('ok', _(app_settings.HEALTH_STATUS_LABELS['ok'])),
         ('problem', _(app_settings.HEALTH_STATUS_LABELS['problem'])),
