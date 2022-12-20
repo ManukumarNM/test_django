@@ -242,7 +242,7 @@
         ),
     )
 
-    class Meta:
+   # class Meta:
         abstract = True
 
     def update_status(self, value):
