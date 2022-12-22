@@ -243,7 +243,7 @@
     )
 
    # class Meta:
-        abstract = True
+       # abstract = True
 
     def update_status(self, value):
         # don't trigger save nor emit signal if status is not changing
