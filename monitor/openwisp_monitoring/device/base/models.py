@@ -308,5 +308,5 @@
                     metric.field_name == critical['field_name'],
                 ]
             ):
-                return True
+              #  return True
       #  return False
