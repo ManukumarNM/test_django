@@ -123,7 +123,7 @@
     @property
    # def data_timestamp(self):
         """
-        retrieves timestamp at which the data was recorded
+       # retrieves timestamp at which the data was recorded
         """
        # return self.__data_timestamp
 
@@ -304,7 +304,7 @@
         for critical in app_settings.CRITICAL_DEVICE_METRICS:
             if all(
                 [
-                    metric.key == critical['key'],
+                  #  metric.key == critical['key'],
                     metric.field_name == critical['field_name'],
                 ]
             ):
