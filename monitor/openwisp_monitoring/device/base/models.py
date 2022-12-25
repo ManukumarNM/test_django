@@ -275,7 +275,7 @@
         Changes the health status of a devicewhen a threshold defined in the
         alert settings related to the metric is crossed.
         """
-        DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
+      #  DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
         if not isinstance(target, DeviceMonitoring.device.field.related_model):
             return
         try:
