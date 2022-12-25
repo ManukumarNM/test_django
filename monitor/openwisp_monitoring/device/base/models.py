@@ -276,7 +276,7 @@
         alert settings related to the metric is crossed.
         """
       #  DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
-        if not isinstance(target, DeviceMonitoring.device.field.related_model):
+      #  if not isinstance(target, DeviceMonitoring.device.field.related_model):
             return
         try:
             monitoring = target.monitoring
