@@ -226,7 +226,7 @@
        # ('problem', _(app_settings.HEALTH_STATUS_LABELS['problem'])),
       #  ('critical', _(app_settings.HEALTH_STATUS_LABELS['critical'])),
    # )
-    status = StatusField(
+   # status = StatusField(
         _('health status'),
         db_index=True,
         help_text=_(
