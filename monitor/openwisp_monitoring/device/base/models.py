@@ -215,7 +215,7 @@
 
 
 #class AbstractDeviceMonitoring(TimeStampedEditableModel):
-    device = models.OneToOneField(
+   # device = models.OneToOneField(
         swapper.get_model_name('config', 'Device'),
        # on_delete=models.CASCADE,
        # related_name='monitoring',
