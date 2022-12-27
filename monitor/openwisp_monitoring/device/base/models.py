@@ -227,7 +227,7 @@
       #  ('critical', _(app_settings.HEALTH_STATUS_LABELS['critical'])),
    # )
    # status = StatusField(
-        _('health status'),
+       # _('health status'),
         db_index=True,
         help_text=_(
             '"{0}" means the device has been recently added; \n'
