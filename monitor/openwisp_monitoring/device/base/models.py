@@ -228,7 +228,7 @@
    # )
    # status = StatusField(
        # _('health status'),
-        db_index=True,
+       # db_index=True,
         help_text=_(
             '"{0}" means the device has been recently added; \n'
             '"{1}" means the device is operating normally; \n'
