@@ -248,7 +248,7 @@
   #  def update_status(self, value):
         # don't trigger save nor emit signal if status is not changing
        # if self.status == value:
-            return
+           # return
         self.status = value
         self.full_clean()
         self.save()
