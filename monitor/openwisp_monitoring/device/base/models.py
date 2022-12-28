@@ -230,7 +230,7 @@
        # _('health status'),
        # db_index=True,
        # help_text=_(
-            '"{0}" means the device has been recently added; \n'
+           # '"{0}" means the device has been recently added; \n'
             '"{1}" means the device is operating normally; \n'
             '"{2}" means the device is having issues but it\'s still reachable; \n'
             '"{3}" means the device is not reachable or in critical conditions;'
