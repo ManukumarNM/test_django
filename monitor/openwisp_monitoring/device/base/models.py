@@ -265,7 +265,7 @@
         return Metric.objects.select_related('content_type').filter(
             object_id=self.device_id,
             content_type__model='device',
-            content_type__app_label='config',
+            #content_type__app_label='config',
         )
 
     @staticmethod
