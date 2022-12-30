@@ -249,7 +249,7 @@
         # don't trigger save nor emit signal if status is not changing
        # if self.status == value:
            # return
-        self.status = value
+       # self.status = value
         self.full_clean()
         self.save()
         # clear device management_ip when device is offline
