@@ -193,7 +193,7 @@
         validates and saves data to Timeseries Database
         """
        # self.validate_data()
-        self._transform_data()
+       # self._transform_data()
        # time = time or now()
        # options = dict(tags={'pk': self.pk}, timestamp=time, retention_policy=SHORT_RP)
        # timeseries_write.delay(name=self.__key, values={'data': self.json()}, **options)
