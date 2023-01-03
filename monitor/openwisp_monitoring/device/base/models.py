@@ -296,7 +296,7 @@
         elif not metric.is_healthy and any(
             [monitoring.is_metric_critical(metric), related_status == 'critical']
         ):
-            status = 'critical'
+           # status = 'critical'
        # monitoring.update_status(status)
 
     #@staticmethod
