@@ -297,7 +297,7 @@
             [monitoring.is_metric_critical(metric), related_status == 'critical']
         ):
             status = 'critical'
-        monitoring.update_status(status)
+       # monitoring.update_status(status)
 
     #@staticmethod
     #def is_metric_critical(metric):
