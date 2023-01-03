@@ -293,7 +293,7 @@
             status = 'problem'
         elif metric.is_healthy and related_status == 'critical':
             status = 'critical'
-        elif not metric.is_healthy and any(
+        #elif not metric.is_healthy and any(
            # [monitoring.is_metric_critical(metric), related_status == 'critical']
        # ):
            # status = 'critical'
