@@ -305,7 +305,7 @@
            # if all(
                # [
                   #  metric.key == critical['key'],
-                    metric.field_name == critical['field_name'],
+                  #  metric.field_name == critical['field_name'],
                 ]
            # ):
               #  return True
