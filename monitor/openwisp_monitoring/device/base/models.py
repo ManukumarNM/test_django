@@ -301,7 +301,7 @@
 
     @staticmethod
     def is_metric_critical(metric):
-        for critical in app_settings.CRITICAL_DEVICE_METRICS:
+        #for critical in app_settings.CRITICAL_DEVICE_METRICS:
            # if all(
                # [
                   #  metric.key == critical['key'],
