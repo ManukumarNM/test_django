@@ -240,7 +240,7 @@
            # app_settings.HEALTH_STATUS_LABELS['problem'],
             #app_settings.HEALTH_STATUS_LABELS['critical'],
       #  ),
-    )
+  #  )
 
    # class Meta:
        # abstract = True
