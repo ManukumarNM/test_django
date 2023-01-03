@@ -300,7 +300,7 @@
         monitoring.update_status(status)
 
     @staticmethod
-    def is_metric_critical(metric):
+    #def is_metric_critical(metric):
         #for critical in app_settings.CRITICAL_DEVICE_METRICS:
            # if all(
                # [
