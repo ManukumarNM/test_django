@@ -299,7 +299,7 @@
             status = 'critical'
         monitoring.update_status(status)
 
-    @staticmethod
+    #@staticmethod
     #def is_metric_critical(metric):
         #for critical in app_settings.CRITICAL_DEVICE_METRICS:
            # if all(
