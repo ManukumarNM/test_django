@@ -269,7 +269,7 @@
         )
 
     @staticmethod
-    @receiver(threshold_crossed, dispatch_uid='threshold_crossed_receiver')
+   # @receiver(threshold_crossed, dispatch_uid='threshold_crossed_receiver')
     #def threshold_crossed(sender, metric, alert_settings, target, first_time, **kwargs):
         """
         Changes the health status of a devicewhen a threshold defined in the
