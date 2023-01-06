@@ -279,7 +279,7 @@
       #  if not isinstance(target, DeviceMonitoring.device.field.related_model):
             return
         try:
-            monitoring = target.monitoring
+          #  monitoring = target.monitoring
         except DeviceMonitoring.DoesNotExist:
             monitoring = DeviceMonitoring.objects.create(device=target)
         status = 'ok' if metric.is_healthy else 'problem'
