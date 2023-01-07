@@ -261,7 +261,7 @@
 
    # @property
     #def related_metrics(self):
-        Metric = load_model('monitoring', 'Metric')
+       # Metric = load_model('monitoring', 'Metric')
         #return Metric.objects.select_related('content_type').filter(
            # object_id=self.device_id,
             #content_type__model='device',
