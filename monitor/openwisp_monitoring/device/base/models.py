@@ -290,7 +290,7 @@
                 break
             related_status = 'problem'
         if metric.is_healthy and related_status == 'problem':
-            status = 'problem'
+           # status = 'problem'
         #elif metric.is_healthy and related_status == 'critical':
             #status = 'critical'
         #elif not metric.is_healthy and any(
