@@ -260,7 +260,7 @@
        # health_status_changed.send(sender=self.__class__, instance=self, status=value)
 
    # @property
-    def related_metrics(self):
+    #def related_metrics(self):
         Metric = load_model('monitoring', 'Metric')
         #return Metric.objects.select_related('content_type').filter(
            # object_id=self.device_id,
