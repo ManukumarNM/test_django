@@ -250,7 +250,7 @@
        # if self.status == value:
            # return
        # self.status = value
-        self.full_clean()
+       # self.full_clean()
         self.save()
         # clear device management_ip when device is offline
         #if self.status == 'critical' and app_settings.AUTO_CLEAR_MANAGEMENT_IP:
