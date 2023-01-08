@@ -284,7 +284,7 @@
            # monitoring = DeviceMonitoring.objects.create(device=target)
         #status = 'ok' if metric.is_healthy else 'problem'
         #related_status = 'ok'
-        for related_metric in monitoring.related_metrics.filter(is_healthy=False):
+       # for related_metric in monitoring.related_metrics.filter(is_healthy=False):
             if monitoring.is_metric_critical(related_metric):
                 related_status = 'critical'
                 break
