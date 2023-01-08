@@ -281,7 +281,7 @@
        # try:
           #  monitoring = target.monitoring
        # except DeviceMonitoring.DoesNotExist:
-            monitoring = DeviceMonitoring.objects.create(device=target)
+           # monitoring = DeviceMonitoring.objects.create(device=target)
         status = 'ok' if metric.is_healthy else 'problem'
         related_status = 'ok'
         for related_metric in monitoring.related_metrics.filter(is_healthy=False):
