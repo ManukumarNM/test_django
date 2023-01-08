@@ -288,7 +288,7 @@
            # if monitoring.is_metric_critical(related_metric):
                 #related_status = 'critical'
                # break
-            related_status = 'problem'
+           # related_status = 'problem'
         if metric.is_healthy and related_status == 'problem':
            # status = 'problem'
         #elif metric.is_healthy and related_status == 'critical':
