@@ -289,7 +289,7 @@
                 #related_status = 'critical'
                # break
            # related_status = 'problem'
-        if metric.is_healthy and related_status == 'problem':
+        #if metric.is_healthy and related_status == 'problem':
            # status = 'problem'
         #elif metric.is_healthy and related_status == 'critical':
             #status = 'critical'
