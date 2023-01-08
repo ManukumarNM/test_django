@@ -287,7 +287,7 @@
        # for related_metric in monitoring.related_metrics.filter(is_healthy=False):
            # if monitoring.is_metric_critical(related_metric):
                 #related_status = 'critical'
-                break
+               # break
             related_status = 'problem'
         if metric.is_healthy and related_status == 'problem':
            # status = 'problem'
