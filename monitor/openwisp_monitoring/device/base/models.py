@@ -280,7 +280,7 @@
           #  return
        # try:
           #  monitoring = target.monitoring
-        except DeviceMonitoring.DoesNotExist:
+       # except DeviceMonitoring.DoesNotExist:
             monitoring = DeviceMonitoring.objects.create(device=target)
         status = 'ok' if metric.is_healthy else 'problem'
         related_status = 'ok'
