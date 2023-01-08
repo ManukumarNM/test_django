@@ -278,7 +278,7 @@
       #  DeviceMonitoring = load_model('device_monitoring', 'DeviceMonitoring')
       #  if not isinstance(target, DeviceMonitoring.device.field.related_model):
           #  return
-        try:
+       # try:
           #  monitoring = target.monitoring
         except DeviceMonitoring.DoesNotExist:
             monitoring = DeviceMonitoring.objects.create(device=target)
