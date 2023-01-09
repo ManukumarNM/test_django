@@ -10,7 +10,7 @@
 
     #dependencies = [
        # ('contenttypes', '0002_remove_content_type_name'),
-        swapper.dependency('config', 'Device', '0004_add_device_model'),
+       # swapper.dependency('config', 'Device', '0004_add_device_model'),
     ]
 
     operations = [
