@@ -12,7 +12,7 @@
 #from django.db import migrations, models
 #from django.utils.translation import gettext_lazy as _
 
-from .. import settings as app_settings
+#from .. import settings as app_settings
 from ..models import DeviceMonitoring
 
 
