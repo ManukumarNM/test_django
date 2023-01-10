@@ -7,7 +7,7 @@
 #import django.db.migrations.operations.special
 #import django.db.models.deletion
 #import django.utils.timezone
-import model_utils.fields
+#import model_utils.fields
 import swapper
 from django.db import migrations, models
 from django.utils.translation import gettext_lazy as _
