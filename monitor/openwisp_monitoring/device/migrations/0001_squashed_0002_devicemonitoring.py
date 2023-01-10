@@ -13,7 +13,7 @@
 #from django.utils.translation import gettext_lazy as _
 
 #from .. import settings as app_settings
-from ..models import DeviceMonitoring
+#from ..models import DeviceMonitoring
 
 
 def create_device_monitoring(apps, schema_editor):
