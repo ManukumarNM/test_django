@@ -10,7 +10,7 @@
 #import model_utils.fields
 #import swapper
 #from django.db import migrations, models
-from django.utils.translation import gettext_lazy as _
+#from django.utils.translation import gettext_lazy as _
 
 from .. import settings as app_settings
 from ..models import DeviceMonitoring
