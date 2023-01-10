@@ -4,7 +4,7 @@
 
 #import uuid
 
-import django.db.migrations.operations.special
+#import django.db.migrations.operations.special
 import django.db.models.deletion
 import django.utils.timezone
 import model_utils.fields
