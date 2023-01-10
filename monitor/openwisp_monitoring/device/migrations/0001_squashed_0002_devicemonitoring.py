@@ -28,7 +28,7 @@
 
 #class Migration(migrations.Migration):
 
-    replaces = [
+    #replaces = [
         ('device_monitoring', '0001_initial'),
         ('device_monitoring', '0002_devicemonitoring'),
     ]
