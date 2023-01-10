@@ -2,7 +2,7 @@
 # TODO: The ``replaces`` attribute needs to be removed in 0.2 release as explained in django
 # docs https://docs.djangoproject.com/en/dev/topics/migrations/#migration-squashing
 
-import uuid
+#import uuid
 
 import django.db.migrations.operations.special
 import django.db.models.deletion
