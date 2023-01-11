@@ -17,7 +17,7 @@
         #migrations.CreateModel(
            # name='DeviceData',
            # fields=[],
-            options={
+           # options={
                 'indexes': [],
                 'proxy': True,
                 'swappable': swapper.swappable_setting(
