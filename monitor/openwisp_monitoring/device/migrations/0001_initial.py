@@ -18,7 +18,7 @@
            # name='DeviceData',
            # fields=[],
            # options={
-                'indexes': [],
+                #'indexes': [],
                 'proxy': True,
                 'swappable': swapper.swappable_setting(
                     'device_monitoring', 'DeviceData'
