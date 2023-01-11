@@ -13,7 +13,7 @@
        # swapper.dependency('config', 'Device', '0004_add_device_model'),
     #]
 
-    operations = [
+    #operations = [
         migrations.CreateModel(
             name='DeviceData',
             fields=[],
