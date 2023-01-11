@@ -20,7 +20,7 @@
            # options={
                 #'indexes': [],
                 #'proxy': True,
-                'swappable': swapper.swappable_setting(
+                #'swappable': swapper.swappable_setting(
                     'device_monitoring', 'DeviceData'
                 ),
             },
