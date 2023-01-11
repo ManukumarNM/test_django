@@ -25,5 +25,5 @@
               #  ),
            # },
           #  bases=(swapper.get_model_name('config', 'Device'),),
-        )
+       # )
     ]
