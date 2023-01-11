@@ -14,7 +14,7 @@
     #]
 
     #operations = [
-        migrations.CreateModel(
+        #migrations.CreateModel(
             name='DeviceData',
             fields=[],
             options={
