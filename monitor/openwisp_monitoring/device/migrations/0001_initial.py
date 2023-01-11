@@ -15,7 +15,7 @@
 
     #operations = [
         #migrations.CreateModel(
-            name='DeviceData',
+           # name='DeviceData',
             fields=[],
             options={
                 'indexes': [],
