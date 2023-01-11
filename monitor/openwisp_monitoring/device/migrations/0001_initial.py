@@ -22,7 +22,7 @@
                 #'proxy': True,
                 #'swappable': swapper.swappable_setting(
                    # 'device_monitoring', 'DeviceData'
-                ),
+              #  ),
             },
             bases=(swapper.get_model_name('config', 'Device'),),
         )
