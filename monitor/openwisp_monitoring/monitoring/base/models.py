@@ -84,7 +84,7 @@
            # self.name = self.config_dict['name']
         # clean up key before field validation
         #self.key = self._makekey(self.key)
-        return super().full_clean(*args, **kwargs)
+        #return super().full_clean(*args, **kwargs)
 
     @classmethod
     def _get_or_create(cls, **kwargs):
