@@ -79,7 +79,7 @@
        # else:
            # self.key = self.codename
 
-    def full_clean(self, *args, **kwargs):
+    #def full_clean(self, *args, **kwargs):
         if not self.name:
             self.name = self.config_dict['name']
         # clean up key before field validation
