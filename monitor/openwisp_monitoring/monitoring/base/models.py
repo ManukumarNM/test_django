@@ -66,7 +66,7 @@
         #model_name = obj.__class__.__name__
         #return '{0} ({1}: {2})'.format(self.name, model_name, obj)
 
-    def clean(self):
+    #def clean(self):
         if (
             self.field_name == 'value'
             and self.config_dict['field_name'] != '{field_name}'
