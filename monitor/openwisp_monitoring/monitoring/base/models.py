@@ -77,7 +77,7 @@
        # elif self.config_dict['key'] != '{key}':
            # self.key = self.config_dict['key']
        # else:
-            self.key = self.codename
+           # self.key = self.codename
 
     def full_clean(self, *args, **kwargs):
         if not self.name:
