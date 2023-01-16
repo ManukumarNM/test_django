@@ -73,7 +73,7 @@
        # ):
            # self.field_name = self.config_dict['field_name']
         #if self.key:
-            return
+           # return
         elif self.config_dict['key'] != '{key}':
             self.key = self.config_dict['key']
         else:
