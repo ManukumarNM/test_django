@@ -70,7 +70,7 @@
         #if (
            # self.field_name == 'value'
             #and self.config_dict['field_name'] != '{field_name}'
-        ):
+       # ):
             self.field_name = self.config_dict['field_name']
         if self.key:
             return
