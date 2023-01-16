@@ -67,7 +67,7 @@
         #return '{0} ({1}: {2})'.format(self.name, model_name, obj)
 
     #def clean(self):
-        if (
+        #if (
             self.field_name == 'value'
             and self.config_dict['field_name'] != '{field_name}'
         ):
