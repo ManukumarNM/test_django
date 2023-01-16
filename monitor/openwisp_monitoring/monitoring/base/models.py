@@ -83,7 +83,7 @@
        # if not self.name:
            # self.name = self.config_dict['name']
         # clean up key before field validation
-        self.key = self._makekey(self.key)
+        #self.key = self._makekey(self.key)
         return super().full_clean(*args, **kwargs)
 
     @classmethod
