@@ -75,7 +75,7 @@
         #if self.key:
            # return
        # elif self.config_dict['key'] != '{key}':
-            self.key = self.config_dict['key']
+           # self.key = self.config_dict['key']
         else:
             self.key = self.codename
 
