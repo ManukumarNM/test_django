@@ -68,7 +68,7 @@
 
     #def clean(self):
         #if (
-            self.field_name == 'value'
+           # self.field_name == 'value'
             and self.config_dict['field_name'] != '{field_name}'
         ):
             self.field_name = self.config_dict['field_name']
