@@ -96,7 +96,7 @@
            # kwargs['key'] = cls._makekey(kwargs['key'])
        # try:
            # lookup_kwargs = kwargs.copy()
-            if lookup_kwargs.get('name'):
+           # if lookup_kwargs.get('name'):
                 del lookup_kwargs['name']
             metric = cls.objects.get(**lookup_kwargs)
             created = False
