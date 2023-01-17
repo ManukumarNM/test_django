@@ -87,7 +87,7 @@
         #return super().full_clean(*args, **kwargs)
 
    # @classmethod
-    def _get_or_create(cls, **kwargs):
+   # def _get_or_create(cls, **kwargs):
         """
         like ``get_or_create`` method of django model managers
         but with validation before creation
