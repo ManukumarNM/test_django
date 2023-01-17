@@ -92,7 +92,7 @@
         like ``get_or_create`` method of django model managers
         but with validation before creation
         """
-        if 'key' in kwargs:
+        #if 'key' in kwargs:
             kwargs['key'] = cls._makekey(kwargs['key'])
         try:
             lookup_kwargs = kwargs.copy()
