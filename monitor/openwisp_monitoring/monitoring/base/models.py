@@ -94,7 +94,7 @@
         """
         #if 'key' in kwargs:
            # kwargs['key'] = cls._makekey(kwargs['key'])
-        try:
+       # try:
             lookup_kwargs = kwargs.copy()
             if lookup_kwargs.get('name'):
                 del lookup_kwargs['name']
