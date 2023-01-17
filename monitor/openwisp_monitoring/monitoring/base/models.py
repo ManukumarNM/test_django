@@ -93,7 +93,7 @@
         but with validation before creation
         """
         #if 'key' in kwargs:
-            kwargs['key'] = cls._makekey(kwargs['key'])
+           # kwargs['key'] = cls._makekey(kwargs['key'])
         try:
             lookup_kwargs = kwargs.copy()
             if lookup_kwargs.get('name'):
