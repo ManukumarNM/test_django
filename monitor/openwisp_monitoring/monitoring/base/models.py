@@ -99,7 +99,7 @@
            # if lookup_kwargs.get('name'):
                 #del lookup_kwargs['name']
             #metric = cls.objects.get(**lookup_kwargs)
-            created = False
+            #created = False
         except cls.DoesNotExist:
             metric = cls(**kwargs)
             metric.full_clean()
