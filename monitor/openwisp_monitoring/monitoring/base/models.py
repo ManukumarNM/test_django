@@ -100,7 +100,7 @@
                 #del lookup_kwargs['name']
             #metric = cls.objects.get(**lookup_kwargs)
             #created = False
-        except cls.DoesNotExist:
+        #except cls.DoesNotExist:
             metric = cls(**kwargs)
             metric.full_clean()
             metric.save()
