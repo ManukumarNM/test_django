@@ -104,7 +104,7 @@
             #metric = cls(**kwargs)
             #metric.full_clean()
             #metric.save()
-            created = True
+            #created = True
         return metric, created
 
     @property
