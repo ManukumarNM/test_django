@@ -105,7 +105,7 @@
             #metric.full_clean()
             #metric.save()
             #created = True
-        return metric, created
+        #return metric, created
 
     @property
     def codename(self):
