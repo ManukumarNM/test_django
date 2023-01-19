@@ -101,7 +101,7 @@
             #metric = cls.objects.get(**lookup_kwargs)
             #created = False
         #except cls.DoesNotExist:
-            metric = cls(**kwargs)
+            #metric = cls(**kwargs)
             metric.full_clean()
             metric.save()
             created = True
