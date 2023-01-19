@@ -103,7 +103,7 @@
         #except cls.DoesNotExist:
             #metric = cls(**kwargs)
             #metric.full_clean()
-            metric.save()
+            #metric.save()
             created = True
         return metric, created
 
