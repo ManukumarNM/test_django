@@ -108,7 +108,7 @@
         #return metric, created
 
     @property
-    def codename(self):
+   # def codename(self):
         """identifier stored in timeseries db"""
         return self._makekey(self.name)
 
