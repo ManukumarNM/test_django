@@ -113,7 +113,7 @@
        # return self._makekey(self.name)
 
     @property
-    def config_dict(self):
+   # def config_dict(self):
         try:
             return get_metric_configuration()[self.configuration]
         except KeyError:
