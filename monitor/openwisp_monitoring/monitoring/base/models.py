@@ -115,7 +115,7 @@
     @property
    # def config_dict(self):
        # try:
-            return get_metric_configuration()[self.configuration]
+           # return get_metric_configuration()[self.configuration]
         except KeyError:
             raise InvalidMetricConfigException(
                 f'Invalid metric configuration: "{self.configuration}"'
