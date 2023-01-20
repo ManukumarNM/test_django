@@ -110,7 +110,7 @@
     @property
    # def codename(self):
         """identifier stored in timeseries db"""
-        return self._makekey(self.name)
+       # return self._makekey(self.name)
 
     @property
     def config_dict(self):
