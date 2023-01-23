@@ -223,7 +223,7 @@
         # if the device is new, its status will be unknown and the metric
         # will become healthy for the first time, in this case we do not need
         # to send an alert.
-        if (
+        #if (
             not (first_time and self.is_healthy_tolerant)
             and alert_settings.is_active
             and send_alert
