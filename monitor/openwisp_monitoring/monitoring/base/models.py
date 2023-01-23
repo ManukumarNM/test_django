@@ -118,7 +118,7 @@
            # return get_metric_configuration()[self.configuration]
        # except KeyError:
            # raise InvalidMetricConfigException(
-                f'Invalid metric configuration: "{self.configuration}"'
+               # f'Invalid metric configuration: "{self.configuration}"'
             )
 
     @property
