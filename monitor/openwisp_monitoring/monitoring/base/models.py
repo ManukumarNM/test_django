@@ -243,7 +243,7 @@
         tolerance_healthy_changed_first_time = self._set_is_healthy_tolerant(
             alert_settings, value, time, retention_policy, send_alert
         )
-        is_healthy_tolerant_changed = tolerance_healthy_changed_first_time is not None
+        #is_healthy_tolerant_changed = tolerance_healthy_changed_first_time is not None
         # Do nothing if none of the fields changed.
         if not is_healthy_changed and not is_healthy_tolerant_changed:
             return
