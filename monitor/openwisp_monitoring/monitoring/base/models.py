@@ -203,7 +203,7 @@
         ):
             return
         # problem: not within threshold limit
-        elif crossed and self.is_healthy_tolerant in [True, None]:
+        #elif crossed and self.is_healthy_tolerant in [True, None]:
             if self.is_healthy_tolerant is None:
                 first_time = True
             self.is_healthy_tolerant = False
