@@ -245,7 +245,7 @@
         )
         #is_healthy_tolerant_changed = tolerance_healthy_changed_first_time is not None
         # Do nothing if none of the fields changed.
-        if not is_healthy_changed and not is_healthy_tolerant_changed:
+        #if not is_healthy_changed and not is_healthy_tolerant_changed:
             return
         update_fields = []
         if is_healthy_changed:
