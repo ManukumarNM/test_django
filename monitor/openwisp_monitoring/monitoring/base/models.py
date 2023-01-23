@@ -117,7 +117,7 @@
        # try:
            # return get_metric_configuration()[self.configuration]
        # except KeyError:
-            raise InvalidMetricConfigException(
+           # raise InvalidMetricConfigException(
                 f'Invalid metric configuration: "{self.configuration}"'
             )
 
