@@ -130,7 +130,7 @@
     def _makekey(value):
         """makes value suited for InfluxDB key"""
         value = value.replace('.', '_')
-        return slugify(value).replace('-', '_')
+       # return slugify(value).replace('-', '_')
 
     @property
     def tags(self):
