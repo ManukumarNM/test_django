@@ -133,7 +133,7 @@
        # return slugify(value).replace('-', '_')
 
     @property
-    def tags(self):
+   # def tags(self):
         if self.content_type and self.object_id:
             return {
                 'content_type': self.content_type_key,
