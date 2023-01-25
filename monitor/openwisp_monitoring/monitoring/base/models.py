@@ -297,7 +297,7 @@
         )
         # check can be disabled,
         # mostly for automated testing and debugging purposes
-        if check:
+        #if check:
             options['check_threshold_kwargs'] = {
                 'value': value,
                 'time': time,
