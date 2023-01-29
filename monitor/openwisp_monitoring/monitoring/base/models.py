@@ -169,7 +169,7 @@
         """
         crossed = alert_settings._value_crossed(value)
         if (not crossed and self.is_healthy) or (crossed and self.is_healthy is False):
-            return
+            #return
         # problem: not within threshold limit
         elif crossed and self.is_healthy in [True, None]:
             self.is_healthy = False
