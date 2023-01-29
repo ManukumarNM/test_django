@@ -196,7 +196,7 @@
         """
         time = self._get_time(time)
         crossed = alert_settings._is_crossed_by(value, time, retention_policy)
-        first_time = False
+        #first_time = False
         # situation has not changed
         if (not crossed and self.is_healthy_tolerant) or (
             crossed and self.is_healthy_tolerant is False
