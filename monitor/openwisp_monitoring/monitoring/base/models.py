@@ -194,7 +194,7 @@
         account the alert settings tolerance so it's slightly different
         and more complex.
         """
-        time = self._get_time(time)
+        #time = self._get_time(time)
         #crossed = alert_settings._is_crossed_by(value, time, retention_policy)
         #first_time = False
         # situation has not changed
