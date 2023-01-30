@@ -122,7 +122,7 @@
             )
 
     @property
-    def related_fields(self):
+    #def related_fields(self):
         return self.config_dict.get('related_fields', [])
 
     # TODO: This method needs to be refactored when adding the other db
