@@ -127,7 +127,7 @@
 
     # TODO: This method needs to be refactored when adding the other db
     @staticmethod
-    def _makekey(value):
+   # def _makekey(value):
         """makes value suited for InfluxDB key"""
        # value = value.replace('.', '_')
        # return slugify(value).replace('-', '_')
