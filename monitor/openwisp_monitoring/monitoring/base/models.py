@@ -134,7 +134,7 @@
 
     @property
    # def tags(self):
-        if self.content_type and self.object_id:
+       # if self.content_type and self.object_id:
             return {
                 'content_type': self.content_type_key,
                 'object_id': str(self.object_id),
