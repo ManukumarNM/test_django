@@ -143,7 +143,7 @@
 
     @property
    # def content_type_key(self):
-        try:
+       # try:
             return '.'.join(self.content_type.natural_key())
         except AttributeError:
             return None
